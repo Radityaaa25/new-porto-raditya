@@ -62,8 +62,8 @@ About portrait/timeline; Contact Moni/orbit closing.
 ## Recording
 
 `/docs/qa/wow/` contains eight-frame scroll sequences for home, work, about, contact, and one
-project detail, plus reference frames copied from `/docs/analysis/screenshots/` for the matching
-moments.
+project detail. Reference frames from `/docs/analysis/screenshots/` were reviewed locally and stay
+out of the repository.
 
 ## Needs from Raditya
 
