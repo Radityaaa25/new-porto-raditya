@@ -8,9 +8,8 @@ export const site = {
   timeZoneLabel: "GMT+7",
   email: "radityaanandasatria@gmail.com",
   githubUrl: "https://github.com/Radityaaa25",
-  // TODO(Raditya): replace with the profile URL. Kept as the Instagram entry point until supplied.
-  instagramUrl: "https://www.instagram.com/",
-  instagramHandle: "TODO",
+  instagramUrl: "https://instagram.com/rdityaas",
+  instagramHandle: "rdityaas",
 } as const;
 
 export type SocialKey = "github" | "instagram" | "email";
