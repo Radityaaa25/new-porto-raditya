@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 
-import { ArrowUpRightIcon } from "@/components/icons";
-import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
+import { WorkIndex } from "@/components/work/WorkIndex";
 import { getDictionary, getProjects, isLocale, type Locale } from "@/content";
 import { pageMetadata } from "@/lib/seo";
 
@@ -44,36 +43,18 @@ export default async function WorkPage({ params }: { params: Promise<{ locale: s
           <p className="text-muted max-w-[var(--measure-wide)]">{content.work.intro}</p>
         </div>
 
-        <ul className="border-line border-t">
-          {projects.map((project, index) => (
-            <Reveal as="li" key={project.slug} delay={index * 0.04} className="border-line border-b">
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="group grid gap-4 py-8 md:grid-cols-12 md:items-baseline"
-              >
-                <span className="text-subtle font-mono text-meta md:col-span-1">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <span className="font-display text-h3 group-hover:text-accent tracking-[-0.02em] transition-colors md:col-span-4">
-                  {project.title}
-                </span>
-                <span className="text-muted md:col-span-5">{project.summary}</span>
-                <span className="text-subtle flex items-center justify-between gap-4 font-mono text-meta uppercase tracking-[0.14em] md:col-span-2 md:justify-end">
-                  <span className="flex flex-col items-start gap-1 md:items-end">
-                    <span>{project.role === "Personal" ? content.ui.personal : content.ui.team}</span>
-                    <span className="text-subtle">{project.stack.join(" / ")}</span>
-                  </span>
-                  <ArrowUpRightIcon
-                    size={16}
-                    className="duration-ui ease-expo group-hover:-translate-y-0.5 group-hover:translate-x-0.5 shrink-0 transition-transform"
-                  />
-                </span>
-              </a>
-            </Reveal>
-          ))}
-        </ul>
+        <WorkIndex
+          projects={projects.map((project, index) => ({
+            slug: project.slug,
+            title: project.title,
+            summary: project.summary,
+            role: project.role === "Personal" ? content.ui.personal : content.ui.team,
+            stack: project.stack,
+            index: String(index + 1).padStart(2, "0"),
+          }))}
+          hint={content.home.work.previewHint}
+          stackLabel={content.ui.stack}
+        />
       </div>
     </section>
   );
