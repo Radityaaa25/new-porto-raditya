@@ -6,13 +6,7 @@ import { gsap } from "@/lib/motion/gsap";
 import { duration, ease, preloader } from "@/lib/motion/tokens";
 import { useSmoothScroll } from "@/components/providers/SmoothScrollProvider";
 import { usePrefersReducedMotion } from "@/lib/utils/hooks";
-
-const STATUS = [
-  "Warming up the grid",
-  "Measuring the margins",
-  "Setting the type",
-  "Ready when you are",
-];
+import { useSiteContent } from "@/components/providers/LocaleProvider";
 
 const STORAGE_KEY = "preloader-seen";
 const READY_EVENT = "portfolio:ready";
@@ -37,6 +31,8 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
   const callbackRef = useRef(onComplete);
   const { stop, start } = useSmoothScroll();
   const prefersReduced = usePrefersReducedMotion();
+  const content = useSiteContent();
+  const statuses = content.preloader.statuses;
 
   useEffect(() => {
     callbackRef.current = onComplete;
@@ -90,8 +86,8 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
 
     const setStatus = () => {
       if (!statusRef.current) return;
-      statusIndex.value = (statusIndex.value + 1) % STATUS.length;
-      statusRef.current.textContent = STATUS[statusIndex.value];
+      statusIndex.value = (statusIndex.value + 1) % statuses.length;
+      statusRef.current.textContent = statuses[statusIndex.value];
     };
 
     const context = gsap.context(() => {
@@ -111,7 +107,7 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
         return;
       }
 
-      if (statusRef.current) statusRef.current.textContent = STATUS[0];
+      if (statusRef.current) statusRef.current.textContent = statuses[0];
       statusTimer = window.setInterval(setStatus, preloader.statusEveryMs);
 
       const timeline = gsap.timeline({
@@ -167,7 +163,7 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
       context.revert();
       if (!finished) start();
     };
-  }, [force, prefersReduced, start, stop]);
+  }, [force, prefersReduced, start, stop, statuses]);
 
   return (
     <div
@@ -192,13 +188,13 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
               ref={statusRef}
               className="font-mono text-meta uppercase tracking-[0.14em] text-muted"
             >
-              {STATUS[0]}
+              {statuses[0]}
             </span>
             <span
               ref={signRef}
               className="font-display text-h3 tracking-[-0.01em] opacity-0"
             >
-              Cut with care.
+              {content.preloader.sign}
             </span>
           </span>
           <span className="flex items-start gap-1">

@@ -13,7 +13,7 @@ import {
   PaperFibre,
   Scanline,
 } from "@/components/textures";
-import { projects } from "@/content/projects";
+import { getProjects } from "@/content/projects";
 import { moniCopy, moniPoses, type MoniPose } from "@/lib/motion/moni";
 import { usePrefersReducedMotion } from "@/lib/utils/hooks";
 
@@ -62,6 +62,7 @@ function SectionHead({
 }
 
 export function AssetGallery() {
+  const projects = getProjects("en");
   const prefersReduced = usePrefersReducedMotion();
   const [pose, setPose] = useState<MoniPose>("idle");
   const [cardPose, setCardPose] = useState<MoniPose>("idle");

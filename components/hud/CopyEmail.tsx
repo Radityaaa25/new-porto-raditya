@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import { CheckIcon, CopyIcon } from "@/components/icons";
 import { cn } from "@/lib/utils/cn";
+import { useSiteContent } from "@/components/providers/LocaleProvider";
 
 type CopyEmailProps = {
   email: string;
@@ -12,6 +13,7 @@ type CopyEmailProps = {
 
 export function CopyEmail({ email, className }: CopyEmailProps) {
   const [copied, setCopied] = useState(false);
+  const content = useSiteContent();
 
   const onCopy = async () => {
     let done = false;
@@ -46,7 +48,7 @@ export function CopyEmail({ email, className }: CopyEmailProps) {
       aria-live="polite"
     >
       {copied ? <CheckIcon size={16} /> : <CopyIcon size={16} />}
-      <span>{copied ? "Copied" : "Copy email"}</span>
+      <span>{copied ? content.ui.copied : content.ui.copyEmail}</span>
     </button>
   );
 }

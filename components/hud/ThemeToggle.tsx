@@ -3,6 +3,7 @@
 import { MoonIcon, SunIcon } from "@/components/icons";
 import { useTheme } from "@/components/providers/ThemeProvider";
 import { cn } from "@/lib/utils/cn";
+import { useSiteContent } from "@/components/providers/LocaleProvider";
 
 type ThemeToggleProps = {
   className?: string;
@@ -10,6 +11,7 @@ type ThemeToggleProps = {
 
 export function ThemeToggle({ className }: ThemeToggleProps) {
   const { theme, toggle } = useTheme();
+  const content = useSiteContent();
 
   return (
     <button
@@ -17,7 +19,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
       onClick={() => {
         toggle();
       }}
-      aria-label={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
+      aria-label={theme === "dark" ? content.ui.themeDark : content.ui.themeLight}
       aria-pressed={theme === "light"}
       suppressHydrationWarning
       className={cn(

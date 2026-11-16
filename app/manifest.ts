@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next";
 
+import { en } from "@/content/en";
 import { site } from "@/content/site";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${site.name} - ${site.role}`,
+    name: en.meta.title,
     short_name: site.shortName,
-    description: site.intro,
-    start_url: "/",
+    description: en.meta.description,
+    start_url: "/en",
     display: "standalone",
     background_color: "#0d0e10",
     theme_color: "#0d0e10",

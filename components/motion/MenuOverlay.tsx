@@ -1,15 +1,16 @@
 "use client";
 
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import { useEffect, useRef, type KeyboardEvent } from "react";
 
 import { CloseIcon } from "@/components/icons";
+import { LanguageSwitcher } from "@/components/hud/LanguageSwitcher";
 import { useSmoothScroll } from "@/components/providers/SmoothScrollProvider";
 import { gsap } from "@/lib/motion/gsap";
 import { menuLink, menuOverlay, resolveMotion } from "@/lib/motion/presets";
 import { duration, ease, stagger } from "@/lib/motion/tokens";
-import { nav, site } from "@/content/site";
+import { site } from "@/content/site";
+import { useSiteContent } from "@/components/providers/LocaleProvider";
 import { usePrefersReducedMotion } from "@/lib/utils/hooks";
 
 type MenuOverlayProps = {
@@ -25,6 +26,7 @@ export function MenuOverlay({ onClose }: MenuOverlayProps) {
   const restoreRef = useRef<HTMLElement | null>(null);
   const closingRef = useRef(false);
   const router = useRouter();
+  const content = useSiteContent();
   const { stop, start } = useSmoothScroll();
   const prefersReduced = usePrefersReducedMotion();
 
@@ -124,26 +126,28 @@ export function MenuOverlay({ onClose }: MenuOverlayProps) {
       id="site-menu"
       role="dialog"
       aria-modal="true"
-      aria-label="Site menu"
+      aria-label={content.ui.siteMenu}
       onKeyDown={onKeyDown}
       className="bg-bg text-fg fixed inset-0 z-menu flex flex-col justify-between px-[var(--gutter)] py-[var(--gutter)]"
     >
       <div className="flex items-center justify-between">
-        <span className="font-mono text-meta uppercase tracking-[0.18em] text-muted">Menu</span>
+        <span className="font-mono text-meta uppercase tracking-[0.18em] text-muted">
+          {content.ui.menu}
+        </span>
         <button
           ref={closeRef}
           type="button"
           onClick={() => requestClose()}
           className="border-line hover:border-fg flex size-11 items-center justify-center rounded-full border transition-colors"
-          aria-label="Close menu"
+          aria-label={content.ui.closeMenu}
         >
           <CloseIcon size={20} />
         </button>
       </div>
 
-      <nav aria-label="Primary">
+      <nav aria-label={content.ui.primary}>
         <ul ref={listRef} className="flex flex-col gap-2">
-          {nav.map((item, index) => (
+          {content.nav.map((item, index) => (
             <li key={item.href}>
               <Link
                 href={item.href}
@@ -165,13 +169,16 @@ export function MenuOverlay({ onClose }: MenuOverlayProps) {
         </ul>
       </nav>
 
-      <div className="flex flex-col gap-2 font-mono text-meta uppercase tracking-[0.14em] text-muted">
-        <a href={`mailto:${site.email}`} className="hover:text-fg w-fit transition-colors">
-          {site.email}
-        </a>
-        <span>
-          {site.location} / {site.timeZoneLabel}
-        </span>
+      <div className="flex flex-col gap-4">
+        <LanguageSwitcher />
+        <div className="flex flex-col gap-2 font-mono text-meta uppercase tracking-[0.14em] text-muted">
+          <a href={`mailto:${site.email}`} className="hover:text-fg w-fit transition-colors">
+            {site.email}
+          </a>
+          <span>
+            {site.location} / {site.timeZoneLabel}
+          </span>
+        </div>
       </div>
     </div>
   );

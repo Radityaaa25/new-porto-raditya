@@ -134,6 +134,28 @@
     overflow: hidden;
   }
 
+  .skip-link {
+    position: fixed;
+    top: var(--space-3);
+    left: var(--space-3);
+    z-index: var(--z-debug);
+    transform: translateY(-200%);
+    border-radius: var(--r-pill);
+    border: var(--bw) solid var(--accent);
+    background: var(--bg-elevated);
+    color: var(--fg);
+    padding: var(--space-2) var(--space-4);
+    font-family: var(--ff-mono);
+    font-size: var(--fs-label);
+    letter-spacing: var(--tr-label);
+    text-transform: uppercase;
+    transition: transform var(--dur-fast) var(--curve-expo);
+  }
+
+  .skip-link:focus-visible {
+    transform: translateY(0);
+  }
+
   button,
   [role="button"] {
     touch-action: manipulation;

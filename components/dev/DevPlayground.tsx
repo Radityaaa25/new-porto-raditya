@@ -10,7 +10,7 @@ import { MenuOverlay } from "@/components/motion/MenuOverlay";
 import { Preloader } from "@/components/motion/Preloader";
 import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
-import { site } from "@/content/site";
+import { en } from "@/content/en";
 import { duration as durationTokens, ease as easeTokens } from "@/lib/motion/tokens";
 
 const easeKeys = Object.keys(easeTokens) as Array<keyof typeof easeTokens>;
@@ -92,7 +92,7 @@ export function DevPlayground() {
         <SplitText
           key={`lines-${runKey}`}
           as="p"
-          text={site.headline}
+          text={en.hero.lines.join(" ")}
           mode="lines"
           trigger="mount"
           duration={presetOptions.duration}

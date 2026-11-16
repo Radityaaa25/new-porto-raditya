@@ -7,23 +7,28 @@ export const site = {
   timeZone: "Asia/Jakarta",
   timeZoneLabel: "GMT+7",
   email: "radityaanandasatria@gmail.com",
-  headline: "I design the interface. Then I build it.",
-  heroKicker: "Front-end / Design engineer",
-  heroLines: ["I design the interface.", "Then I build it."] as const,
-  heroAccent: "build",
-  // TODO: pending approval of hero option 2 from docs/creative-direction.md
-  intro:
-    "Front-end developer in Jakarta working in Next.js, React, and a multimedia background.",
-  // TODO: Raditya to confirm availability line before launch.
-  availability: null,
-  // TODO: add GitHub, LinkedIn, Instagram URLs if they should appear.
-  socials: [] as ReadonlyArray<{ label: string; href: string }>,
+  githubUrl: "https://github.com/Radityaaa25",
+  // TODO(Raditya): replace with the profile URL. Kept as the Instagram entry point until supplied.
+  instagramUrl: "https://www.instagram.com/",
+  instagramHandle: "TODO",
 } as const;
 
-export const nav = [
-  { label: "Work", href: "/work" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-] as const;
+export type SocialKey = "github" | "instagram" | "email";
 
-export const footerNote = "Dibuat di Jakarta";
+export type Social = {
+  key: SocialKey;
+  label: string;
+  href: string;
+  handle?: string;
+};
+
+export const socials: ReadonlyArray<Social> = [
+  { key: "github", label: "GitHub", href: site.githubUrl, handle: "Radityaaa25" },
+  { key: "instagram", label: "Instagram", href: site.instagramUrl, handle: site.instagramHandle },
+  { key: "email", label: "Email", href: `mailto:${site.email}`, handle: site.email },
+];
+
+export const socialByKey = (key: SocialKey): Social =>
+  socials.find((social) => social.key === key) ?? socials[0];
+
+export const instagramConfigured = !site.instagramUrl.endsWith("instagram.com/");

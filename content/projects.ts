@@ -1,62 +1,80 @@
-export type ProjectRole = "Personal" | "Team";
+import { en } from "./en";
+import { id } from "./id";
+import type { Locale, Project, ProjectBase, ProjectCopy } from "./types";
 
-export type Project = {
-  slug: string;
-  title: string;
-  url: string;
-  role: ProjectRole;
-  summary: string;
-  stack?: ReadonlyArray<string>;
-};
-
-// TODO: summaries are drafted from AGENTS.md and need Raditya's approval.
-// TODO: team projects: confirm whether teammates are named.
-export const projects: ReadonlyArray<Project> = [
+// TODO(Raditya): confirm each project year. 2026 is the year printed on every live site.
+const bases: ReadonlyArray<ProjectBase> = [
   {
     slug: "clarise",
-    title: "Clarise",
     url: "https://clarise.my.id",
     role: "Personal",
-    summary:
-      "AI-powered adaptive learning platform with interactive courses, an AI tutor, gamification, and an AI course builder.",
-    stack: ["Next.js"],
+    year: "2026",
+    stack: ["Next.js", "React", "AI"],
+    details: true,
   },
   {
     slug: "safetrack-depin",
-    title: "SafeTrack Depin",
     url: "https://safetrack-depin.vercel.app",
     role: "Team",
-    summary:
-      "IoT and AI logistics system for real-time shipment security monitoring, built for the 0G hackathon DePIN track.",
+    year: "2026",
+    stack: ["Next.js", "IoT", "AI"],
+    details: true,
   },
   {
     slug: "vascode",
-    title: "VasCode Creative",
     url: "https://vascode.vercel.app",
     role: "Team",
-    summary:
-      "Company profile for a creative agency and production house covering web, video, photography, and graphic design.",
+    year: "2026",
+    stack: ["Next.js", "Video", "Photo"],
+    details: true,
   },
   {
     slug: "pentas-seni",
-    title: "Pentas Seni TK Aisyiyah 21",
     url: "https://pentas-seni-tk-v2.vercel.app",
     role: "Personal",
-    summary:
-      "Registration and digital e-ticket app for a school performance event, used by real attendees.",
+    year: "2026",
+    stack: ["Next.js", "Tickets"],
+    details: false,
   },
   {
     slug: "nana-bites",
-    title: "Nana Bites",
     url: "https://nana-bites.vercel.app",
     role: "Personal",
-    summary: "Landing page and pre-order system for a snack business, integrated with WhatsApp ordering.",
+    year: "2026",
+    stack: ["Next.js", "WhatsApp"],
+    details: true,
   },
   {
     slug: "joy-reminder",
-    title: "Joy Reminder",
     url: "https://joy-reminder.vercel.app",
     role: "Personal",
-    summary: "Archive management and tax-expiry reminder app for business customers.",
+    year: "2026",
+    stack: ["Next.js", "Archive"],
+    details: false,
   },
 ];
+
+const dictionaries = { en, id } as const;
+
+export const projectBases = bases;
+
+export function getProjects(locale: Locale): ReadonlyArray<Project> {
+  const copy = dictionaries[locale].projectCopy as Record<string, ProjectCopy>;
+  return bases.map((base) => ({ ...base, ...copy[base.slug] }));
+}
+
+export function getProject(locale: Locale, slug: string): Project | undefined {
+  return getProjects(locale).find((project) => project.slug === slug);
+}
+
+export function getProjectSlugs(): ReadonlyArray<string> {
+  return bases.map((project) => project.slug);
+}
+
+export function getNextProject(locale: Locale, slug: string): Project {
+  const list = getProjects(locale);
+  const index = list.findIndex((project) => project.slug === slug);
+  return list[(index + 1) % list.length];
+}
+
+export const featuredSlugs = ["clarise", "safetrack-depin", "vascode", "nana-bites"] as const;
