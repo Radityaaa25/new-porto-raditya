@@ -4,6 +4,7 @@ import { ArrowUpRightIcon } from "@/components/icons";
 import { LiveClock } from "@/components/hud/LiveClock";
 import { useSiteContent } from "@/components/providers/LocaleProvider";
 import { site } from "@/content/site";
+import { SocialIcons } from "@/components/socials/SocialLinks";
 import { Link } from "@/i18n/navigation";
 
 export function Footer() {
@@ -28,6 +29,7 @@ export function Footer() {
                 className="duration-ui group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform"
               />
             </a>
+            <SocialIcons ariaLabel={content.footer.socials} className="mt-3" />
           </div>
 
           <nav aria-label={content.ui.footerNav} className="flex flex-wrap gap-x-8 gap-y-2">

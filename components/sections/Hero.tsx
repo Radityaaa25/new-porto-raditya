@@ -5,6 +5,7 @@ import { ArrowDownIcon, ArrowUpRightIcon, DotIcon } from "@/components/icons";
 import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
 import { DotGrid } from "@/components/textures";
+import { SocialIcons } from "@/components/socials/SocialLinks";
 import { useSiteContent } from "@/components/providers/LocaleProvider";
 import { site } from "@/content/site";
 import { Link } from "@/i18n/navigation";
@@ -66,6 +67,7 @@ export function Hero() {
         <div className="grid gap-8 md:grid-cols-12 md:items-end">
           <Reveal waitForReady trigger="mount" delay={0.2} className="md:col-span-6">
             <p className="max-w-[var(--measure-wide)] text-body text-muted">{hero.intro}</p>
+            <SocialIcons labelled ariaLabel={hero.socials} className="mt-5" />
           </Reveal>
 
           <Reveal

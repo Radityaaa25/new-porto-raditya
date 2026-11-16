@@ -5,6 +5,7 @@ import { useEffect, useRef, type KeyboardEvent } from "react";
 
 import { CloseIcon } from "@/components/icons";
 import { LanguageSwitcher } from "@/components/hud/LanguageSwitcher";
+import { SocialIcons } from "@/components/socials/SocialLinks";
 import { useSmoothScroll } from "@/components/providers/SmoothScrollProvider";
 import { gsap } from "@/lib/motion/gsap";
 import { menuLink, menuOverlay, resolveMotion } from "@/lib/motion/presets";
@@ -170,6 +171,7 @@ export function MenuOverlay({ onClose }: MenuOverlayProps) {
       </nav>
 
       <div className="flex flex-col gap-4">
+        <SocialIcons labelled ariaLabel={content.footer.socials} />
         <LanguageSwitcher />
         <div className="flex flex-col gap-2 font-mono text-meta uppercase tracking-[0.14em] text-muted">
           <a href={`mailto:${site.email}`} className="hover:text-fg w-fit transition-colors">

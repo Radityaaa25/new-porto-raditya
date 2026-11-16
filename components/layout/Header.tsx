@@ -7,6 +7,7 @@ import { LanguageSwitcher } from "@/components/hud/LanguageSwitcher";
 import { LiveClock } from "@/components/hud/LiveClock";
 import { ThemeToggle } from "@/components/hud/ThemeToggle";
 import { MenuOverlay } from "@/components/motion/MenuOverlay";
+import { SocialIcons } from "@/components/socials/SocialLinks";
 import { useSiteContent } from "@/components/providers/LocaleProvider";
 import type { NavItem } from "@/content/types";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -63,6 +64,10 @@ export function Header() {
             <span className="hidden lg:inline-flex">
               <LiveClock className="text-muted mr-2" />
             </span>
+            <SocialIcons
+              ariaLabel={content.footer.socials}
+              className="mr-1 hidden lg:flex"
+            />
             <LanguageSwitcher className="hidden sm:flex" />
             <ThemeToggle />
             <button

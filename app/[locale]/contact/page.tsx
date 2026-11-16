@@ -7,6 +7,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
 import { getDictionary, isLocale, type Locale } from "@/content";
 import { site } from "@/content/site";
+import { SocialRows } from "@/components/socials/SocialLinks";
 import { pageMetadata } from "@/lib/seo";
 
 async function readLocale(params: Promise<{ locale: string }>): Promise<Locale> {
@@ -69,6 +70,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <LiveClock className="text-subtle uppercase tracking-[0.14em]" />
           </div>
         </Reveal>
+
+        <SocialRows ariaLabel={content.home.contact.socialsLabel} />
 
         <div className="grid gap-6 md:grid-cols-12">
           <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em] md:col-span-3">
