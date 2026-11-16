@@ -48,7 +48,7 @@ export const maskReveal = (options: PresetOptions & { direction?: "up" | "down" 
 });
 
 export const lineReveal = (options: PresetOptions & { lines?: number } = {}): MotionPreset => ({
-  from: { yPercent: 110, opacity: 0 },
+  from: { yPercent: 125, opacity: 0 },
   to: { yPercent: 0, opacity: 1 },
   ...base({ duration: duration.cinematic, ease: ease.cine, ...options }),
   stagger: stagger.loose,

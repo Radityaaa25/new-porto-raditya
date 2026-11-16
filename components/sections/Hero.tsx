@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { LiveClock } from "@/components/hud/LiveClock";
@@ -10,8 +9,6 @@ import { projects } from "@/content/projects";
 import { site } from "@/content/site";
 
 const [lineOne, lineTwo] = site.heroLines;
-const heroProject =
-  projects.find((project) => project.slug === "safetrack-depin") ?? projects[0];
 
 export function Hero() {
   return (
@@ -50,49 +47,17 @@ export function Hero() {
               waitForReady
               className="text-balance"
             />
-            <span className="flex flex-wrap items-baseline gap-x-[0.22em] gap-y-4">
-              <SplitText
-                as="span"
-                text={lineTwo}
-                mode="lines"
-                trigger="mount"
-                waitForReady
-                accent={site.heroAccent}
-                delay={0.12}
-                className="text-balance"
-              />
-              {heroProject ? (
-                <span
-                  aria-hidden="true"
-                  className="border-line-strong bg-surface relative hidden h-[0.7em] w-[2.3em] shrink-0 translate-y-[-0.04em] overflow-hidden rounded-sm border md:inline-block"
-                >
-                  <Image
-                    src={`/media/projects/${heroProject.slug}/cover.avif`}
-                    alt=""
-                    fill
-                    priority
-                    sizes="22vw"
-                    className="object-cover object-top"
-                  />
-                </span>
-              ) : null}
-            </span>
+            <SplitText
+              as="span"
+              text={lineTwo}
+              mode="lines"
+              trigger="mount"
+              waitForReady
+              accent={site.heroAccent}
+              delay={0.12}
+              className="text-balance"
+            />
           </h1>
-
-          {heroProject ? (
-            <div className="border-line relative aspect-[16/6] w-full overflow-hidden rounded-sm border md:hidden">
-              <Image
-                src={`/media/projects/${heroProject.slug}/cover.avif`}
-                alt={`${heroProject.title} landing page`}
-                fill
-                sizes="100vw"
-                className="object-cover object-top"
-              />
-              <span className="bg-bg/80 text-fg absolute bottom-2 left-2 rounded-xs px-2 py-1 font-mono text-meta uppercase tracking-[0.12em] backdrop-blur-sm">
-                {heroProject.title}
-              </span>
-            </div>
-          ) : null}
         </div>
 
         <div className="grid gap-8 md:grid-cols-12 md:items-end">

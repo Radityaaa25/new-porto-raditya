@@ -33,7 +33,7 @@ const LINE_TOLERANCE = 2;
 
 function makeWord(text: string): HTMLSpanElement {
   const wrapper = document.createElement("span");
-  wrapper.className = "inline-block overflow-hidden align-bottom";
+  wrapper.className = "split-mask inline-block align-bottom";
   const inner = document.createElement("span");
   inner.className = "inline-block";
   inner.textContent = text;
@@ -43,7 +43,7 @@ function makeWord(text: string): HTMLSpanElement {
 
 function makeChar(text: string): HTMLSpanElement {
   const wrapper = document.createElement("span");
-  wrapper.className = "inline-block overflow-hidden align-bottom";
+  wrapper.className = "split-mask inline-block align-bottom";
   const inner = document.createElement("span");
   inner.className = "inline-block";
   inner.textContent = text;
@@ -145,7 +145,7 @@ export function SplitText({
 
       for (const group of groups) {
         const line = document.createElement("span");
-        line.className = "block overflow-hidden";
+        line.className = "split-mask block";
         const lineInner = document.createElement("span");
         lineInner.className = "block";
         group.forEach((probe) => {

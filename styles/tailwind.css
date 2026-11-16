@@ -207,6 +207,12 @@
     padding-inline: var(--gutter);
   }
 
+  .split-mask {
+    overflow: hidden;
+    padding-bottom: var(--split-bleed);
+    margin-bottom: calc(var(--split-bleed) * -1);
+  }
+
   .section-y {
     padding-block: var(--section-y);
   }

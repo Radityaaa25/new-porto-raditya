@@ -75,7 +75,7 @@ export function CursorHUD() {
       />
       <span
         ref={readoutRef}
-        className="text-muted pointer-events-none fixed right-[var(--gutter)] bottom-[var(--gutter)] z-hud font-mono text-meta tabular-nums opacity-0 transition-opacity duration-ui"
+        className="text-muted pointer-events-none fixed bottom-[var(--hud-inset)] left-[var(--gutter)] z-hud font-mono text-meta tabular-nums opacity-0 transition-opacity duration-ui"
       >
         X 0000 / Y 0000
       </span>
