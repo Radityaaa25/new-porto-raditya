@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
 import { Toolbox } from "@/components/work/Toolbox";
+import { SceneBreak } from "@/components/graphics/SceneBreak";
 import { getDictionary, isLocale, type Locale } from "@/content";
 import { getEducation, getExperience, getLanguages, getSkillGroups } from "@/content/experience";
 import { site } from "@/content/site";
@@ -129,6 +130,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </ul>
         </div>
 
+        <SceneBreak />
         <p className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
           {content.about.cvNote} {site.email}
         </p>

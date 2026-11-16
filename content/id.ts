@@ -97,6 +97,32 @@ export const id = {
         { label: "Fokus", value: "React, Next.js, desain antarmuka, motion" },
       ],
     },
+    capabilities: {
+      label: "Kemampuan",
+      title: "Satu alur: desain, bangun, rilis.",
+      intro: "Tiga hal yang benar-benar saya kerjakan, sesuai urutannya.",
+      items: [
+        {
+          title: "Desain",
+          body: "Tata letak antarmuka, tipografi, dan gerak, diputuskan di Figma dan di browser.",
+        },
+        {
+          title: "Bangun",
+          body: "Front end Next.js dan React, komponen demi komponen, dengan kode yang bisa saya rawat.",
+        },
+        {
+          title: "Rilis",
+          body: "Git, Vercel, domain nyata. Setiap proyek di situs ini hidup dan bertaut.",
+        },
+      ],
+    },
+    marquee: ["Web developer", "Desainer antarmuka", "Latar multimedia", "Next.js", "React"],
+    closing: {
+      label: "Berikutnya",
+      title: "Butuh situs yang terasa dipikirkan?",
+      body: "Email adalah jalur tercepat. Jakarta, GMT+7.",
+      cta: "Mulai percakapan",
+    },
     toolbox: {
       label: "Perangkat",
       title: "Perangkat kerja.",

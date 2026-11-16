@@ -13,6 +13,9 @@ Phase 4 additions logged below with the generating script and the capture date.
 | components/mascot/Moni.tsx | character | original vector drawing | Raditya Ananda Satria | project-owned | CRT-monitor head, 260x280 viewBox, 7 poses, named rig groups body/head/eyes/lid-l/lid-r/arm-l/arm-r/ring/zzz/tick |
 | lib/motion/moni.ts | character motion | original | Raditya Ananda Satria | project-owned | pose target table; loops pull timings from lib/motion/tokens.ts character block |
 | components/textures/index.tsx + styles/tailwind.css utilities | texture | procedural CSS and inline SVG | Raditya Ananda Satria | project-owned | grain, dot grid, contour, halftone, scanline, paper fibre; 0 bitmap bytes |
+| components/graphics/OrbitMark.tsx | 2D graphic | original drawing | Raditya Ananda Satria | project-owned | orbital rings, ticks and crosshair, currentColor, CSS rotation, reduced-motion safe |
+| components/graphics/SceneBreak.tsx | 2D graphic | original drawing | Raditya Ananda Satria | project-owned | full-bleed grid and orbital burst, inline SVG pattern, no bitmap |
+| components/three/OrbitScene.tsx + components/three/HeroAccent.tsx | 3D scene | original geometry and shader | Raditya Ananda Satria | project-owned | wireframe torus + ring, OGL, dynamically imported client-only, cursor and scroll reactive; SVG fallback |
 | scripts/generate-assets.mjs | tooling | original script | Raditya Ananda Satria | project-owned | exports favicons with ImageMagick, renders og.png with Playwright |
 | app/icon.svg | favicon source | original drawing | Raditya Ananda Satria | project-owned | monogram R with lime tick |
 | public/favicon.ico | favicon | generated from app/icon.svg | Raditya Ananda Satria | project-owned | 16/32/48, 14.7KB |
@@ -36,6 +39,7 @@ Phase 4 additions logged below with the generating script and the capture date.
 |---|---|---|
 | ImageMagick | system 6.9 | ImageMagick licence |
 | Playwright Core | 1.65.1 | Apache-2.0 |
+| OGL | 1.0.11 | MIT |
 | Chromium build | playwright chromium-1208 | BSD-style |
 | Google Fonts CSS (generation only) | live fetch | SIL OFL 1.1 for the three families above |
 

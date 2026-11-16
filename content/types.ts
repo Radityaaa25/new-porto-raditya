@@ -128,6 +128,14 @@ export type Dictionary = {
       factsLabel: string;
       facts: ReadonlyArray<Fact>;
     };
+    capabilities: {
+      label: string;
+      title: string;
+      intro: string;
+      items: ReadonlyArray<{ title: string; body: string }>;
+    };
+    marquee: ReadonlyArray<string>;
+    closing: { label: string; title: string; body: string; cta: string };
     toolbox: { label: string; title: string; intro: string };
     experience: { label: string; title: string; intro: string };
     highlights: { label: string; title: string; intro: string; counters: ReadonlyArray<Counter> };

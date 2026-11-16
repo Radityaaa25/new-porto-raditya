@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { SplitText } from "@/components/motion/SplitText";
 import { WorkIndex } from "@/components/work/WorkIndex";
+import { SceneBreak } from "@/components/graphics/SceneBreak";
 import { getDictionary, getProjects, isLocale, type Locale } from "@/content";
 import { pageMetadata } from "@/lib/seo";
 
@@ -56,6 +57,7 @@ export default async function WorkPage({ params }: { params: Promise<{ locale: s
           stackLabel={content.ui.stack}
         />
       </div>
+      <SceneBreak className="mt-20" />
     </section>
   );
 }

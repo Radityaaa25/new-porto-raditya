@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { ArrowUpRightIcon, MailIcon } from "@/components/icons";
+import { OrbitMark } from "@/components/graphics/OrbitMark";
 import { LiveClock } from "@/components/hud/LiveClock";
 import { CopyEmail } from "@/components/hud/CopyEmail";
 import { Reveal } from "@/components/motion/Reveal";
@@ -31,9 +32,10 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   const content = getDictionary(locale);
 
   return (
-    <section className="gutter-x section-y">
+    <section className="gutter-x section-y relative isolate overflow-hidden">
+      <OrbitMark className="absolute -right-24 top-10 z-below hidden h-[32rem] w-[32rem] opacity-25 lg:block" />
       <div className="mx-auto flex w-full max-w-[var(--container-max)] flex-col gap-14">
-        <div className="flex flex-col gap-6">
+        <div className="relative flex flex-col gap-6">
           <span className="text-muted font-mono text-meta uppercase tracking-[0.18em]">
             {content.contact.label}
           </span>

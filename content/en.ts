@@ -97,6 +97,32 @@ export const en = {
         { label: "Focus", value: "React, Next.js, interface design, motion" },
       ],
     },
+    capabilities: {
+      label: "Capabilities",
+      title: "One loop: design, build, ship.",
+      intro: "Three things I actually do on a project, in the order they happen.",
+      items: [
+        {
+          title: "Design",
+          body: "Interface layout, type, and motion decided in Figma and in the browser.",
+        },
+        {
+          title: "Build",
+          body: "Next.js and React front ends, component by component, with code I can maintain.",
+        },
+        {
+          title: "Ship",
+          body: "Git, Vercel, real domains. Every project on this site is live and linked.",
+        },
+      ],
+    },
+    marquee: ["Web developer", "Interface designer", "Multimedia background", "Next.js", "React"],
+    closing: {
+      label: "Next",
+      title: "Need a site that feels considered?",
+      body: "Email is the fastest route. Jakarta, GMT+7.",
+      cta: "Start a conversation",
+    },
     toolbox: {
       label: "Toolbox",
       title: "The working set.",

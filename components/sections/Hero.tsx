@@ -5,6 +5,7 @@ import { ArrowDownIcon, ArrowUpRightIcon, DotIcon } from "@/components/icons";
 import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
 import { DotGrid } from "@/components/textures";
+import { HeroAccent } from "@/components/three/HeroAccent";
 import { SocialIcons } from "@/components/socials/SocialLinks";
 import { useActiveLocale, useSiteContent } from "@/components/providers/LocaleProvider";
 import { getProjects } from "@/content/projects";
@@ -21,6 +22,7 @@ export function Hero() {
   return (
     <section aria-labelledby="hero-heading" className="relative isolate overflow-hidden">
       <DotGrid className="mask-fade-b opacity-60" />
+      <HeroAccent className="absolute -right-[12%] top-1/2 z-below hidden h-[34rem] w-[34rem] -translate-y-1/2 lg:block" />
 
       <div className="gutter-x z-content relative mx-auto flex min-h-[calc(100dvh-var(--space-16))] w-full max-w-[var(--container-max)] flex-col justify-between gap-16 pb-10 pt-10 md:pb-14 md:pt-14">
         <Reveal
