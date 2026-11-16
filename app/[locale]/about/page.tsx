@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
+import { Toolbox } from "@/components/work/Toolbox";
 import { getDictionary, isLocale, type Locale } from "@/content";
 import { getEducation, getExperience, getLanguages, getSkillGroups } from "@/content/experience";
 import { site } from "@/content/site";
@@ -104,21 +105,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em] md:col-span-3">
             {content.about.skillsLabel}
           </h2>
-          <div className="grid gap-8 sm:grid-cols-2 md:col-span-7 lg:grid-cols-4">
-            {skillGroups.map((group) => (
-              <Reveal key={group.label} className="flex flex-col gap-3">
-                <span className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
-                  {group.label}
-                </span>
-                <ul className="flex flex-col gap-1">
-                  {group.items.map((skill) => (
-                    <li key={skill.name} className="text-body">
-                      {skill.name}
-                    </li>
-                  ))}
-                </ul>
-              </Reveal>
-            ))}
+          <div className="md:col-span-7">
+            <Toolbox groups={skillGroups} />
           </div>
         </div>
 
