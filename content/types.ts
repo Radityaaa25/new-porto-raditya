@@ -104,7 +104,7 @@ export type Dictionary = {
     accent: string;
     intro: string;
     selectedWork: string;
-    shipped: string;
+    shippedLabel: string;
     scroll: string;
     socials: string;
     photoAlt: string;

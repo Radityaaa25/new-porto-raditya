@@ -49,8 +49,9 @@ Projects (use the live URLs; screenshot them yourself for thumbnails):
   digital e-ticket app for a school performance event, used by real attendees.
 - Nana Bites (nana-bites.vercel.app) - Personal. Landing page and pre-order system for a
   snack business, integrated with WhatsApp ordering.
-- Joy Reminder (joy-reminder.vercel.app) - Personal. Archive management and tax-expiry
-  reminder app for business customers.
+- Scaffdev (scaffdev.my.id) - Personal. Scaffolding generator for Indonesian developers:
+  ready-to-run Next.js and Laravel starters, prebuilt UI, best-practice structure, Builder,
+  and curated integrations (Supabase, Xendit, Cloudinary, Resend).
 
 Experience:
 - Graphic Design Staff, Kominfo Division, Himpunan Mahasiswa Sistem Informasi UBSI (2025 - now):

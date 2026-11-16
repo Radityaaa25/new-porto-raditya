@@ -59,7 +59,7 @@ export const en = {
     intro:
       "Front-end developer in Jakarta working in Next.js, React, and a multimedia background.",
     selectedWork: "Selected work",
-    shipped: "6 shipped projects",
+    shippedLabel: "shipped projects",
     scroll: "Scroll",
     socials: "Elsewhere",
     photoAlt: "Portrait of Raditya Ananda Satria against a red background",
@@ -75,7 +75,7 @@ export const en = {
       label: "Selected work",
       title: "Projects with a pulse.",
       intro:
-        "Six shipped sites: personal tools, team builds, and a hackathon entry. Screenshots are real, links are live.",
+        "Shipped sites: personal tools, team builds, and a hackathon entry. Screenshots are real, links are live.",
       viewAll: "View all work",
       featured: "Featured",
       index: "Full index",
@@ -291,15 +291,16 @@ export const en = {
       ],
       imageAlt: "Nana Bites snack landing page with pre-order section",
     },
-    "joy-reminder": {
-      title: "Joy Reminder",
-      category: "Business / Archive",
-      summary: "Archive management and tax-expiry reminder app for business customers.",
+    scaffdev: {
+      title: "Scaffdev",
+      category: "Tooling / Dev",
+      summary:
+        "Scaffolding generator for Indonesian developers: ready-to-run Next.js and Laravel starters with prebuilt UI, best-practice folder structure, and curated local integrations.",
       description: [
-        "Joy Reminder is an archive management and tax-expiry reminder app for business customers.",
-        "The interface keeps documents and deadlines in one place so nothing expires unnoticed.",
+        "Scaffdev generates a new project from one npx command: prebuilt UI, best-practice folder structure, an .env.example, and a SETUP.md guide. It currently ships Next.js and Laravel templates.",
+        "The site lists six ready-to-generate templates, a Builder for custom integration combinations, and curated integrations: Supabase, Xendit, Cloudinary, and Resend. The source is available under the Shield licence.",
       ],
-      imageAlt: "Joy Reminder archive and tax reminder interface",
+      imageAlt: "Scaffdev landing page for the Next.js and Laravel starter kit generator",
     },
   },
   experience: [

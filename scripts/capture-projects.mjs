@@ -22,7 +22,7 @@ const PROJECTS = [
   { slug: "vascode", url: "https://vascode.vercel.app" },
   { slug: "pentas-seni", url: "https://pentas-seni-tk-v2.vercel.app" },
   { slug: "nana-bites", url: "https://nana-bites.vercel.app" },
-  { slug: "joy-reminder", url: "https://joy-reminder.vercel.app" },
+  { slug: "scaffdev", url: "https://scaffdev.my.id" },
 ];
 
 const DESKTOP = { width: 1600, height: 1000 };

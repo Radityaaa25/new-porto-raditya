@@ -6,13 +6,16 @@ import { Reveal } from "@/components/motion/Reveal";
 import { SplitText } from "@/components/motion/SplitText";
 import { DotGrid } from "@/components/textures";
 import { SocialIcons } from "@/components/socials/SocialLinks";
-import { useSiteContent } from "@/components/providers/LocaleProvider";
+import { useActiveLocale, useSiteContent } from "@/components/providers/LocaleProvider";
+import { getProjects } from "@/content/projects";
 import { site } from "@/content/site";
 import { Link } from "@/i18n/navigation";
 
 export function Hero() {
   const content = useSiteContent();
+  const locale = useActiveLocale();
   const hero = content.hero;
+  const projectCount = getProjects(locale).length;
   const [lineOne, lineTwo] = hero.lines;
 
   return (
@@ -102,7 +105,7 @@ export function Hero() {
           >
             <span className="text-subtle flex items-center gap-3 font-mono text-meta uppercase tracking-[0.14em]">
               <DotIcon size={8} className="text-accent" />
-              {hero.shipped}
+              {projectCount} {hero.shippedLabel}
             </span>
             <span className="text-subtle flex items-center gap-2 font-mono text-meta uppercase tracking-[0.14em]">
               {hero.scroll}

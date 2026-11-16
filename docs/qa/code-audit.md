@@ -106,7 +106,7 @@ hover preview.
 - `Hero` uses `priority` on a decorative project thumbnail. That was the largest LCP candidate
   and is removed with the thumbnail.
 - Project `stack` data is incomplete: only Clarise has a stack entry. SafeTrack, VasCode,
-  Pentas Seni, Nana Bites, and Joy Reminder need real stack labels for the new stack icons.
+  Pentas Seni and Nana Bites need real stack labels for the new stack icons.
 - `CountUp` formats numbers with a fixed `en-US` locale. This needs to follow the active locale.
 - `Reveal` hides content with `opacity: 0` until ScrollTrigger runs. This is acceptable, but a
   no-JS or failed-hydration fallback should not leave the page blank. The new pass keeps the

@@ -110,7 +110,7 @@ Source: live URLs from `AGENTS.md`.
 - vascode.vercel.app
 - pentas-seni-tk-v2.vercel.app
 - nana-bites.vercel.app
-- joy-reminder.vercel.app
+- scaffdev.my.id
 
 Capture spec (Playwright, Chromium 1208 already installed):
 
@@ -205,7 +205,7 @@ docs/
 ```
 
 Naming: lowercase kebab for files, PascalCase for components, slug = live domain first label
-(`clarise`, `safetrack-depin`, `vascode`, `pentas-seni`, `nana-bites`, `joy-reminder`).
+(`clarise`, `safetrack-depin`, `vascode`, `pentas-seni`, `nana-bites`, `scaffdev`).
 
 ---
 

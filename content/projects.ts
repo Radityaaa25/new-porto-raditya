@@ -45,12 +45,12 @@ const bases: ReadonlyArray<ProjectBase> = [
     details: true,
   },
   {
-    slug: "joy-reminder",
-    url: "https://joy-reminder.vercel.app",
+    slug: "scaffdev",
+    url: "https://scaffdev.my.id",
     role: "Personal",
     year: "2026",
-    stack: ["Next.js", "Archive"],
-    details: false,
+    stack: ["Next.js", "Laravel", "Supabase", "Xendit", "Cloudinary", "Resend"],
+    details: true,
   },
 ];
 

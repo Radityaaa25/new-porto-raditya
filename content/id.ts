@@ -59,7 +59,7 @@ export const id = {
     intro:
       "Front-end developer di Jakarta yang bekerja dengan Next.js, React, dan latar belakang multimedia.",
     selectedWork: "Karya pilihan",
-    shipped: "6 proyek rilis",
+    shippedLabel: "proyek rilis",
     scroll: "Gulir",
     socials: "Jejak lain",
     photoAlt: "Potret Raditya Ananda Satria dengan latar merah",
@@ -295,15 +295,16 @@ export const id = {
       ],
       imageAlt: "Landing page Nana Bites dengan bagian pre-order",
     },
-    "joy-reminder": {
-      title: "Joy Reminder",
-      category: "Bisnis / Arsip",
-      summary: "Aplikasi pengelolaan arsip dan pengingat jatuh tempo pajak untuk pelanggan bisnis.",
+    scaffdev: {
+      title: "Scaffdev",
+      category: "Tooling / Dev",
+      summary:
+        "Generator scaffolding untuk developer Indonesia: starter Next.js dan Laravel siap jalan dengan UI jadi, struktur folder best-practice, dan integrasi lokal pilihan.",
       description: [
-        "Joy Reminder adalah aplikasi pengelolaan arsip dan pengingat jatuh tempo pajak untuk pelanggan bisnis.",
-        "Antarmukanya menyimpan dokumen dan tenggat di satu tempat supaya tidak ada yang lewat tanpa terlihat.",
+        "Scaffdev membuat project baru dari satu command npx: UI jadi, struktur folder best-practice, file .env.example, dan panduan SETUP.md. Saat ini tersedia template Next.js dan Laravel.",
+        "Situsnya menampilkan enam template siap generate, Builder untuk kombinasi integrasi custom, dan integrasi pilihan: Supabase, Xendit, Cloudinary, serta Resend. Sumbernya tersedia dengan lisensi Shield.",
       ],
-      imageAlt: "Antarmuka arsip dan pengingat pajak Joy Reminder",
+      imageAlt: "Halaman utama Scaffdev, generator starter kit Next.js dan Laravel",
     },
   },
   experience: [
