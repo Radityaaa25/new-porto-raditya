@@ -14,3 +14,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# Reference captures stay local; they are analysis inputs, not project assets.
+docs/qa/wow/ref-*

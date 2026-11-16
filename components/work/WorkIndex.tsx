@@ -116,6 +116,7 @@ export function WorkIndex({
         {projects.map((project) => (
           <li key={project.slug} className="border-line group relative border-b">
             <Link
+              data-cursor="view"
               href={`/work/${project.slug}`}
               aria-label={project.title}
               onPointerEnter={() => setActive(project.slug)}

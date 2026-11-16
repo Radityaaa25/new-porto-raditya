@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 
 import { ArrowUpRightIcon } from "@/components/icons";
 import { Reveal } from "@/components/motion/Reveal";
+import { ScrollScrubText } from "@/components/motion/ScrollScrubText";
+import { Parallax } from "@/components/motion/Parallax";
 import { SplitText } from "@/components/motion/SplitText";
 import { StackIcons } from "@/components/work/StackIcons";
 import { getDictionary, isLocale, type Locale } from "@/content";
@@ -52,7 +54,7 @@ export default async function ProjectPage({
   return (
     <article className="gutter-x section-y">
       <div className="mx-auto flex w-full max-w-[var(--container-max)] flex-col gap-16">
-        <div className="flex flex-col gap-6">
+        <section className="flex flex-col gap-6" aria-label={project.title}>
           <Link
             href="/work"
             className="text-subtle hover:text-fg duration-ui ease-expo inline-flex w-fit items-center gap-2 font-mono text-meta uppercase tracking-[0.14em] transition-colors"
@@ -66,9 +68,9 @@ export default async function ProjectPage({
             trigger="mount"
             className="font-display text-h1 tracking-[-0.03em]"
           />
-          <p className="text-muted max-w-[var(--measure-wide)]">{project.summary}</p>
-        </div>
+        </section>
 
+        <section aria-label={content.work.detail.overview}>
         <Reveal className="group">
           <div className="border-line bg-surface relative aspect-[16/10] overflow-hidden rounded-sm border">
             <Image
@@ -81,22 +83,27 @@ export default async function ProjectPage({
             />
           </div>
         </Reveal>
+        </section>
 
-        <div className="grid gap-10 md:grid-cols-12">
+        <section className="grid gap-10 md:grid-cols-12" aria-label={content.work.detail.problem}>
           <div className="md:col-span-7">
             <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em]">
-              {content.work.detail.brief}
+              {content.work.detail.problem}
             </h2>
-            <div className="mt-5 flex flex-col gap-4">
-              {project.description.map((paragraph) => (
-                <p key={paragraph.slice(0, 32)} className="text-body text-muted">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
+            <ScrollScrubText text={project.summary} className="font-display text-h2 mt-5 max-w-[24ch] tracking-[-0.03em]" />
           </div>
+          <div className="md:col-span-5">
+            <span className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
+              {project.category}
+            </span>
+          </div>
+        </section>
 
-          <dl className="flex flex-col gap-4 md:col-span-5">
+        <section className="grid gap-10 md:grid-cols-12" aria-label={content.work.detail.overview}>
+          <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em] md:col-span-3">
+            {content.work.detail.overview}
+          </h2>
+          <dl className="flex flex-col gap-4 md:col-span-7">
             <div className="border-line flex items-baseline justify-between gap-4 border-t pt-3">
               <dt className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
                 {content.work.detail.roleLabel}
@@ -109,38 +116,49 @@ export default async function ProjectPage({
               </dt>
               <dd className="text-body">{project.year}</dd>
             </div>
-            <div className="border-line flex flex-col gap-2 border-t pt-3">
-              <dt className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
-                {content.work.detail.stackLabel}
-              </dt>
-              <dd>
-                <StackIcons items={project.stack} label={content.ui.stack} visible />
-              </dd>
-            </div>
             <div className="border-line border-t pt-3">
               <a
                 href={project.url}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="group text-body hover:text-accent duration-ui inline-flex items-center gap-2 transition-colors"
+                className="group text-body hover:text-accent inline-flex items-center gap-2 transition-colors"
               >
                 {content.work.detail.liveLabel}
-                <ArrowUpRightIcon
-                  size={14}
-                  className="duration-ui ease-expo transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                />
+                <ArrowUpRightIcon size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
             </div>
           </dl>
-        </div>
+        </section>
 
-        <div className="flex flex-col gap-6">
+        <section className="grid gap-10 md:grid-cols-12" aria-label={content.work.detail.approach}>
+          <div className="md:col-span-7">
+            <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em]">
+              {content.work.detail.approach}
+            </h2>
+            <ScrollScrubText
+              text={project.description.join(" ")}
+              className="text-body mt-5 max-w-[var(--measure-wide)] text-muted"
+            />
+          </div>
+          <div className="md:col-span-5">
+            <div className="border-line bg-surface rounded-sm border p-6">
+              <span className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
+                {content.work.detail.stackLabel}
+              </span>
+              <div className="mt-5">
+                <StackIcons items={project.stack} label={content.ui.stack} visible />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="flex flex-col gap-6" aria-label={content.work.detail.screensLabel}>
           <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em]">
             {content.work.detail.screensLabel}
           </h2>
           {project.details ? (
             <div className="grid gap-6 md:grid-cols-2">
-              <Reveal className="md:col-span-2">
+              <Parallax className="md:col-span-2" amount={4} reveal>
                 <Image
                   src={`${base}/detail-01.webp`}
                   alt={`${project.imageAlt} - ${content.work.detail.overview}`}
@@ -149,7 +167,7 @@ export default async function ProjectPage({
                   sizes="(min-width: 1200px) 1200px, 100vw"
                   className="border-line w-full rounded-sm border"
                 />
-              </Reveal>
+              </Parallax>
               <Reveal>
                 <Image
                   src={`${base}/detail-02.webp`}
@@ -183,11 +201,12 @@ export default async function ProjectPage({
               />
             </Reveal>
           )}
-        </div>
+        </section>
 
+        <section aria-label={content.work.detail.nextLabel}>
         <Link
           href={`/work/${next.slug}`}
-          className="group border-line flex items-end justify-between gap-6 border-t pt-6"
+          className="group border-line relative flex min-h-[46vh] items-end justify-between gap-6 overflow-hidden border-t pt-6"
         >
           <span className="flex flex-col gap-2">
             <span className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
@@ -200,6 +219,7 @@ export default async function ProjectPage({
             className="duration-ui ease-expo group-hover:-translate-y-1 group-hover:translate-x-1 shrink-0 transition-transform"
           />
         </Link>
+        </section>
       </div>
     </article>
   );

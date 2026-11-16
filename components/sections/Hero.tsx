@@ -28,11 +28,11 @@ export function Hero() {
         <Reveal
           waitForReady
           trigger="mount"
-          className="border-line flex flex-wrap items-baseline justify-between gap-x-8 gap-y-3 border-b pb-4"
+          className="border-line flex flex-col items-start gap-y-3 border-b pb-4 sm:flex-row sm:flex-wrap sm:items-baseline sm:justify-between sm:gap-x-8"
         >
           <span className="text-muted flex items-center gap-2 font-mono text-meta uppercase tracking-[0.18em]">
             <span className="bg-accent inline-block h-1.5 w-1.5 rounded-full" />
-            {hero.kicker}
+            {site.heroKicker.replace(" - ", " · ")}
           </span>
           <span className="text-subtle flex items-center gap-4 font-mono text-meta uppercase tracking-[0.14em]">
             <span>{site.location}</span>

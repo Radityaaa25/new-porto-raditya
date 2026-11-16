@@ -106,7 +106,7 @@ const ogMarkup = `<!doctype html>
   </header>
   <main>
     <h1>I design the interface.<br />Then I <span>build</span> it.</h1>
-    <p>Web developer and designer working in Next.js and React.</p>
+    <p>Web developer working in Next.js and React, with a multimedia background and an interest in AI.</p>
   </main>
   <footer>
     <span class="mono"><span class="dot"></span>Portfolio 2026</span>

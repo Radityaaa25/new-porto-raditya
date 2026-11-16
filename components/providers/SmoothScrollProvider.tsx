@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Lenis from "lenis";
 
 import { gsap, ScrollTrigger } from "@/lib/motion/gsap";
+import { duration } from "@/lib/motion/tokens";
 
 type ScrollApi = {
   stop: () => void;
@@ -76,9 +77,11 @@ export function SmoothScrollProvider({ children }: { children: ReactNode }) {
 
   const scrollToTop = useCallback(() => {
     if (lenisRef.current) {
-      lenisRef.current.scrollTo(0, { immediate: true });
+      lenisRef.current.scrollTo(0, { duration: duration.cinematic });
+      return;
     }
-    window.scrollTo(0, 0);
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduced ? "auto" : "smooth" });
   }, []);
 
   const value = useMemo<ScrollApi>(

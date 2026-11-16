@@ -8,6 +8,8 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { CursorHUD } from "@/components/hud/CursorHUD";
 import { Preloader } from "@/components/motion/Preloader";
+import { RouteCurtain } from "@/components/motion/RouteCurtain";
+import { ScrollProgress } from "@/components/motion/ScrollProgress";
 import { LocaleProvider } from "@/components/providers/LocaleProvider";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
@@ -142,6 +144,22 @@ export default async function LocaleLayout({
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="bg-bg text-fg min-h-dvh antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: site.name,
+              jobTitle: site.role,
+              description: site.heroKicker,
+              email: site.email,
+              url: baseUrl,
+              address: { "@type": "PostalAddress", addressLocality: "Jakarta", addressCountry: "ID" },
+              sameAs: [site.githubUrl, site.instagramUrl],
+            }),
+          }}
+        />
         <NextIntlClientProvider locale={locale} messages={{}}>
           <LocaleProvider locale={locale} content={content}>
             <ThemeProvider>
@@ -150,6 +168,8 @@ export default async function LocaleLayout({
                   {content.ui.skipToContent}
                 </a>
                 <Preloader />
+                <RouteCurtain />
+                <ScrollProgress />
                 <CursorHUD />
                 <Header />
                 <main id="main" className="pt-16">

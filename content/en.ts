@@ -2,10 +2,10 @@ import type { Dictionary } from "./types";
 
 export const en = {
   meta: {
-    title: "Raditya Ananda Satria - Web developer and designer",
+    title: "Raditya Ananda Satria - Web Developer / Tech Enthusiast",
     description:
-      "Front-end developer in Jakarta working in Next.js, React, and a multimedia background.",
-    ogAlt: "Raditya Ananda Satria, web developer and designer in Jakarta",
+      "Web developer in Jakarta working in Next.js and React, with a multimedia background and an interest in AI.",
+    ogAlt: "Raditya Ananda Satria, web developer and tech enthusiast in Jakarta",
   },
   nav: [
     { key: "work", href: "/work", label: "Work" },
@@ -53,11 +53,11 @@ export const en = {
     sign: "Cut with care.",
   },
   hero: {
-    kicker: "Front-end / Design engineer",
+    kicker: "Web Developer / Tech Enthusiast - AI Enthusiast",
     lines: ["I design the interface.", "Then I build it."],
     accent: "build",
     intro:
-      "Front-end developer in Jakarta working in Next.js, React, and a multimedia background.",
+      "Web developer in Jakarta working in Next.js and React, with a multimedia background and an interest in AI.",
     selectedWork: "Selected work",
     shippedLabel: "shipped projects",
     scroll: "Scroll",
@@ -95,6 +95,29 @@ export const en = {
         { label: "Education", value: "Sistem Informasi, UBSI (2025 - now)" },
         { label: "Languages", value: "Indonesian active, English and Korean passive" },
         { label: "Focus", value: "React, Next.js, interface design, motion" },
+      ],
+    },
+    process: {
+      label: "Process",
+      title: "How a build moves.",
+      intro: "Four steps I actually repeat. No discovery theatre.",
+      steps: [
+        { title: "Design", body: "Map the content and the screen order first, then decide type, grid, and motion in Figma and the browser." },
+        { title: "Build", body: "Next.js and React components, token-driven styles, and content typed in one place. Real screenshots early." },
+        { title: "Ship", body: "Git, Vercel, a live domain, and a pass on mobile, keyboard, reduced motion, and slow connections." },
+        { title: "Iterate", body: "Watch what breaks, tighten the copy, and keep the system editable instead of rewriting from zero." },
+      ],
+    },
+    aboutTeaser: {
+      label: "About",
+      title: "Multimedia first. Code after.",
+      body: "Graphic design, video, and content production taught me rhythm and detail. Next.js and React made it interactive.",
+      cta: "More about me",
+      currentlyLabel: "Currently",
+      currently: [
+        "Studying Sistem Informasi at UBSI.",
+        "Building personal and team projects in Next.js.",
+        "Learning Laravel and backend basics.",
       ],
     },
     capabilities: {
@@ -161,7 +184,7 @@ export const en = {
     label: "About",
     title: "Designer by training. Developer by practice.",
     intro:
-      "I am Raditya Ananda Satria, a front-end developer and designer in Jakarta. I build with Next.js and React, and I bring a multimedia background to the details.",
+      "I am Raditya Ananda Satria, a web developer in Jakarta. I build with Next.js and React, and I bring a multimedia background to the details.",
     profileLabel: "Profile",
     profile: [
       "I am Raditya Ananda Satria, based in Jakarta, Indonesia. I build web interfaces with Next.js and React, and I design them too. My path started in multimedia: graphic design, video editing, and content production, which still shapes how I approach layout, rhythm, and detail.",
@@ -196,6 +219,8 @@ export const en = {
     detail: {
       overview: "Overview",
       brief: "What it is",
+      problem: "The problem",
+      approach: "The approach",
       stackLabel: "Stack",
       roleLabel: "Role",
       yearLabel: "Year",
@@ -237,6 +262,7 @@ export const en = {
     },
   },
   footer: {
+    backToTop: "Back to top",
     note: "Made in Jakarta",
     rights: "All rights reserved",
     socials: "Social links",

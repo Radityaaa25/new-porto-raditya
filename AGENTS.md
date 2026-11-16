@@ -24,7 +24,7 @@ animation language is inspired by 4 references, blended into one cohesive identi
    - HUD details: live local clock (GMT+7, Jakarta), cursor X/Y coordinates readout
    - Theme toggle and sound toggle in the header
    - Index-style project list (title, year, category) with hover preview
-   - Mono / technical typography accents, "design engineer" feel
+   - Mono / technical typography accents, technical product-engineer feel
 
 ## About me (content source of truth, do NOT invent facts beyond this)
 Name: Raditya Ananda Satria. Based in Jakarta, Indonesia.

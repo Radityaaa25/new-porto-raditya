@@ -189,8 +189,8 @@ added later without refactoring. One Indonesian signature line is allowed in the
 
 | # | Headline | Sub-line | Assessment |
 |---|---|---|---|
-| 1 | Web development, cut with care. | Front-end developer in Jakarta. Multimedia instincts, production discipline. | Distinctive and on-concept, but "cut" needs the rest of the site to pay it off. |
-| 2 | I design the interface. Then I build it. | Front-end developer in Jakarta working in Next.js, React, and a multimedia background. | Clearest positioning, two-beat rhythm, easy to animate line by line. |
+| 1 | Web development, cut with care. | Web developer in Jakarta. Multimedia instincts, production discipline. | Distinctive and on-concept, but "cut" needs the rest of the site to pay it off. |
+| 2 | I design the interface. Then I build it. | Web developer in Jakarta working in Next.js and React, with a multimedia background and an interest in AI. | Clearest positioning, two-beat rhythm, easy to animate line by line. |
 | 3 | From storyboard to shipped product. | Design-led development for real users, not demos. | Process-led and credible, but "shipped" and "storyboard" are common portfolio language. |
 
 Recommendation: **#2**, with the mono kicker `FRONT-END / DESIGN ENGINEER` above it and the word

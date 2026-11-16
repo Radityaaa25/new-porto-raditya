@@ -50,3 +50,4 @@ Phase 4 additions logged below with the generating script and the capture date.
 - OG images are static PNGs generated at authoring time, not runtime next/og routes. Re-run `node scripts/generate-assets.mjs` after changing the monogram or headline copy.
 - Project captures are dated in `manifest.json`. Re-run `node scripts/capture-projects.mjs` quarterly or when a project changes.
 - Both scripts need `playwright-core` on NODE_PATH; it is a local tool dependency, not a site dependency.
+| public/media/portrait/portrait-1200.webp, portrait-640.webp | portrait | cropped and re-encoded from Raditya's supplied photo | Raditya Ananda Satria | project-owned | WebP q80-82, original 767x1259 |

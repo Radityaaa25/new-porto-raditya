@@ -2,10 +2,10 @@ import type { Dictionary } from "./types";
 
 export const id = {
   meta: {
-    title: "Raditya Ananda Satria - Web developer dan desainer",
+    title: "Raditya Ananda Satria - Web Developer / Tech Enthusiast",
     description:
-      "Front-end developer di Jakarta yang bekerja dengan Next.js, React, dan latar belakang multimedia.",
-    ogAlt: "Raditya Ananda Satria, web developer dan desainer di Jakarta",
+      "Web developer di Jakarta yang bekerja dengan Next.js dan React, berlatar multimedia dan tertarik pada AI.",
+    ogAlt: "Raditya Ananda Satria, web developer dan tech enthusiast di Jakarta",
   },
   nav: [
     { key: "work", href: "/work", label: "Karya" },
@@ -53,11 +53,11 @@ export const id = {
     sign: "Digarap dengan teliti.",
   },
   hero: {
-    kicker: "Front-end / Design engineer",
+    kicker: "Web Developer / Tech Enthusiast - AI Enthusiast",
     lines: ["Saya rancang antarmukanya.", "Lalu saya bangun."],
     accent: "bangun",
     intro:
-      "Front-end developer di Jakarta yang bekerja dengan Next.js, React, dan latar belakang multimedia.",
+      "Web developer di Jakarta yang bekerja dengan Next.js dan React, berlatar multimedia dan tertarik pada AI.",
     selectedWork: "Karya pilihan",
     shippedLabel: "proyek rilis",
     scroll: "Gulir",
@@ -95,6 +95,29 @@ export const id = {
         { label: "Pendidikan", value: "Sistem Informasi, UBSI (2025 - sekarang)" },
         { label: "Bahasa", value: "Indonesia aktif, Inggris dan Korea pasif" },
         { label: "Fokus", value: "React, Next.js, desain antarmuka, motion" },
+      ],
+    },
+    process: {
+      label: "Proses",
+      title: "Cara sebuah build bergerak.",
+      intro: "Empat langkah yang benar-benar saya ulang. Tanpa teater discovery.",
+      steps: [
+        { title: "Desain", body: "Petakan konten dan urutan layar dulu, lalu tentukan tipografi, grid, dan gerak di Figma dan browser." },
+        { title: "Bangun", body: "Komponen Next.js dan React, gaya berbasis token, dan konten bertipe di satu tempat. Screenshot asli sejak awal." },
+        { title: "Rilis", body: "Git, Vercel, domain hidup, lalu cek mobile, keyboard, reduced motion, dan koneksi lambat." },
+        { title: "Iterasi", body: "Lihat apa yang rusak, rapikan copy, dan jaga sistem tetap mudah diubah alih-alih menulis ulang dari nol." },
+      ],
+    },
+    aboutTeaser: {
+      label: "Tentang",
+      title: "Multimedia dulu. Kode setelahnya.",
+      body: "Desain grafis, video, dan produksi konten mengajari saya ritme dan detail. Next.js dan React membuatnya interaktif.",
+      cta: "Kenalan lebih jauh",
+      currentlyLabel: "Sekarang",
+      currently: [
+        "Kuliah Sistem Informasi di UBSI.",
+        "Membangun proyek personal dan tim dengan Next.js.",
+        "Belajar Laravel dan dasar backend.",
       ],
     },
     capabilities: {
@@ -162,7 +185,7 @@ export const id = {
     label: "Tentang",
     title: "Terlatih desain. Berlatih jadi developer.",
     intro:
-      "Saya Raditya Ananda Satria, front-end developer dan desainer di Jakarta. Saya membangun dengan Next.js dan React, dan membawa latar belakang multimedia ke tiap detail.",
+      "Saya Raditya Ananda Satria, web developer di Jakarta. Saya membangun dengan Next.js dan React, dan membawa latar belakang multimedia ke tiap detail.",
     profileLabel: "Profil",
     profile: [
       "Saya Raditya Ananda Satria, tinggal di Jakarta. Saya bangun antarmuka web dengan Next.js dan React, sekaligus mendesainnya. Jalan saya mulai dari multimedia: desain grafis, editing video, dan produksi konten. Sampai sekarang itu masih memengaruhi cara saya melihat layout, ritme, dan detail.",
@@ -198,6 +221,8 @@ export const id = {
     detail: {
       overview: "Ringkasan",
       brief: "Tentang proyek",
+      problem: "Masalah",
+      approach: "Pendekatan",
       stackLabel: "Stack",
       roleLabel: "Peran",
       yearLabel: "Tahun",
@@ -241,6 +266,7 @@ export const id = {
     },
   },
   footer: {
+    backToTop: "Kembali ke atas",
     note: "Dibuat di Jakarta",
     rights: "Seluruh hak dilindungi",
     socials: "Tautan sosial",

@@ -153,7 +153,7 @@ export function DevPlayground() {
         </h2>
         <Marquee>
           <span className="flex items-center gap-6 pr-6 font-mono text-h3 uppercase">
-            Design engineer / Jakarta / 2026 /
+            Web Developer / Tech Enthusiast / Jakarta / 2026 /
           </span>
         </Marquee>
       </section>

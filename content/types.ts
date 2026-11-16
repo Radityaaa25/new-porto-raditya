@@ -128,6 +128,20 @@ export type Dictionary = {
       factsLabel: string;
       facts: ReadonlyArray<Fact>;
     };
+    process: {
+      label: string;
+      title: string;
+      intro: string;
+      steps: ReadonlyArray<{ title: string; body: string }>;
+    };
+    aboutTeaser: {
+      label: string;
+      title: string;
+      body: string;
+      cta: string;
+      currentlyLabel: string;
+      currently: ReadonlyArray<string>;
+    };
     capabilities: {
       label: string;
       title: string;
@@ -176,6 +190,8 @@ export type Dictionary = {
     detail: {
       overview: string;
       brief: string;
+      problem: string;
+      approach: string;
       stackLabel: string;
       roleLabel: string;
       yearLabel: string;
@@ -214,6 +230,7 @@ export type Dictionary = {
     };
   };
   footer: {
+    backToTop: string;
     note: string;
     rights: string;
     socials: string;
