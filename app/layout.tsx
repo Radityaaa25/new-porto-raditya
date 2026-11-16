@@ -6,7 +6,6 @@ import { Header } from "@/components/layout/Header";
 import { CursorHUD } from "@/components/hud/CursorHUD";
 import { Preloader } from "@/components/motion/Preloader";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
-import { SoundProvider } from "@/components/providers/SoundProvider";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { site } from "@/content/site";
 
@@ -101,7 +100,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-bg text-fg min-h-dvh antialiased">
         <ThemeProvider>
-          <SoundProvider>
             <SmoothScrollProvider>
               <Preloader />
               <CursorHUD />
@@ -111,7 +109,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </main>
               <Footer />
             </SmoothScrollProvider>
-          </SoundProvider>
         </ThemeProvider>
       </body>
     </html>

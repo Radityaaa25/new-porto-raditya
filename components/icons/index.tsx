@@ -39,24 +39,6 @@ export function MoonIcon(props: IconProps) {
   );
 }
 
-export function VolumeOnIcon(props: IconProps) {
-  return (
-    <IconBase {...props}>
-      <path d="M4 9h4l5-4v14l-5-4H4Z" />
-      <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" />
-    </IconBase>
-  );
-}
-
-export function VolumeOffIcon(props: IconProps) {
-  return (
-    <IconBase {...props}>
-      <path d="M4 9h4l5-4v14l-5-4H4Z" />
-      <path d="M16 9l6 6M22 9l-6 6" />
-    </IconBase>
-  );
-}
-
 export function MenuIcon(props: IconProps) {
   return (
     <IconBase {...props}>

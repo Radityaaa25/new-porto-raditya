@@ -3,7 +3,7 @@
 Status: PHASE 2 proposal. No page code until approved.
 Inputs: `docs/analysis/00-summary.md`, per-site analyses, `AGENTS.md`.
 Locked decisions: dark default + light toggle, lime `#c0fe04`, hybrid per-section reference mix,
-free font trio, no runtime 3D, synthesised sound muted by default.
+free font trio, no runtime 3D, no audio.
 
 ---
 
@@ -35,7 +35,7 @@ that expands into detail; capabilities are numbered primitives; motion is treate
 | haoqi | HUD layout and telemetry, lime `#c0fe04`, index cascade proportions, `cubic-bezier(.66,0,.01,1)` |
 | newformcap | 0-100 preloader counter, fullscreen numbered menu, numbered capability list, marquee |
 | senbuzy | timeline discipline, scene-to-scene pacing, section breathing room |
-| chrisp | personality in micro-copy (recreated without emoji), sound toggle restraint |
+| chrisp | personality in micro-copy (recreated without emoji), preloader restraint |
 
 Strengths: matches the "web developer who designs" positioning; ages well; cheap to run (no
 video, no WebGL); content-first so six projects are enough; scales to a case-study template.
@@ -118,7 +118,7 @@ Route rules:
 | # | Section | Purpose | Primary reference | Signature motion |
 |---|---|---|---|---|
 | 00 | Preloader | Mask font and image load, set tone, show progress honestly | newformcap counter + chrisp status lines | 0-100 counter, rotating status, curtain exit |
-| 01 | HUD / header | Orientation: identity, nav, local time, theme, sound | haoqi | clock tick, coordinate readout, toggle states |
+| 01 | HUD / header | Orientation: identity, nav, local time, theme, language | haoqi | clock tick, coordinate readout, toggle states |
 | 02 | Hero | State the positioning in one readable line | haoqi poster + newformcap line reveal | masked line reveal, one accent word, meta row |
 | 03 | Selected work | Prove it: six projects as an index that expands | haoqi | index cascade with 60-90ms stagger |
 | 04 | Capabilities 01-03 | Explain the offer: design, build, ship | newformcap numbered list | sticky numbered rail, dot travel |
@@ -178,7 +178,7 @@ added later without refactoring. One Indonesian signature line is allowed in the
 ### Micro-copy samples
 
 - Loader status: `compiling layout`, `measuring type`, `checking links`, `almost there`
-- Sound toggle: `sound off` / `sound on`
+- Language switch: `EN / ID`
 - Theme toggle: `theme dark` / `theme light`
 - Empty filter: `nothing here yet. six projects, all live.`
 - Form success: `sent. I reply within two days.`

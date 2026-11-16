@@ -28,9 +28,6 @@ Phase 4 additions logged below with the generating script and the capture date.
 | public/media/projects/joy-reminder/* | screenshot | own project, own capture 2026-11-15 | Raditya Ananda Satria | project-owned | cover + mobile only; landing is a single viewport, no detail frames |
 | public/media/projects/manifest.json | metadata | capture script output | Raditya Ananda Satria | project-owned | per-slug status, capturedAt, viewport sizes, page height |
 | scripts/capture-projects.mjs | tooling | original script | Raditya Ananda Satria | project-owned | Playwright capture + ImageMagick transcode; ONLY env filters slugs, retries navigation |
-| lib/audio/synth.ts | sound | WebAudio synthesis | Raditya Ananda Satria | project-owned | click, tick, open, close, on, off, success, complete; 0 audio bytes, master gain 0.15, muted by default, persisted under localStorage sound |
-| components/providers/SoundProvider.tsx | sound control | original | Raditya Ananda Satria | project-owned | opt-in enable primes the AudioContext; data-sound attribute drives the toggle icons |
-| components/motion/Preloader.tsx | sound cue | original | Raditya Ananda Satria | project-owned | plays the complete recipe when the counter resolves |
 | components/dev/AssetGallery.tsx + app/dev/assets/page.tsx | dev tooling | original | Raditya Ananda Satria | project-owned | review route, noindex, not linked publicly |
 
 ## Tool and library licences

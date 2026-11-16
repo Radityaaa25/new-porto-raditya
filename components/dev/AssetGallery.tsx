@@ -13,9 +13,7 @@ import {
   PaperFibre,
   Scanline,
 } from "@/components/textures";
-import { useSound } from "@/components/providers/SoundProvider";
 import { projects } from "@/content/projects";
-import type { SoundName } from "@/lib/audio/synth";
 import { moniCopy, moniPoses, type MoniPose } from "@/lib/motion/moni";
 import { usePrefersReducedMotion } from "@/lib/utils/hooks";
 
@@ -24,17 +22,6 @@ const CAPTURED_AT = "2026-11-15";
 const iconEntries = Object.entries(iconSet).filter(
   ([name, value]) => name.endsWith("Icon") && typeof value === "function",
 ) as Array<[string, ComponentType<IconProps>]>;
-
-const SOUNDS: ReadonlyArray<{ name: SoundName; label: string }> = [
-  { name: "tick", label: "Hover tick" },
-  { name: "click", label: "Click" },
-  { name: "open", label: "Menu open" },
-  { name: "close", label: "Menu close" },
-  { name: "on", label: "Sound on" },
-  { name: "off", label: "Sound off" },
-  { name: "success", label: "Form success" },
-  { name: "complete", label: "Preloader complete" },
-];
 
 const TEXTURES = [
   {
@@ -75,14 +62,12 @@ function SectionHead({
 }
 
 export function AssetGallery() {
-  const { play, enabled } = useSound();
   const prefersReduced = usePrefersReducedMotion();
   const [pose, setPose] = useState<MoniPose>("idle");
   const [cardPose, setCardPose] = useState<MoniPose>("idle");
   const [copied, setCopied] = useState<string | null>(null);
 
   const copyIconName = async (name: string) => {
-    play("tick");
     try {
       await navigator.clipboard.writeText(name);
       setCopied(name);
@@ -135,8 +120,7 @@ export function AssetGallery() {
                   type="button"
                   onClick={() => {
                     setPose(name);
-                    play("tick");
-                  }}
+                                  }}
                   aria-pressed={pose === name}
                   className="border-line hover:border-fg aria-pressed:border-accent aria-pressed:bg-accent aria-pressed:text-accent-ink rounded-full border px-4 py-2 font-mono text-meta uppercase tracking-[0.12em] transition-colors duration-[var(--dur-fast)]"
                 >
@@ -288,28 +272,6 @@ export function AssetGallery() {
         </div>
       </SectionHead>
 
-      <SectionHead index="06" title="UI sounds" meta="WebAudio / muted by default / 0 bytes">
-        <p className="max-w-[var(--measure-wide)] text-muted">
-          Synthesised at runtime. Toggle sound in the header to audition; the preference persists in
-          localStorage under the sound key.
-        </p>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          {SOUNDS.map((sound) => (
-            <button
-              key={sound.name}
-              type="button"
-              onClick={() => play(sound.name)}
-              className="border-line hover:border-accent flex flex-col gap-2 rounded-sm border p-4 text-left transition-colors duration-[var(--dur-fast)]"
-            >
-              <span className="font-display text-h3 tracking-[-0.01em]">{sound.label}</span>
-              <span className="font-mono text-meta text-muted">{sound.name}</span>
-            </button>
-          ))}
-        </div>
-        <span className="font-mono text-meta uppercase tracking-[0.14em] text-muted" role="status">
-          Sound {enabled ? "on" : "off"}
-        </span>
-      </SectionHead>
     </div>
   );
 }

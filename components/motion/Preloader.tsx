@@ -5,7 +5,6 @@ import { useEffect, useRef } from "react";
 import { gsap } from "@/lib/motion/gsap";
 import { duration, ease, preloader } from "@/lib/motion/tokens";
 import { useSmoothScroll } from "@/components/providers/SmoothScrollProvider";
-import { useSound } from "@/components/providers/SoundProvider";
 import { usePrefersReducedMotion } from "@/lib/utils/hooks";
 
 const STATUS = [
@@ -37,7 +36,6 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
   const signRef = useRef<HTMLSpanElement>(null);
   const callbackRef = useRef(onComplete);
   const { stop, start } = useSmoothScroll();
-  const { play } = useSound();
   const prefersReduced = usePrefersReducedMotion();
 
   useEffect(() => {
@@ -80,7 +78,6 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
       finished = true;
       signal();
       window.clearInterval(statusTimer);
-      play("complete");
       root.style.display = "none";
       try {
         window.sessionStorage.setItem(STORAGE_KEY, "1");
@@ -170,7 +167,7 @@ export function Preloader({ onComplete, force = false }: PreloaderProps) {
       context.revert();
       if (!finished) start();
     };
-  }, [force, play, prefersReduced, start, stop]);
+  }, [force, prefersReduced, start, stop]);
 
   return (
     <div

@@ -265,7 +265,6 @@ Priority: M = must-have for v1, N = nice-to-have.
 | ContactLineReveal | in view | `lineReveal` 1200ms, 150ms stagger | haoqi | M |
 | ArrowHover | hover | arrow 4px x/y, 160ms `ease-ui`; link rule grows | newformcap | M |
 | PressState | pointerdown | `scale` 0.98, 160ms; release 300ms | iOS-native | M |
-| SoundTogglePulse | toggle | 80ms ring scale, two-tone synth, muted default | chrisp | N |
 | PageTransition | route change | curtain in/out 1200ms, scroll reset before in | chrisp | N |
 | CursorBlend | fine pointer | 8px dot, `mix-blend-difference`, lerp 0.18, label on cards | haoqi | N |
 | GrainDrift | always | CSS `steps()` background-position, 8s, opacity 0.04 | chrisp texture | N |
@@ -317,7 +316,6 @@ reduced-motion block.
   without a replacement.
 - Targets: 44x44px minimum for toggles, menu items, and index rows.
 - Motion: reduced motion respected in CSS and JS; no autoplay motion that cannot be stopped.
-- Sound: muted by default; toggle is labelled and persists; no sound on load.
 - Cursor: custom cursor never replaces the native one on touch; the native cursor stays visible
   under the overlay on desktop.
 - Semantics: one `h1` per route, sections labelled, toggles use `aria-pressed`, menu uses

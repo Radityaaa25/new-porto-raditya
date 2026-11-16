@@ -18,7 +18,7 @@ export default function AssetsPage() {
           <h1 className="font-display text-h1 tracking-[-0.03em]">Asset archive</h1>
           <p className="max-w-[var(--measure-wide)] text-muted">
             Production check for the icon set, Moni, procedural textures, live project captures,
-            social icons, and UI sounds. Internal page, not part of the public site.
+            social icons, and photography. Internal page, not part of the public site.
           </p>
         </div>
         <AssetGallery />

@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 import { CheckIcon, CopyIcon } from "@/components/icons";
-import { useSound } from "@/components/providers/SoundProvider";
 import { cn } from "@/lib/utils/cn";
 
 type CopyEmailProps = {
@@ -13,7 +12,6 @@ type CopyEmailProps = {
 
 export function CopyEmail({ email, className }: CopyEmailProps) {
   const [copied, setCopied] = useState(false);
-  const { play } = useSound();
 
   const onCopy = async () => {
     let done = false;
@@ -33,7 +31,6 @@ export function CopyEmail({ email, className }: CopyEmailProps) {
     }
     setCopied(done);
     if (done) {
-      play("success");
       window.setTimeout(() => setCopied(false), 2000);
     }
   };

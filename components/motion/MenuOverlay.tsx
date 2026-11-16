@@ -6,7 +6,6 @@ import { useEffect, useRef, type KeyboardEvent } from "react";
 
 import { CloseIcon } from "@/components/icons";
 import { useSmoothScroll } from "@/components/providers/SmoothScrollProvider";
-import { useSound } from "@/components/providers/SoundProvider";
 import { gsap } from "@/lib/motion/gsap";
 import { menuLink, menuOverlay, resolveMotion } from "@/lib/motion/presets";
 import { duration, ease, stagger } from "@/lib/motion/tokens";
@@ -27,14 +26,11 @@ export function MenuOverlay({ onClose }: MenuOverlayProps) {
   const closingRef = useRef(false);
   const router = useRouter();
   const { stop, start } = useSmoothScroll();
-  const { play } = useSound();
-  const playRef = useRef(play);
   const prefersReduced = usePrefersReducedMotion();
 
   const requestClose = (href?: string) => {
     if (closingRef.current) return;
     closingRef.current = true;
-    playRef.current("close");
 
     const root = rootRef.current;
     const finish = () => {
@@ -56,14 +52,9 @@ export function MenuOverlay({ onClose }: MenuOverlayProps) {
   };
 
   useEffect(() => {
-    playRef.current = play;
-  }, [play]);
-
-  useEffect(() => {
     restoreRef.current = document.activeElement as HTMLElement | null;
     closingRef.current = false;
     stop();
-    playRef.current("open");
     closeRef.current?.focus();
 
     return () => {

@@ -17,7 +17,6 @@ logged in `docs/ASSETS.md` with source, licence, and author.
 | Project detail frames | 12 (6 x 2) | AVIF + WebP | 45-80KB each at 1440w | Playwright capture |
 | OG images | 10 | PNG 1200x630 | under 180KB each | `next/og` at build |
 | Favicon set | 5 | SVG, PNG 180/192/512, ICO | under 40KB total | vector source, exported |
-| UI sounds | 7 | WebAudio synthesis | 0 bytes | runtime oscillator + envelope |
 | Fonts | 3 | woff2, latin subset | 40-50KB each | `next/font/google` self-hosted |
 | Grain overlay | 1 | SVG feTurbulence | under 1KB | procedural |
 
@@ -39,8 +38,6 @@ live area) follows the Lucide convention, which is ISC licensed, but no Lucide p
 | `chevron-down` | accordion, menu groups |
 | `menu` / `close` | overlay |
 | `grid` / `list` | index view switch (if shipped) |
-| `play` / `pause` | sound, marquee control |
-| `volume-on` / `volume-off` | sound toggle |
 | `sun` / `moon` | theme toggle |
 | `mail` | contact |
 | `external` | live site |
@@ -171,26 +168,6 @@ Source: SVG monogram "R" with a lime square tick at the baseline, 24px grid, 1.5
 
 ---
 
-## 8. UI sounds
-
-Synthesised at runtime with WebAudio, no audio files, muted by default, master gain 0.15, all
-sounds under 220ms. Triggered only by direct user action; never on load or scroll.
-
-| Name | Osc | Freq | Envelope | Duration | Use |
-|---|---|---|---|---|---|
-| `click` | triangle | 660 | 2ms attack, exp decay | 60ms | primary buttons, toggles |
-| `tick` | sine | 1180 | 1ms attack, exp decay | 24ms | hover on index rows |
-| `open` | sine sweep | 240 -> 520 | linear glide, exp decay | 180ms | menu open |
-| `close` | sine sweep | 520 -> 240 | linear glide, exp decay | 160ms | menu close |
-| `on` | square | 880 + 1320 | 3ms attack, short decay | 70ms | sound enable |
-| `off` | square | 660 + 440 | 3ms attack, short decay | 70ms | sound disable |
-| `success` | triangle triad | 523, 659, 784 | 60ms stagger | 240ms | form success |
-
-Implementation: `lib/audio/synth.ts` with an `AudioContext` created on first gesture, a
-`MuteContext` provider, and a persisted preference. Respect `prefers-reduced-motion` for the
-visual pulse, not the sound.
-
----
 
 ## 9. Fonts
 
@@ -264,5 +241,3 @@ without a licence entry blocks release.
 - Screenshot drift: re-capture quarterly; keep `capturedAt` in content.
 - Headless capture may be blocked by a project's bot protection; fallback is manual capture with
   the same framing.
-- Sound is optional and off by default; if any sound feels like noise, it gets removed rather
-  than tuned down.

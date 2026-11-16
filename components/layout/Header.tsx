@@ -6,23 +6,17 @@ import { useState } from "react";
 
 import { MenuIcon } from "@/components/icons";
 import { LiveClock } from "@/components/hud/LiveClock";
-import { SoundToggle } from "@/components/hud/SoundToggle";
 import { ThemeToggle } from "@/components/hud/ThemeToggle";
 import { MenuOverlay } from "@/components/motion/MenuOverlay";
-import { useSound } from "@/components/providers/SoundProvider";
 import { nav, site } from "@/content/site";
 import { cn } from "@/lib/utils/cn";
 
 function NavItem({ href, label }: { href: string; label: string }) {
   const pathname = usePathname();
   const active = pathname === href || pathname.startsWith(`${href}/`);
-  const { play } = useSound();
-
   return (
     <Link
       href={href}
-      onMouseEnter={() => play("tick")}
-      onClick={() => play("click")}
       aria-current={active ? "page" : undefined}
       className={cn(
         "group relative inline-flex items-center py-2 font-mono text-meta uppercase tracking-[0.14em] transition-colors",
@@ -43,15 +37,12 @@ function NavItem({ href, label }: { href: string; label: string }) {
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { play } = useSound();
-
   return (
     <>
       <header className="border-line bg-bg/80 fixed inset-x-0 top-0 z-sticky border-b backdrop-blur-md">
         <div className="flex h-16 items-center justify-between px-[var(--gutter)]">
           <Link
             href="/"
-            onClick={() => play("click")}
             className="text-fg flex items-baseline gap-2 font-mono text-meta uppercase tracking-[0.18em]"
           >
             <span className="text-subtle">RA</span>
@@ -69,11 +60,9 @@ export function Header() {
               <LiveClock className="text-muted mr-2" />
             </span>
             <ThemeToggle />
-            <SoundToggle />
             <button
               type="button"
               onClick={() => {
-                play("open");
                 setMenuOpen(true);
               }}
               aria-expanded={menuOpen}

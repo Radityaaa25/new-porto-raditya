@@ -1,7 +1,6 @@
 "use client";
 
 import { MoonIcon, SunIcon } from "@/components/icons";
-import { useSound } from "@/components/providers/SoundProvider";
 import { useTheme } from "@/components/providers/ThemeProvider";
 import { cn } from "@/lib/utils/cn";
 
@@ -11,13 +10,11 @@ type ThemeToggleProps = {
 
 export function ThemeToggle({ className }: ThemeToggleProps) {
   const { theme, toggle } = useTheme();
-  const { play } = useSound();
 
   return (
     <button
       type="button"
       onClick={() => {
-        play("tick");
         toggle();
       }}
       aria-label={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}

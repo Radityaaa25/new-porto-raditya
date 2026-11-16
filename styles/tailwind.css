@@ -227,8 +227,7 @@
     }
   }
 
-  .theme-icon-sun,
-  .sound-on-icon {
+  .theme-icon-sun {
     display: none;
   }
 
@@ -240,13 +239,6 @@
     display: none;
   }
 
-  [data-sound="on"] .sound-on-icon {
-    display: block;
-  }
-
-  [data-sound="on"] .sound-off-icon {
-    display: none;
-  }
 }
 
 @layer utilities {
