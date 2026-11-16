@@ -1,0 +1,11 @@
+{
+  "site": "senbuzy",
+  "H": 7812,
+  "shots": [
+    {
+      "f": 0.1,
+      "y": 1117
+    }
+  ],
+  "error": "mouse.wheel: Target page, context or browser has been closed mouse.wheel: Target page, context or browser has been closed\n    at /tmp/opencode/refanalysis/scrollrec.mjs:54:19"
+}

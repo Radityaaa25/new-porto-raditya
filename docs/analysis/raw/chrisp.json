@@ -1,0 +1,988 @@
+{
+  "site": "chrisp",
+  "url": "https://www.chrisp.design/",
+  "capturedAt": "2026-11-13T07:32:47.734Z",
+  "loadFrames": [
+    {
+      "ms": 150,
+      "text": "LOADING ✏️ Sketching wireframes...",
+      "fixed": [
+        {
+          "cls": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_84638",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "font-sans",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "fixed top-0 left-0 w-full h-16 z-[600] shadow-none transitio",
+          "text": ""
+        },
+        {
+          "cls": "fixed inset-0 z-[700] flex flex-col items-center justify-cen",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        }
+      ]
+    },
+    {
+      "ms": 400,
+      "text": "LOADING ✏️ Sketching wireframes...",
+      "fixed": [
+        {
+          "cls": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_84638",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "font-sans",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "fixed top-0 left-0 w-full h-16 z-[600] shadow-none transitio",
+          "text": ""
+        },
+        {
+          "cls": "fixed inset-0 z-[700] flex flex-col items-center justify-cen",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        }
+      ]
+    },
+    {
+      "ms": 900,
+      "text": "LOADING ✏️ Sketching wireframes...",
+      "fixed": [
+        {
+          "cls": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_84638",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "font-sans",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "fixed top-0 left-0 w-full h-16 z-[600] shadow-none transitio",
+          "text": ""
+        },
+        {
+          "cls": "fixed inset-0 z-[700] flex flex-col items-center justify-cen",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        }
+      ]
+    },
+    {
+      "ms": 1600,
+      "text": "LOADING ✏️ Sketching wireframes...",
+      "fixed": [
+        {
+          "cls": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_84638",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "font-sans",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "fixed top-0 left-0 w-full h-16 z-[600] shadow-none transitio",
+          "text": ""
+        },
+        {
+          "cls": "fixed inset-0 z-[700] flex flex-col items-center justify-cen",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        }
+      ]
+    },
+    {
+      "ms": 2600,
+      "text": "LOADING ✏️ Sketching wireframes...",
+      "fixed": [
+        {
+          "cls": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_84638",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "font-sans",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        },
+        {
+          "cls": "fixed top-0 left-0 w-full h-16 z-[600] shadow-none transitio",
+          "text": ""
+        },
+        {
+          "cls": "fixed inset-0 z-[700] flex flex-col items-center justify-cen",
+          "text": "LOADING ✏️ Sketching wireframes..."
+        }
+      ]
+    },
+    {
+      "ms": 4000,
+      "text": "LOADING 🧑🏻‍💻 Aligning pixels...",
+      "fixed": [
+        {
+          "cls": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_84638",
+          "text": "LOADING 🧑🏻‍💻 Aligning pixels..."
+        },
+        {
+          "cls": "font-sans",
+          "text": "LOADING 🧑🏻‍💻 Aligning pixels..."
+        },
+        {
+          "cls": "fixed top-0 left-0 w-full h-16 z-[600] shadow-none transitio",
+          "text": ""
+        },
+        {
+          "cls": "fixed inset-0 z-[700] flex flex-col items-center justify-cen",
+          "text": "LOADING 🧑🏻‍💻 Aligning pixels..."
+        }
+      ]
+    }
+  ],
+  "loadTimeMs": 15406,
+  "metrics": {
+    "title": "Chris Pokrzywa - UX Designer",
+    "url": "https://www.chrisp.design/",
+    "lang": "en",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "dpr": 1
+    },
+    "scroll": {
+      "height": 900,
+      "bodyHeight": 900
+    },
+    "ty": {
+      "Poppins|500|16|24px|4.8px": {
+        "count": 1,
+        "sample": "LOADING",
+        "cls": "text-white text-base font-medium tracking-[0.3em]",
+        "size": 24
+      },
+      "Poppins|400|14|20px|normal": {
+        "count": 1,
+        "sample": "🧑🏻‍💻 Aligning pixels...",
+        "cls": "text-white/80 text-sm mt-2",
+        "size": 20
+      }
+    },
+    "palette": {
+      "rgb(0, 0, 0)": 3888,
+      "text:rgb(237, 237, 237)": 15,
+      "text:rgb(255, 255, 255)": 1,
+      "text:oklab(0.999994 0.0000455677 0.0000200868 / 0.8)": 1
+    },
+    "radii": {
+      "3.35544e+07px": 2
+    },
+    "borders": {},
+    "cssVars": {
+      "--background": "#fff",
+      "--foreground": "#171717",
+      "--font-poppins": "\"Poppins\",sans-serif",
+      "--font-sans": "var(--font-poppins)",
+      "--font-marcellus": "\"Marcellus SC\",serif"
+    },
+    "rootFont": {
+      "family": "Poppins, \"Poppins Fallback\"",
+      "size": "16px",
+      "color": "rgb(237, 237, 237)",
+      "bg": "rgb(0, 0, 0)"
+    },
+    "fonts": [
+      {
+        "family": "Marcellus SC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Marcellus SC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Poppins Fallback",
+        "weight": "normal",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand Fallback",
+        "weight": "normal",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand SC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand SC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand SC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Patrick Hand SC Fallback",
+        "weight": "normal",
+        "style": "normal",
+        "status": "unloaded"
+      }
+    ],
+    "classesOnHTML": "poppins_d67a9faf-module__Q1bKza__variable patrick_hand_8463852f-module__4X9RJG__variable patrick_hand_sc_bf2c5fea-module__1HYnhW__variable",
+    "classesOnBody": "font-sans",
+    "canvases": [
+      {
+        "w": 1440,
+        "h": 900,
+        "cls": "w-full h-full cursor-default",
+        "cssW": 1440,
+        "cssH": 900
+      }
+    ],
+    "libs": {
+      "gsap": "undefined",
+      "ScrollTrigger": "undefined",
+      "Lenis": "undefined",
+      "lenis": "undefined",
+      "THREE": "undefined",
+      "Spline": "undefined",
+      "__FRAMER": "undefined",
+      "lottie": "undefined",
+      "LocomotiveScroll": "undefined",
+      "barba": "undefined",
+      "Swup": "undefined",
+      "anime": "undefined"
+    },
+    "images": [
+      {
+        "src": "https://www.chrisp.design/_next/image?url=%2Fimages%2Fcp-logo-white.svg&w=32&q=75",
+        "w": 30,
+        "h": 30,
+        "alt": ""
+      },
+      {
+        "src": "https://www.chrisp.design/images/cp-logo-white.svg",
+        "w": 30,
+        "h": 30,
+        "alt": "Chris Pokrzywa Logo"
+      }
+    ],
+    "videos": [],
+    "meta": [
+      {
+        "n": "viewport",
+        "c": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+      },
+      {
+        "n": "viewport",
+        "c": "width=device-width, initial-scale=1"
+      },
+      {
+        "n": "next-size-adjust",
+        "c": ""
+      },
+      {
+        "n": "mobile-web-app-capable",
+        "c": "yes"
+      },
+      {
+        "n": "apple-mobile-web-app-capable",
+        "c": "yes"
+      },
+      {
+        "n": "apple-mobile-web-app-status-bar-style",
+        "c": "black-translucent"
+      },
+      {
+        "n": "theme-color",
+        "c": "#000000"
+      },
+      {
+        "n": "msapplication-navbutton-color",
+        "c": "#000000"
+      },
+      {
+        "n": "apple-mobile-web-app-status-bar-style",
+        "c": "black-translucent"
+      },
+      {
+        "n": "description",
+        "c": "Portfolio of Chris Pokrzywa, UX Designer"
+      }
+    ]
+  },
+  "outline": [],
+  "anim": {
+    "keyframes": [
+      {
+        "name": "spin",
+        "css": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}"
+      },
+      {
+        "name": "pulse",
+        "css": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}"
+      }
+    ],
+    "transitions": [
+      [
+        "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1) | 0s",
+        4
+      ],
+      [
+        "opacity | 0.3s | cubic-bezier(0.4, 0, 0.2, 1) | 0s",
+        1
+      ],
+      [
+        "all | 0.3s | cubic-bezier(0, 0, 0.2, 1) | 0s",
+        1
+      ]
+    ],
+    "animations": [],
+    "live": [
+      {
+        "name": "CSSTransition",
+        "target": "circle.[object SVGAnimatedString]",
+        "state": "running",
+        "dur": 300,
+        "delay": 0,
+        "ease": "cubic-bezier(0, 0, 0.2, 1)",
+        "progress": 0.7959480802244713,
+        "iteration": 0
+      },
+      {
+        "name": "CSSTransition",
+        "target": "circle.[object SVGAnimatedString]",
+        "state": "running",
+        "dur": 300,
+        "delay": 0,
+        "ease": "cubic-bezier(0, 0, 0.2, 1)",
+        "progress": 0.7959480802244713,
+        "iteration": 0
+      }
+    ]
+  },
+  "network": [
+    {
+      "u": "https://www.chrisp.design/",
+      "t": "document",
+      "s": 200,
+      "c": "text/html; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/media/8e6fa89aa22d24ec-s.p.3aec397d.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 7740
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 7900
+    },
+    {
+      "u": "https://www.chrisp.design/images/cp-logo-white.svg",
+      "t": "image",
+      "s": 200,
+      "c": "image/svg+xml",
+      "l": 951
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/a83010a40c88e84c.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/b820a940f5ddeb36.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/turbopack-1a17ae6de9e886f7.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/247eb132b7f7b574.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/spline/scene.splinecode",
+      "t": "other",
+      "s": 200,
+      "c": "application/octet-stream",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/0edec701485a7cdc.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/2d36192319fe7db9.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.googletagmanager.com/gtag/js?id=G-9MY5EDE15Z",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=UTF-8",
+      "l": 166497
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/497f7b5edc7d3fce.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/04fd6a75d9f7beb0.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/7057177779f7bed7.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/ff1a16fafef87110.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 282
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/media/e2334d715941921e-s.p.d82a9aff.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 7992
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/5ff62e7ac52ab9c5.css",
+      "t": "stylesheet",
+      "s": 200,
+      "c": "text/css; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://fonts.googleapis.com/css2?family=Marcellus+SC:wght@400&display=swap",
+      "t": "stylesheet",
+      "s": 200,
+      "c": "text/css; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/1c2971f4f31a0e4b.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-9MY5EDE15Z&gtm=45je6bb1v9119883088za208zd9119883088xf1&_p=1794555170464&gcd=13l3l3l3l3l1&npa=1&dma=0&are=1&cid=156018264.1794555171&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034&dp=%2F&sid=1794555170&sct=1&seg=0&dl=https%3A%2F%2Fwww.chrisp.design%2F&dt=Chris%20Pokrzywa%20-%20UX%20Designer&_tu=AAg&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&tfd=2799",
+      "t": "fetch",
+      "s": 204,
+      "c": "text/plain",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/spline/scene.splinecode",
+      "t": "fetch",
+      "s": 200,
+      "c": "application/octet-stream",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/audio/coffee-sip.mp3",
+      "t": "media",
+      "s": 206,
+      "c": "audio/mpeg",
+      "l": 53426
+    },
+    {
+      "u": "https://www.chrisp.design/_next/image?url=%2Fimages%2Fcp-logo-white.svg&w=32&q=75",
+      "t": "image",
+      "s": 200,
+      "c": "image/svg+xml",
+      "l": 951
+    },
+    {
+      "u": "https://www.chrisp.design/audio/ai-voice-chat-start.mp3",
+      "t": "media",
+      "s": 206,
+      "c": "audio/mpeg",
+      "l": 36864
+    },
+    {
+      "u": "https://www.chrisp.design/audio/ai-voice-auto-pause.mp3",
+      "t": "media",
+      "s": 206,
+      "c": "audio/mpeg",
+      "l": 101760
+    },
+    {
+      "u": "https://unpkg.com/@splinetool/modelling-wasm@1.10.44/build/process.wasm",
+      "t": "fetch",
+      "s": 200,
+      "c": "application/wasm",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/media/41e95f694c5c4549-s.666bad7d.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 39504
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/afcfaa85237bddf3.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/_next/static/chunks/7e671c663689300b.js",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "blob:https://www.chrisp.design/59120fda-7292-4f8f-abb8-244531a5ee4b",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 15758
+    },
+    {
+      "u": "blob:https://www.chrisp.design/5dcfc0ad-e652-4dc1-a989-2ccf5d76be99",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 12556
+    },
+    {
+      "u": "blob:https://www.chrisp.design/a08593f4-be26-4a6e-8654-1cf8205c185b",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 12090
+    },
+    {
+      "u": "blob:https://www.chrisp.design/bdde6d5b-4021-48c8-b6fa-db9d5c818f2d",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 14637
+    },
+    {
+      "u": "blob:https://www.chrisp.design/67b02fab-d8b1-4d5a-906c-54dc1c4abfba",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 1700
+    },
+    {
+      "u": "blob:https://www.chrisp.design/76a910ce-2bea-4acb-aeb8-66c210372c7d",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 10585
+    },
+    {
+      "u": "blob:https://www.chrisp.design/9b6ae8c3-1238-4ea8-a4a1-5295c98b9902",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 52301
+    },
+    {
+      "u": "blob:https://www.chrisp.design/ecca2a07-f7e2-4ffb-b076-57b3ff60e9da",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 22060
+    },
+    {
+      "u": "blob:https://www.chrisp.design/4d9441b6-e544-4841-894b-4b8d3e1e458e",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 208070
+    },
+    {
+      "u": "blob:https://www.chrisp.design/f781291d-42da-4922-8e20-b4170b360299",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 157385
+    },
+    {
+      "u": "blob:https://www.chrisp.design/d2a9bfe9-4dd8-4b62-a909-3a6b4fa26e5d",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 3127
+    },
+    {
+      "u": "blob:https://www.chrisp.design/8f3fb57a-8540-40eb-93ca-2d6e7ae081cb",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 3092
+    },
+    {
+      "u": "blob:https://www.chrisp.design/e5f4ee00-e588-483a-963f-5d550c9b2029",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 5518
+    },
+    {
+      "u": "blob:https://www.chrisp.design/db8008ce-7381-4335-9f55-47c86ff8ef52",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 15682
+    },
+    {
+      "u": "blob:https://www.chrisp.design/51e70a90-672a-4919-9e4f-0124e477ac58",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 11252
+    },
+    {
+      "u": "blob:https://www.chrisp.design/7e0c993f-3705-448b-ab60-6fa619699e14",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 194536
+    },
+    {
+      "u": "blob:https://www.chrisp.design/a97c01af-b67b-4265-9a32-0931f5d857c7",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 24775
+    },
+    {
+      "u": "blob:https://www.chrisp.design/482010e8-feaf-4752-a398-e79028d0a4b4",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 49238
+    },
+    {
+      "u": "blob:https://www.chrisp.design/ae90b27a-eda8-4d91-8d46-ab6daee68fb0",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 74606
+    },
+    {
+      "u": "blob:https://www.chrisp.design/e612fc5a-ccd7-4aa6-a619-280e49b8f185",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 13227
+    },
+    {
+      "u": "blob:https://www.chrisp.design/a576a309-d470-4cce-912d-b50b8746b954",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 39191
+    },
+    {
+      "u": "blob:https://www.chrisp.design/6d6b5686-bd96-4bb9-917c-2636ad3116cf",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 111152
+    },
+    {
+      "u": "blob:https://www.chrisp.design/e5a14ed3-4ef3-4f6a-a7d4-9267d1e827c2",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 58771
+    },
+    {
+      "u": "blob:https://www.chrisp.design/d984214b-54f4-42c8-83a5-402df6523be1",
+      "t": "image",
+      "s": 200,
+      "c": "",
+      "l": 53355
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/patrickhandsc/v13/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf",
+      "t": "fetch",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 65576
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/caveat/v17/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf",
+      "t": "fetch",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 141042
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_V1tvFP-KUEg.ttf",
+      "t": "fetch",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 71406
+    },
+    {
+      "u": "https://www.chrisp.design/images/cp-logo-favicon-blue2.ico",
+      "t": "other",
+      "s": 200,
+      "c": "image/vnd.microsoft.icon",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/images/cp-logo-favicon-blue2.ico",
+      "t": "other",
+      "s": 200,
+      "c": "image/vnd.microsoft.icon",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/images/cp-logo-favicon-blue2.ico",
+      "t": "other",
+      "s": 200,
+      "c": "image/vnd.microsoft.icon",
+      "l": 0
+    },
+    {
+      "u": "https://www.chrisp.design/images/cp-logo-favicon-blue2.ico",
+      "t": "other",
+      "s": 200,
+      "c": "image/vnd.microsoft.icon",
+      "l": 0
+    }
+  ],
+  "hovers": [
+    {
+      "i": 0,
+      "tag": "DIV",
+      "txt": "",
+      "cls": "flex items-center justify-between h-full px-4",
+      "x": 720,
+      "y": 32,
+      "tr": "all",
+      "dur": "0s",
+      "ease": "ease",
+      "delay": "0s",
+      "color": "rgb(237, 237, 237)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tf": "none",
+      "base": {
+        "color": "rgb(237, 237, 237)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "tf": "none",
+        "op": 1
+      },
+      "after": {
+        "color": "rgb(237, 237, 237)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "tf": "none",
+        "op": 1,
+        "rect": {
+          "w": 1440,
+          "h": 64
+        },
+        "cursor": "auto",
+        "textShadow": "none"
+      }
+    },
+    {
+      "i": 4,
+      "tag": "A",
+      "txt": "",
+      "cls": "",
+      "x": 1413,
+      "y": 450,
+      "tr": "all",
+      "dur": "0s",
+      "ease": "ease",
+      "delay": "0s",
+      "color": "rgb(237, 237, 237)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tf": "none",
+      "base": {
+        "color": "rgb(237, 237, 237)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "tf": "none",
+        "op": 1
+      },
+      "after": {
+        "color": "rgb(237, 237, 237)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "tf": "none",
+        "op": 1,
+        "rect": {
+          "w": 53,
+          "h": 171
+        },
+        "cursor": "pointer",
+        "textShadow": "none"
+      }
+    }
+  ],
+  "menuButtons": [
+    {
+      "i": 0,
+      "label": "Open help menu",
+      "txt": "",
+      "cls": "w-10 h-10 rounded-full flex items-center justify-center curs",
+      "x": 1404,
+      "y": 32,
+      "visible": true
+    }
+  ],
+  "menuError": "0:page.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[dat",
+  "consoleErrors": [
+    "Missing property"
+  ],
+  "bodyText": "Hi, I'm Chris\n\nExplore the space around you to learn about my design work, ideas, and process.\n\nStart exploring",
+  "htmlHead": "<meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"/_next/static/media/8e6fa89aa22d24ec-s.p.3aec397d.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"/_next/static/media/e2334d715941921e-s.p.d82a9aff.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"/images/cp-logo-white.svg\" as=\"image\"><link rel=\"stylesheet\" href=\"/_next/static/chunks/5ff62e7ac52ab9c5.css\" data-precedence=\"next\"><link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/b820a940f5ddeb36.js\"><script src=\"/_next/static/chunks/a83010a40c88e84c.js\" async=\"\"></script><script src=\"/_next/static/chunks/7057177779f7bed7.js\" async=\"\"></script><script src=\"/_next/static/chunks/497f7b5edc7d3fce.js\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-1a17ae6de9e886f7.js\" async=\"\"></script><script src=\"/_next/static/chunks/0edec701485a7cdc.js\" async=\"\"></script><script src=\"/_next/static/chunks/04fd6a75d9f7beb0.js\" async=\"\"></script><script src=\"/_next/static/chunks/ff1a16fafef87110.js\" async=\"\"></script><script src=\"/_next/static/chunks/247eb132b7f7b574.js\" async=\"\"></script><script src=\"/_next/static/chunks/2d36192319fe7db9.js\" async=\"\"></script><script src=\"/_next/static/chunks/1c2971f4f31a0e4b.js\" async=\"\"></script><link rel=\"preload\" href=\"/spline/scene.splinecode\" as=\"fetch\" crossorigin=\"anonymous\"><link rel=\"preload\" href=\"https://www.googletagmanager.com/gtag/js?id=G-9MY5EDE15Z\" as=\"script\"><meta name=\"next-size-adjust\" content=\"\"><meta name=\"mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\"><meta name=\"theme-color\" content=\"#000000\"><meta name=\"msapplication-navbutton-color\" content=\"#000000\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\"><link rel=\"icon\" href=\"/images/cp-logo-favicon-blue2.ico\" type=\"image/x-icon\"><link rel=\"shortcut icon\" href=\"/images/cp-logo-favicon-blue2.ico\" type=\"image/x-icon\"><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preload\" href=\"/spline/scene.splinecode\" as=\"fetch\" crossorigin=\"anonymous\"><link rel=\"preload\" href=\"/images/cp-logo-white.svg\" as=\"image\"><title>Chris Pokrzywa - UX Designer</title><meta name=\"description\" content=\"Portfolio of Chris Pokrzywa, UX Designer\"><link rel=\"shortcut icon\" href=\"/images/cp-logo-favicon-blue2.ico\"><link rel=\"icon\" href=\"/favicon.ico?favicon.d5270f7c.ico\" sizes=\"32x32\" type=\"image/x-icon\"><link rel=\"icon\" href=\"/images/cp-logo-favicon-blue2.ico\"><link rel=\"apple-touch-icon\" href=\"/images/cp-logo-favicon-blue2.ico\"><script src=\"/_next/static/chunks/a6dad97d9634a72d.js\" nomodule=\"\"></script><script src=\"/_next/static/chunks/afcfaa85237bddf3.js\"></script><script src=\"/_next/static/chunks/7e671c663689300b.js\"></script><link rel=\"preload\" as=\"image\" href=\"/images/abstract-about-bg.jpg\"><link rel=\"preload\" as=\"image\" href=\"/images/Desktop-BG-Abstract.jpg\">",
+  "htmlSnippet": "<div hidden=\"\"><!--$--><!--/$--></div><nav class=\"fixed top-0 left-0 w-full h-16 z-[600] shadow-none transition-opacity duration-300 opacity-100\" role=\"navigation\" aria-label=\"Main navigation\"><div class=\"flex items-center justify-between h-full px-4\" data-hv=\"0\"><div class=\"flex items-center space-x-3\"><button class=\"w-10 h-10 rounded-full flex items-center justify-center cursor-pointer hover:bg-black/32 hover:scale-115 transition-all duration-200 select-none touch-manipulation group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00BCE5] focus-visible:ring-offset-2 focus-visible:ring-offset-black\" aria-label=\"Go to homepage\"><img alt=\"\" aria-hidden=\"true\" loading=\"lazy\" width=\"28\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"opacity-70 group-hover:opacity-100 transition-all duration-200\" style=\"color:transparent;filter:none\" srcset=\"/_next/image?url=%2Fimages%2Fcp-logo-white.svg&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcp-logo-white.svg&amp;w=64&amp;q=75 2x\" src=\"/_next/image?url=%2Fimages%2Fcp-logo-white.svg&amp;w=64&amp;q=75\"></button></div><div class=\"flex items-center\"><button class=\"w-10 h-10 rounded-full flex items-center justify-center cursor-pointer hover:bg-black/32 hover:scale-115 transition-all duration-200 select-none touch-manipulation group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#00BCE5] focus-visible:ring-offset-2 focus-visible:ring-offset-black\" aria-label=\"Open help menu\" aria-expanded=\"false\" data-menu=\"0\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-question-mark text-white/70 group-hover:text-white transition-all duration-200\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"></path><path d=\"M12 17h.01\"></path></svg></button></div></div></nav><div style=\"opacity: 1; transform: none;\"><main><div class=\"fixed inset-0 z-[601] flex items-end justify-center bg-black/10\" style=\"opacity: 1;\"><div class=\"relative bg-[rgba(0,0,0,0.8)] backdrop-blur text-white rounded-xl p-8 pt-20 max-w-md text-center shadow-2xl mb-12 w-full mx-4 sm:mx-0 sm:max-w-md\" style=\"opacity: 1; transform: none;\"><div class=\"absolute -top-[62.5px] left-1/2 -translate-x-1/2 w-[125px] h-[125px] rounded-full border-2 border-black overflow-hidden z-10\"><img alt=\"Profile\" class=\"w-full h-full object-cover\" src=\"/images/welcome-card-me.png\"></div><h1 class=\"text-2xl font-light mb-4\">Hi, I'm Chris</h1><p class=\"text-base font-light mb-6\">Explore the space around you to learn about my design work, ideas, and process.</p><button class=\"cursor-pointer bg-white text-black px-6 py-2 rounded-md font-medium hover:bg-gray-200 transition\">Start exploring</button></div></div><div class=\"relative w-full h-screen overflow-hidden\"><canvas class=\"w-full h-full cursor-default\" style=\"cursor: default; display: block; width: 100%; height: 100%;\" width=\"1440\" height=\"900\"></canvas><audio preload=\"auto\" src=\"/audio/coffee-sip.mp3\"></audio><div class=\"fixed inset-0 z-40 bg-black origin-top\" style=\"transform-origin: center top; transform: scaleY(0);\"></div><div class=\"fixed inset-0 z-40 bg-black origin-bottom\" style=\"transform-origin: center bottom; transform: scaleY(0);\"></div></div></main><!--$--><!--/$--></div><div id=\"awwwards\" class=\"hidden md:block\" style=\"position:fixed;z-index:999;transform:translateY(-50%);top:50%;right:0\"><a href=\"https://www.awwwards.com/sites/chris-pokrzywa-ux-portfolio\" target=\"_blank\" rel=\"noopener noreferrer\" data-hv=\"4\"><svg width=\"53.08\" height=\"171.358\"><path class=\"js-color-bg\" fill=\"black\" d=\"M0 0h53.08v171.358H0z\"></path><g class=\"js-color-text\" fill=\"white\"><path d=\"M20.048 153.585v-2.002l6.752-3.757h-6.752v-1.9h10.23v2.002l-6.752 3.757h6.752v1.9zM29.899 142.382a3.317 3.317 0 0 1-1.359 1.293c-.575.297-1.223.446-1.944.446-.721 0-1.369-.149-1.944-.446a3.317 3.317 0 0 1",
+  "outline768": [],
+  "metrics768": {
+    "scrollH": 1024,
+    "ty": {
+      "Poppins|500|16|24px": 1,
+      "Poppins|400|14|20px": 1
+    },
+    "nav": [
+      {
+        "h": 64,
+        "txt": ""
+      }
+    ]
+  },
+  "outline390": [],
+  "metrics390": {
+    "scrollH": 844,
+    "ty": {
+      "Poppins|500|16|24px": 1,
+      "Poppins|400|14|20px": 1
+    },
+    "nav": [
+      {
+        "h": 64,
+        "txt": ""
+      }
+    ]
+  }
+}

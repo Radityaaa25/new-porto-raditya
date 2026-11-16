@@ -1,0 +1,4106 @@
+{
+  "site": "senbuzy",
+  "url": "https://about.senbuzy.com/",
+  "capturedAt": "2026-11-13T06:47:13.624Z",
+  "loadFrames": [
+    {
+      "ms": 150,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills acro",
+      "fixed": [
+        {
+          "cls": "loading-screen",
+          "text": ""
+        },
+        {
+          "cls": "scene-bg",
+          "text": ""
+        },
+        {
+          "cls": "scrim",
+          "text": ""
+        },
+        {
+          "cls": "stage-fog",
+          "text": ""
+        },
+        {
+          "cls": "hero-chrome",
+          "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN"
+        },
+        {
+          "cls": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "ms": 400,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills acro",
+      "fixed": [
+        {
+          "cls": "scene-bg",
+          "text": ""
+        },
+        {
+          "cls": "scrim",
+          "text": ""
+        },
+        {
+          "cls": "stage-fog",
+          "text": ""
+        },
+        {
+          "cls": "hero-chrome",
+          "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN"
+        },
+        {
+          "cls": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "ms": 900,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills acro",
+      "fixed": [
+        {
+          "cls": "scene-bg",
+          "text": ""
+        },
+        {
+          "cls": "scrim",
+          "text": ""
+        },
+        {
+          "cls": "stage-fog",
+          "text": ""
+        },
+        {
+          "cls": "hero-chrome",
+          "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN"
+        },
+        {
+          "cls": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "ms": 1600,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills acro",
+      "fixed": [
+        {
+          "cls": "scene-bg",
+          "text": ""
+        },
+        {
+          "cls": "scrim",
+          "text": ""
+        },
+        {
+          "cls": "stage-fog",
+          "text": ""
+        },
+        {
+          "cls": "hero-chrome",
+          "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN"
+        },
+        {
+          "cls": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "ms": 2600,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills acro",
+      "fixed": [
+        {
+          "cls": "scene-bg",
+          "text": ""
+        },
+        {
+          "cls": "scrim",
+          "text": ""
+        },
+        {
+          "cls": "stage-fog",
+          "text": ""
+        },
+        {
+          "cls": "hero-chrome",
+          "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN"
+        },
+        {
+          "cls": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "ms": 4000,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creativity, playful interaction & design, and CG work. I love studying and combining skills acro",
+      "fixed": [
+        {
+          "cls": "scene-bg",
+          "text": ""
+        },
+        {
+          "cls": "scrim",
+          "text": ""
+        },
+        {
+          "cls": "stage-fog",
+          "text": ""
+        },
+        {
+          "cls": "hero-chrome",
+          "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN"
+        },
+        {
+          "cls": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "loadTimeMs": 49121,
+  "metrics": {
+    "title": "About Sen",
+    "url": "https://about.senbuzy.com/",
+    "lang": "en",
+    "viewport": {
+      "w": 1440,
+      "h": 900,
+      "dpr": 1
+    },
+    "scroll": {
+      "height": 8712,
+      "bodyHeight": 8712
+    },
+    "ty": {
+      "Helvetica Neue|500|12|normal|0.96px": {
+        "count": 1,
+        "sample": "中文",
+        "cls": "lang-toggle",
+        "size": 31
+      },
+      "Helvetica Neue|400|11|17.6px|1.32px": {
+        "count": 1,
+        "sample": "Sen Zheng 郑越升",
+        "cls": "hm-name",
+        "size": 18
+      },
+      "Helvetica Neue|400|11|17.6px|2.86px": {
+        "count": 1,
+        "sample": "CREATIVE TECHNOLOGIST",
+        "cls": "",
+        "size": 13
+      },
+      "Mansalva|400|80|80px|0.8px": {
+        "count": 1,
+        "sample": "About Sen",
+        "cls": "about-title",
+        "size": 80
+      },
+      "Cormorant Upright|500|15|18.144px|normal": {
+        "count": 1,
+        "sample": "I'm Sen — a creative technologist living",
+        "cls": "about-body",
+        "size": 54
+      },
+      "Helvetica Neue|400|10|normal|3.2px": {
+        "count": 1,
+        "sample": "SCROLL",
+        "cls": "scroll-cue-label",
+        "size": 12
+      },
+      "Helvetica Neue|600|26|32.5px|normal": {
+        "count": 5,
+        "sample": "Sun Yat-sen University",
+        "cls": "tl-place",
+        "size": 33
+      },
+      "Helvetica Neue|400|14|22.4px|normal": {
+        "count": 7,
+        "sample": "Co-founder · team of 20+",
+        "cls": "",
+        "size": 22
+      },
+      "Helvetica Neue|600|19|normal|normal": {
+        "count": 1,
+        "sample": "小郑还挺忙 (Busy Zheng)",
+        "cls": "",
+        "size": 22
+      },
+      "Helvetica Neue|400|12|normal|0.48px": {
+        "count": 2,
+        "sample": "tech-DIY creator",
+        "cls": "tl-group-sub",
+        "size": 15
+      },
+      "Cormorant Upright|600|38|normal|0.76px": {
+        "count": 1,
+        "sample": "Works",
+        "cls": "wk-gallery-title",
+        "size": 46
+      },
+      "Helvetica Neue|400|13|normal|3.9px": {
+        "count": 4,
+        "sample": "01",
+        "cls": "wk-card-no",
+        "size": 18
+      },
+      "Helvetica Neue|600|44|46.64px|0.44px": {
+        "count": 4,
+        "sample": "Advertising",
+        "cls": "wk-card-title",
+        "size": 47
+      },
+      "Helvetica Neue|400|14|normal|0.84px": {
+        "count": 4,
+        "sample": "HOTSAR · Bad Printer",
+        "cls": "wk-card-tagline",
+        "size": 17
+      },
+      "Helvetica Neue|400|16|normal|normal": {
+        "count": 14,
+        "sample": "Who’s Talking About Guqin\nInteractive",
+        "cls": "wk-line",
+        "size": 62
+      },
+      "Helvetica Neue|400|13|normal|normal": {
+        "count": 22,
+        "sample": "Who’s Talking About Guqin\nInteractive",
+        "cls": "wk-line-btn",
+        "size": 61
+      },
+      "Helvetica Neue|400|16|21.6px|0.16px": {
+        "count": 14,
+        "sample": "Who’s Talking About Guqin",
+        "cls": "wk-line-name",
+        "size": 22
+      },
+      "Helvetica Neue|500|13|normal|0.52px": {
+        "count": 8,
+        "sample": "Interactive",
+        "cls": "wk-line-num",
+        "size": 16
+      },
+      "Helvetica Neue|400|14|23.8px|normal": {
+        "count": 2,
+        "sample": "AWARDSTiger Roar · FWA · Awwwards",
+        "cls": "wk-foot-line",
+        "size": 24
+      },
+      "Helvetica Neue|400|11|18.7px|1.76px": {
+        "count": 1,
+        "sample": "AWARDS",
+        "cls": "wk-foot-label",
+        "size": 19
+      },
+      "Helvetica Neue|400|14|23.8px|0.56px": {
+        "count": 1,
+        "sample": "Tiger Roar · FWA · Awwwards",
+        "cls": "wk-foot-val accent",
+        "size": 17
+      },
+      "Helvetica Neue|400|12|normal|0.36px": {
+        "count": 4,
+        "sample": "Bilibili Weekly Picks",
+        "cls": "wk-line-tag",
+        "size": 15
+      },
+      "Helvetica Neue|400|11|normal|1.98px": {
+        "count": 1,
+        "sample": "KEEP SCROLLING",
+        "cls": "wk-hint",
+        "size": 13
+      }
+    },
+    "palette": {
+      "rgb(10, 14, 22)": 37638,
+      "text:rgb(244, 241, 234)": 106,
+      "rgba(8, 11, 18, 0)": 1296,
+      "rgba(10, 14, 22, 0.14)": 615,
+      "rgba(12, 16, 24, 0.78)": 2,
+      "text:rgba(244, 241, 234, 0.6)": 12,
+      "text:rgba(244, 241, 234, 0.32)": 4,
+      "text:rgba(244, 241, 234, 0.46)": 5,
+      "text:rgba(244, 241, 234, 0.7)": 1,
+      "text:rgba(244, 241, 234, 0.72)": 5,
+      "text:rgba(244, 241, 234, 0.8)": 3,
+      "rgb(244, 241, 234)": 4,
+      "text:rgba(244, 241, 234, 0.95)": 7,
+      "rgba(255, 255, 255, 0.06)": 1,
+      "rgba(255, 255, 255, 0.05)": 6,
+      "rgba(13, 17, 25, 0.66)": 3168,
+      "text:rgba(244, 241, 234, 0.4)": 5,
+      "rgb(29, 33, 36)": 152,
+      "text:rgba(244, 241, 234, 0.9)": 14,
+      "text:rgb(255, 217, 179)": 9,
+      "text:rgba(244, 241, 234, 0.5)": 4
+    },
+    "radii": {
+      "999px": 2,
+      "2px": 3,
+      "50%": 8,
+      "9px": 3,
+      "12px": 4
+    },
+    "borders": {
+      "1px solid rgba(244, 241, 234, 0.14)": 8,
+      "1px solid rgba(244, 241, 234, 0.1)": 1,
+      "1px solid rgba(244, 241, 234, 0.32)": 3
+    },
+    "cssVars": {
+      "--ink": "#f4f1ea",
+      "--muted": "rgba(244, 241, 234, .6)",
+      "--panel": "rgba(12, 16, 24, .72)",
+      "--line": "rgba(244, 241, 234, .14)"
+    },
+    "rootFont": {
+      "family": "\"Helvetica Neue\", \"Chiron GoRound TC\", \"PingFang SC\", \"Microsoft YaHei\", system-ui, sans-serif",
+      "size": "16px",
+      "color": "rgb(244, 241, 234)",
+      "bg": "rgb(10, 14, 22)"
+    },
+    "fonts": [
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Chiron GoRound TC",
+        "weight": "700",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Cormorant Upright",
+        "weight": "600",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Mansalva",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Mansalva",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Mansalva",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Mansalva",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      }
+    ],
+    "classesOnHTML": "",
+    "classesOnBody": "",
+    "canvases": [
+      {
+        "w": 1440,
+        "h": 900,
+        "cls": "",
+        "cssW": 1440,
+        "cssH": 900
+      },
+      {
+        "w": 1440,
+        "h": 900,
+        "cls": "",
+        "cssW": 1440,
+        "cssH": 900
+      }
+    ],
+    "libs": {
+      "gsap": "undefined",
+      "ScrollTrigger": "undefined",
+      "Lenis": "undefined",
+      "lenis": "undefined",
+      "THREE": "undefined",
+      "Spline": "undefined",
+      "__FRAMER": "undefined",
+      "lottie": "undefined",
+      "LocomotiveScroll": "undefined",
+      "barba": "undefined",
+      "Swup": "undefined",
+      "anime": "undefined"
+    },
+    "images": [
+      {
+        "src": "https://about.senbuzy.com/images/hotsar.jpg",
+        "w": 256,
+        "h": 256,
+        "alt": "HOTSAR"
+      },
+      {
+        "src": "",
+        "w": 0,
+        "h": 0,
+        "alt": "Bad Printer Studio"
+      },
+      {
+        "src": "",
+        "w": 0,
+        "h": 0,
+        "alt": "小郑还挺忙 (Busy Zheng)"
+      },
+      {
+        "src": "https://about.senbuzy.com/works/covers/ad.jpg",
+        "w": 1920,
+        "h": 928,
+        "alt": ""
+      },
+      {
+        "src": "https://about.senbuzy.com/works/covers/maker.jpg",
+        "w": 1218,
+        "h": 928,
+        "alt": ""
+      },
+      {
+        "src": "https://about.senbuzy.com/works/covers/product.jpg",
+        "w": 1920,
+        "h": 1276,
+        "alt": ""
+      },
+      {
+        "src": "https://about.senbuzy.com/works/covers/graphics.jpg",
+        "w": 1914,
+        "h": 1022,
+        "alt": ""
+      }
+    ],
+    "videos": [],
+    "meta": [
+      {
+        "n": "viewport",
+        "c": "width=device-width, initial-scale=1.0, maximum-scale=1.0"
+      }
+    ]
+  },
+  "outline": [
+    {
+      "depth": 0,
+      "tag": "body",
+      "cls": "",
+      "id": "",
+      "top": 0,
+      "h": 8712,
+      "w": 1440,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen ",
+      "children": 2
+    },
+    {
+      "depth": 1,
+      "tag": "div",
+      "cls": "",
+      "id": "root",
+      "top": 0,
+      "h": 8712,
+      "w": 1440,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen ",
+      "children": 10
+    },
+    {
+      "depth": 2,
+      "tag": "main",
+      "cls": "content",
+      "id": "",
+      "top": 0,
+      "h": 8712,
+      "w": 1440,
+      "text": "About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creati",
+      "children": 3
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "hero",
+      "id": "",
+      "top": 0,
+      "h": 900,
+      "w": 1440,
+      "text": "About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creati",
+      "children": 2
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "resume",
+      "id": "",
+      "top": 900,
+      "h": 3392,
+      "w": 1440,
+      "text": "Résumé 2013 – 2017 Sun Yat-sen University B.S. in Software Engineering 2017 – 2020 HOTSAR Studio · Shanghai Co",
+      "children": 2
+    },
+    {
+      "depth": 4,
+      "tag": "div",
+      "cls": "timeline",
+      "id": "",
+      "top": 1220,
+      "h": 2892,
+      "w": 480,
+      "text": "2013 – 2017 Sun Yat-sen University B.S. in Software Engineering 2017 – 2020 HOTSAR Studio · Shanghai Co-founde",
+      "children": 5
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "works",
+      "id": "",
+      "top": 4292,
+      "h": 4420,
+      "w": 1440,
+      "text": "Works 01 Advertising HOTSAR · Bad Printer Who’s Talking About Guqin Interactive Lianhe Zaobao · Campus Time Ma",
+      "children": 1
+    },
+    {
+      "depth": 4,
+      "tag": "div",
+      "cls": "wk-gallery",
+      "id": "",
+      "top": 4292,
+      "h": 4420,
+      "w": 1440,
+      "text": "Works 01 Advertising HOTSAR · Bad Printer Who’s Talking About Guqin Interactive Lianhe Zaobao · Campus Time Ma",
+      "children": 1
+    }
+  ],
+  "anim": {
+    "keyframes": [
+      {
+        "name": "cueDot",
+        "css": "@keyframes cueDot { \n  0% { transform: translateY(-10px); opacity: 0; }\n  25% { opacity: 1; }\n  75% { opacity: 1; }\n  100% { transform: translateY(44px); opacity: 0; }\n}"
+      },
+      {
+        "name": "cueLabelPulse",
+        "css": "@keyframes cueLabelPulse { \n  0%, 100% { opacity: 0.6; }\n  50% { opacity: 1; }\n}"
+      },
+      {
+        "name": "fadeDown",
+        "css": "@keyframes fadeDown { \n  0% { opacity: 0; transform: translateY(-16px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+      },
+      {
+        "name": "fadePulse",
+        "css": "@keyframes fadePulse { \n  0%, 100% { opacity: 0.4; }\n  50% { opacity: 0.85; }\n}"
+      },
+      {
+        "name": "lrSpin",
+        "css": "@keyframes lrSpin { \n  100% { transform: rotate(360deg); }\n}"
+      },
+      {
+        "name": "zooop-dot-spin",
+        "css": "@keyframes zooop-dot-spin { \n  100% { transform: rotate(360deg); }\n}"
+      }
+    ],
+    "transitions": [
+      [
+        "color | 0.2s | ease | 0s",
+        15
+      ],
+      [
+        "padding-left | 0.3s | cubic-bezier(0.16, 1, 0.3, 1) | 0s",
+        14
+      ],
+      [
+        "color, border-color, background, transform | 0.2s, 0.2s, 0.2s, 0.2s | ease, ease, ease, ease | 0s, 0s, 0s, 0s",
+        3
+      ],
+      [
+        "color, background, border-color | 0.2s, 0.2s, 0.2s | ease, ease, ease | 0s, 0s, 0s",
+        2
+      ]
+    ],
+    "animations": [
+      {
+        "el": "DIV.about-intro",
+        "k": "fadeDown | 1.8s | ease | 0s | 1 | normal"
+      },
+      {
+        "el": "SPAN.scroll-cue-label",
+        "k": "cueLabelPulse | 2.4s | ease-in-out | 0s | infinite | normal"
+      },
+      {
+        "el": "SPAN.scroll-cue-dot",
+        "k": "cueDot | 1.9s | cubic-bezier(0.65, 0, 0.35, 1) | 0s | infinite | normal"
+      },
+      {
+        "el": "circle.[object SVGAnimatedString]",
+        "k": "zooop-dot-spin | 2.5s | linear | 0s | infinite | normal"
+      },
+      {
+        "el": "circle.[object SVGAnimatedString]",
+        "k": "zooop-dot-spin | 2.5s | linear | 0s | infinite | normal"
+      },
+      {
+        "el": "circle.[object SVGAnimatedString]",
+        "k": "zooop-dot-spin | 2.5s | linear | 0s | infinite | normal"
+      }
+    ],
+    "live": [
+      {
+        "name": "fadeDown",
+        "target": "DIV.about-intro",
+        "state": "finished",
+        "dur": 1800,
+        "delay": 0,
+        "ease": "linear",
+        "progress": 1,
+        "iteration": 0
+      },
+      {
+        "name": "cueLabelPulse",
+        "target": "SPAN.scroll-cue-label",
+        "state": "running",
+        "dur": 2400,
+        "delay": 0,
+        "ease": "linear",
+        "progress": 0.8533491666665398,
+        "iteration": 19
+      },
+      {
+        "name": "cueDot",
+        "target": "SPAN.scroll-cue-dot",
+        "state": "running",
+        "dur": 1900,
+        "delay": 0,
+        "ease": "linear",
+        "progress": 0.07791473684194372,
+        "iteration": 25
+      },
+      {
+        "name": "zooop-dot-spin",
+        "target": "circle.[object SVGAnimatedString]",
+        "state": "running",
+        "dur": 2500,
+        "delay": 0,
+        "ease": "linear",
+        "progress": 0.059215199999876234,
+        "iteration": 19
+      },
+      {
+        "name": "zooop-dot-spin",
+        "target": "circle.[object SVGAnimatedString]",
+        "state": "running",
+        "dur": 2500,
+        "delay": 0,
+        "ease": "linear",
+        "progress": 0.059215199999876234,
+        "iteration": 19
+      },
+      {
+        "name": "zooop-dot-spin",
+        "target": "circle.[object SVGAnimatedString]",
+        "state": "running",
+        "dur": 2500,
+        "delay": 0,
+        "ease": "linear",
+        "progress": 0.059215199999876234,
+        "iteration": 19
+      }
+    ]
+  },
+  "network": [
+    {
+      "u": "https://about.senbuzy.com/",
+      "t": "document",
+      "s": 200,
+      "c": "text/html",
+      "l": 0
+    },
+    {
+      "u": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "t": "script",
+      "s": 200,
+      "c": "text/javascript;charset=UTF-8",
+      "l": 0
+    },
+    {
+      "u": "https://fonts.googleapis.com/css2?family=Mansalva&family=Cormorant+Upright:wght@400;500;600&family=Chiron+GoRound+TC:wght@300;400;500;700&display=swap",
+      "t": "stylesheet",
+      "s": 200,
+      "c": "text/css; charset=utf-8",
+      "l": 0
+    },
+    {
+      "u": "https://about.senbuzy.com/assets/index-CYaUks6u.css",
+      "t": "stylesheet",
+      "s": 200,
+      "c": "text/css",
+      "l": 0
+    },
+    {
+      "u": "https://about.senbuzy.com/assets/index-Xi6D-mUj.js",
+      "t": "script",
+      "s": 200,
+      "c": "text/javascript",
+      "l": 0
+    },
+    {
+      "u": "https://about.senbuzy.com/works/covers/product.jpg",
+      "t": "image",
+      "s": 200,
+      "c": "image/jpeg",
+      "l": 210535
+    },
+    {
+      "u": "https://about.senbuzy.com/works/covers/graphics.jpg",
+      "t": "image",
+      "s": 200,
+      "c": "image/jpeg",
+      "l": 157328
+    },
+    {
+      "u": "https://about.senbuzy.com/works/covers/maker.jpg",
+      "t": "image",
+      "s": 200,
+      "c": "image/jpeg",
+      "l": 92488
+    },
+    {
+      "u": "https://about.senbuzy.com/works/covers/ad.jpg",
+      "t": "image",
+      "s": 200,
+      "c": "image/jpeg",
+      "l": 161220
+    },
+    {
+      "u": "https://about.senbuzy.com/models/man2.glb",
+      "t": "fetch",
+      "s": 200,
+      "c": "model/gltf-binary",
+      "l": 1782644
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/mansalva/v16/aWB4m0aacbtDfvq5NKliKY_NdDBh.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 53644
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/cormorantupright/v19/VuJudM3I2Y35poFONtLdafkUCHw1y1MhpyDrWdTYR-zR.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 23036
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/cormorantupright/v19/VuJudM3I2Y35poFONtLdafkUCHw1y1MNoCDrWdTYR-zR.woff2",
+      "t": "font",
+      "s": 200,
+      "c": "font/woff2",
+      "l": 23000
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6mld-9cCPRBv.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 47220
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.123.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 71569
+    },
+    {
+      "u": "https://www.googletagmanager.com/gtag/js?id=G-NPCJ9VZQBP",
+      "t": "script",
+      "s": 200,
+      "c": "application/javascript; charset=UTF-8",
+      "l": 181598
+    },
+    {
+      "u": "https://about.senbuzy.com/images/hotsar.jpg",
+      "t": "image",
+      "s": 200,
+      "c": "image/jpeg",
+      "l": 6760
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.116.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 158049
+    },
+    {
+      "u": "https://about.senbuzy.com/textures/env.hdr",
+      "t": "fetch",
+      "s": 200,
+      "c": "",
+      "l": 1002068
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.35.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 95125
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.114.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 173739
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.119.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 155549
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.107.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 159127
+    },
+    {
+      "u": "https://fonts.gstatic.com/s/chirongoroundtc/v5/tss3AopDbiwZ4xauFDX3yQ3Ywoaj6lla8dUgP1pw7gne1jjNdVFKh0j4uLnhZWpxt96jyWpIYjYFg0Sy9w.120.ttf",
+      "t": "font",
+      "s": 200,
+      "c": "font/ttf",
+      "l": 156032
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/ddbd0aba-4fab-4d05-91c2-2842bc357ce1",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 495846
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/468da3fa-6514-46d4-86cc-da3fd5352756",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 60316
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/48baee13-b053-41cb-8b98-eda64f3a8849",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 311860
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/8e90d6a1-639d-49b0-945f-4ebabddc1519",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 7522
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/1cbb43cb-0978-4477-b6fd-a142faa73728",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 3698
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/3425cd1f-be8c-46b3-9e6b-f050f5a236c5",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 5032
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/e45fc870-d254-4545-aa13-91d397c2fb02",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 119532
+    },
+    {
+      "u": "blob:https://about.senbuzy.com/655a007e-c714-4dc8-aac0-51161ec849cf",
+      "t": "fetch",
+      "s": 200,
+      "c": "image/webp",
+      "l": 124410
+    },
+    {
+      "u": "https://www.google-analytics.com/g/collect?v=2&tid=G-NPCJ9VZQBP&gtm=45je6bb1v9260685853za208zd9260685853xf1&_p=1794552434375&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=412458451.1794552438&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=en-us&_s=1&tag_exp=100940090~115938465~115938468~118897920~118897930~120213116~120385422~120412526~120420414~120469145~120469153~121246026~121246034~123785234&sid=1794552438&sct=1&seg=0&dl=https%3A%2F%2Fabout.senbuzy.com%2F&dt=About%20Sen&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=4813",
+      "t": "fetch",
+      "s": 204,
+      "c": "text/plain",
+      "l": 0
+    },
+    {
+      "u": "https://about.senbuzy.com/cdn-cgi/rum?",
+      "t": "xhr",
+      "s": 204,
+      "c": "text/plain",
+      "l": 0
+    }
+  ],
+  "hovers": [
+    {
+      "i": 0,
+      "tag": "BUTTON",
+      "txt": "中文",
+      "cls": "lang-toggle",
+      "x": 1392,
+      "y": 32,
+      "tr": "color, background, border-color",
+      "dur": "0.2s, 0.2s, 0.2s",
+      "ease": "ease, ease, ease",
+      "delay": "0s, 0s, 0s",
+      "color": "rgba(244, 241, 234, 0.6)",
+      "bg": "rgba(12, 16, 24, 0.78)",
+      "tf": "none",
+      "base": {
+        "color": "rgba(244, 241, 234, 0.6)",
+        "bg": "rgba(12, 16, 24, 0.78)",
+        "tf": "none",
+        "op": 1
+      },
+      "after": {
+        "color": "rgba(244, 241, 234, 0.6)",
+        "bg": "rgba(12, 16, 24, 0.78)",
+        "tf": "none",
+        "op": 1,
+        "rect": {
+          "w": 60,
+          "h": 31
+        },
+        "cursor": "pointer",
+        "textShadow": "none"
+      }
+    }
+  ],
+  "menuButtons": [
+    {
+      "i": 0,
+      "label": "切换语言 / Switch language",
+      "txt": "中文",
+      "cls": "lang-toggle",
+      "x": 1392,
+      "y": 32,
+      "visible": true
+    }
+  ],
+  "menuOpen": {
+    "fixed": [
+      {
+        "cls": "scene-bg",
+        "text": "",
+        "links": []
+      },
+      {
+        "cls": "scrim",
+        "text": "",
+        "links": []
+      },
+      {
+        "cls": "stage-fog",
+        "text": "",
+        "links": []
+      },
+      {
+        "cls": "hero-chrome",
+        "text": "+ + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN",
+        "links": []
+      }
+    ]
+  },
+  "consoleErrors": [],
+  "bodyText": "EN\n+\n+\n+\n+\nSen Zheng 郑越升\nCREATIVE TECHNOLOGIST\nPORTFOLIO — 2026\nCODE · ART · PLAY\nBASED IN SHENZHEN\nAbout Sen\n\n我是 Sen——一个游走在代码与艺术之间的创意技术人。我常年和 Coding、创意、有趣的交互 & 设计、CG 创作等打交道，喜欢研究并组合不同领域的技能，来创造并探索更多可能性。\n\n向下滚动\nRésumé\n2013 – 2017\n中山大学\n软件工程 · 本科\n2017 – 2020\nHOTSAR 工作室 · 上海\n联合创始人\n联合创始人，团队人数 20+\n服务客户：阿里系品牌、腾讯、网易、滴滴、华润、麦当劳…\n负责：技术开发 / 创意策划 / 动画制作 / 团队管理\n2020 – 2025\n坏打印机工作室 · 深圳\n创始人\n创始人，团队人数 14\n服务客户：王者荣耀 / 携程 / 字节 / 快手 / VIVO / 传音 / 小米…\n负责：团队管理 / 创意策划 / 动画制作 / 技术开发\n2025 – 至今\n自媒体博主\n小郑还挺忙\n科技 DIY 博主\n抖音 12 万 · B站 8.7 万 · 小红书 2.3 万 关注\n2026 – 至今\n独立开发\nAI 创作平台\nWorks\n01\n广告项目\n坏打印机工作室\n谁在弹古琴\n互动项目\n新加坡联合早报 · 校园时光机\n互动项目\n动画合集\n动画\n其他作品\n\n获奖虎啸奖 · FWA · Awwwards\n\n02\n自媒体\n23 万关注 ｜ 年更博主\n我把工作室的玻璃墙改造成了游戏机\n1700 万 播放\nB站每周必看\nB站热搜\n我把代码写入狗狗的衣服里\n900 万 播放\n微博 / 抖音 / B站 三平台热搜榜\n我把 Switch 放大十倍，做成了智能猫窝\n500 万 播放\nB站每周必看\n我们在80年代的红白机游戏里结婚啦！！\n\n3D 建模 · 3D 打印 · PCB 设计 · 嵌入式开发 · 软件开发 · 动画包装\n\n03\n产品\nZOOOP · SoBricks\nZOOOP\nAI 原生创作平台\nSoBricks\nAI 生成积木的 DIY 平台\n04\n个人业余作品\nRaymarching · WebGL · Blender\nRaymarching\nWebGL\nBlender\n其他业余作品\n继续下滑",
+  "htmlHead": "\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0\">\n    <title>About Sen</title>\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n    <link href=\"https://fonts.googleapis.com/css2?family=Mansalva&amp;family=Cormorant+Upright:wght@400;500;600&amp;family=Chiron+GoRound+TC:wght@300;400;500;700&amp;display=swap\" rel=\"stylesheet\">\n    <script type=\"module\" crossorigin=\"\" src=\"./assets/index-Xi6D-mUj.js\"></script>\n    <link rel=\"stylesheet\" crossorigin=\"\" href=\"./assets/index-CYaUks6u.css\">\n  <style></style><script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-NPCJ9VZQBP\"></script>",
+  "htmlSnippet": "\n    <div id=\"root\"><div class=\"scene-bg\"><div style=\"position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: auto;\"><div style=\"width: 100%; height: 100%;\"><canvas data-engine=\"three.js r169\" width=\"1440\" height=\"900\" style=\"display: block; width: 1440px; height: 900px;\"></canvas></div></div></div><div class=\"scrim\" aria-hidden=\"true\" style=\"opacity: 0;\"></div><div class=\"stage-fog\" aria-hidden=\"true\" style=\"background: rgba(8, 11, 18, 0);\"></div><div class=\"glass-rail\" aria-hidden=\"true\" style=\"opacity: 0;\"></div><button class=\"lang-toggle\" aria-label=\"切换语言 / Switch language\" data-hv=\"0\" data-menu=\"0\">EN</button><a class=\"github-link\" href=\"https://github.com/dayinji/sen-3d-resume\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Open-source on GitHub (sen-3d-resume)\" title=\"Open-source on GitHub\"><svg viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z\"></path></svg></a><div class=\"hero-chrome\" aria-hidden=\"true\" style=\"opacity: 1;\"><div class=\"hero-frame\"></div><span class=\"hero-mark tl\">+</span><span class=\"hero-mark tr\">+</span><span class=\"hero-mark bl\">+</span><span class=\"hero-mark br\">+</span><div class=\"hero-meta hm-tl\"><span class=\"hm-name\">Sen Zheng 郑越升</span><span>Creative Technologist</span></div><div class=\"hero-meta hm-tr\">Portfolio — 2026</div><div class=\"hero-meta hm-bl\">Code · Art · Play</div><div class=\"hero-meta hm-right\">Based in Shenzhen</div></div><div aria-hidden=\"true\" data-three-noise-overlay=\"noise-v1\" style=\"position: fixed; inset: 0px; overflow: hidden; pointer-events: none; z-index: 100; mix-blend-mode: multiply;\"><div style=\"position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: none; opacity: 0.5;\"><div style=\"width: 100%; height: 100%;\"><canvas data-engine=\"three.js r169\" width=\"1440\" height=\"900\" style=\"display: block; width: 1440px; height: 900px;\"></canvas></div></div></div><main class=\"content\"><section class=\"hero\"><div class=\"about\" lang=\"zh\" style=\"filter: blur(0px); opacity: 1;\"><div class=\"about-intro\"><h1 class=\"about-title\" style=\"letter-spacing: 0.01em; transform: none;\">About Sen</h1><p class=\"about-body\" style=\"transform: none;\">我是 Sen——一个游走在代码与艺术之间的创意技术人。我常年和 Coding、创意、有趣的交互 &amp; 设计、CG 创作等打交道，喜欢研究并组合不同领域的技能，来创造并探索更多可能性。</p></div></div><div class=\"scroll-cue\" aria-hidden=\"true\" style=\"opacity: 1;\"><span class=\"scroll-cue-label\">向下滚动</span><span class=\"scroll-cue-track\"><span class=\"scroll-cue-dot\"></span></span></div></section><section class=\"resume\" lang=\"zh\"><h2 class=\"resume-title\" style=\"opacity: 0; transform: translateY(20px);\">Résumé</h2><div class=\"timeline\"><div class=\"tl-entry\" data-point=\"point-sysu\"><span class=\"tl-dot\" aria-hidden=\"true\" style=\"opacity: 0; transform: translateY(26px);\"></span><div class=\"tl-body\"><div class=\"tl-period\" style=\"opacity: 0; transform: translateY(26px);\">2013 – 2017</div><div class=\"tl-head\" style=\"opacity: 0; transform: translateY(26px);\"><h3 class=\"tl-place\">中山大学</h3></div><div class=\"tl-role\" style=\"opacity: 0; transform: translateY(26px);\">软件工程 · 本科</div></div></div><div class=\"tl-entry\" data-point=\"point-hotsar\"><span class=\"tl-dot\" aria-hidden=\"true\" style=\"opacity: 0; transform: translateY(26px);\"></span><div class=\"tl-body\"><div class=\"tl-period\" style=\"opacity: 0; transform: translateY(26px);\">2017 – 2020</div><div class=\"tl-head\" style=\"opacity: 0; transform: translateY(26px);\"><span class=\"tl-logo-chip",
+  "outline768": [
+    {
+      "depth": 0,
+      "tag": "body",
+      "cls": "",
+      "id": "",
+      "top": 0,
+      "h": 8121,
+      "w": 768,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen ",
+      "children": 2
+    },
+    {
+      "depth": 1,
+      "tag": "div",
+      "cls": "",
+      "id": "root",
+      "top": 0,
+      "h": 8121,
+      "w": 768,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY BASED IN SHENZHEN About Sen ",
+      "children": 10
+    },
+    {
+      "depth": 2,
+      "tag": "main",
+      "cls": "content",
+      "id": "",
+      "top": 0,
+      "h": 8121,
+      "w": 768,
+      "text": "About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creati",
+      "children": 3
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "hero",
+      "id": "",
+      "top": 0,
+      "h": 1024,
+      "w": 768,
+      "text": "About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creati",
+      "children": 2
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "resume",
+      "id": "",
+      "top": 1024,
+      "h": 3677,
+      "w": 768,
+      "text": "Résumé 2013 – 2017 Sun Yat-sen University B.S. in Software Engineering 2017 – 2020 HOTSAR Studio · Shanghai Co",
+      "children": 2
+    },
+    {
+      "depth": 4,
+      "tag": "div",
+      "cls": "timeline",
+      "id": "",
+      "top": 1357,
+      "h": 3139,
+      "w": 480,
+      "text": "2013 – 2017 Sun Yat-sen University B.S. in Software Engineering 2017 – 2020 HOTSAR Studio · Shanghai Co-founde",
+      "children": 5
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "works",
+      "id": "",
+      "top": 4701,
+      "h": 3420,
+      "w": 768,
+      "text": "Works 01 Advertising HOTSAR · Bad Printer Who’s Talking About Guqin Interactive Lianhe Zaobao · Campus Time Ma",
+      "children": 1
+    },
+    {
+      "depth": 4,
+      "tag": "div",
+      "cls": "wk-gallery",
+      "id": "",
+      "top": 4701,
+      "h": 3420,
+      "w": 768,
+      "text": "Works 01 Advertising HOTSAR · Bad Printer Who’s Talking About Guqin Interactive Lianhe Zaobao · Campus Time Ma",
+      "children": 1
+    }
+  ],
+  "metrics768": {
+    "scrollH": 8121,
+    "ty": {
+      "Mansalva|400|55|55.296px": 1,
+      "\"Cormorant Upright\"|500|8|9.6768px": 1,
+      "\"Cormorant Upright\"|600|38|normal": 1,
+      "\"Helvetica Neue\"|600|18|23.04px": 5,
+      "\"Helvetica Neue\"|600|26|27.6787px": 4,
+      "\"Helvetica Neue\"|400|12|20.4px": 2
+    },
+    "nav": []
+  },
+  "outline390": [
+    {
+      "depth": 0,
+      "tag": "body",
+      "cls": "",
+      "id": "",
+      "top": 0,
+      "h": 7304,
+      "w": 390,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY About Sen I'm Sen — a creati",
+      "children": 2
+    },
+    {
+      "depth": 1,
+      "tag": "div",
+      "cls": "",
+      "id": "root",
+      "top": 0,
+      "h": 7304,
+      "w": 390,
+      "text": "中文 + + + + Sen Zheng 郑越升 CREATIVE TECHNOLOGIST PORTFOLIO — 2026 CODE · ART · PLAY About Sen I'm Sen — a creati",
+      "children": 10
+    },
+    {
+      "depth": 2,
+      "tag": "main",
+      "cls": "content",
+      "id": "",
+      "top": 0,
+      "h": 7304,
+      "w": 390,
+      "text": "About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creati",
+      "children": 3
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "hero",
+      "id": "",
+      "top": 0,
+      "h": 844,
+      "w": 390,
+      "text": "About Sen I'm Sen — a creative technologist living where code meets art. I spend my days around coding, creati",
+      "children": 2
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "resume",
+      "id": "",
+      "top": 844,
+      "h": 3478,
+      "w": 390,
+      "text": "Résumé 2013 – 2017 Sun Yat-sen University B.S. in Software Engineering 2017 – 2020 HOTSAR Studio · Shanghai Co",
+      "children": 2
+    },
+    {
+      "depth": 4,
+      "tag": "div",
+      "cls": "timeline",
+      "id": "",
+      "top": 1114,
+      "h": 3039,
+      "w": 351,
+      "text": "2013 – 2017 Sun Yat-sen University B.S. in Software Engineering 2017 – 2020 HOTSAR Studio · Shanghai Co-founde",
+      "children": 5
+    },
+    {
+      "depth": 3,
+      "tag": "section",
+      "cls": "works",
+      "id": "",
+      "top": 4322,
+      "h": 2982,
+      "w": 390,
+      "text": "Works 01 Advertising HOTSAR · Bad Printer Who’s Talking About Guqin Interactive Lianhe Zaobao · Campus Time Ma",
+      "children": 1
+    },
+    {
+      "depth": 4,
+      "tag": "div",
+      "cls": "wk-gallery",
+      "id": "",
+      "top": 4322,
+      "h": 2982,
+      "w": 390,
+      "text": "Works 01 Advertising HOTSAR · Bad Printer Who’s Talking About Guqin Interactive Lianhe Zaobao · Campus Time Ma",
+      "children": 1
+    }
+  ],
+  "metrics390": {
+    "scrollH": 7304,
+    "ty": {
+      "Mansalva|400|30|30px": 1,
+      "\"Cormorant Upright\"|500|8|9.6px": 1,
+      "\"Cormorant Upright\"|600|28|normal": 1,
+      "\"Helvetica Neue\"|600|18|22.5px": 5,
+      "\"Helvetica Neue\"|600|29|30.5916px": 4,
+      "\"Helvetica Neue\"|400|12|20.4px": 2
+    },
+    "nav": []
+  }
+}
