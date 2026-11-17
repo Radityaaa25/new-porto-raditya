@@ -48,16 +48,16 @@ export const id = {
       "Menyiapkan grid",
       "Mengukur margin",
       "Menata huruf",
-      "Siap kapan pun kamu siap",
+      "Siap saat kamu siap.",
     ],
-    sign: "Digarap dengan teliti.",
+    sign: "Dibuat dengan teliti.",
   },
   hero: {
     kicker: "Web Developer / Tech Enthusiast - AI Enthusiast",
-    lines: ["Saya rancang antarmukanya.", "Lalu saya bangun."],
+    lines: ["Antarmuka saya rancang.", "Lalu saya bangun."],
     accent: "bangun",
     intro:
-      "Web developer di Jakarta yang bekerja dengan Next.js dan React, berlatar multimedia dan tertarik pada AI.",
+      "Web developer di Jakarta. Bekerja dengan Next.js dan React, berlatar multimedia, dan tertarik pada AI.",
     selectedWork: "Karya pilihan",
     shippedLabel: "proyek rilis",
     scroll: "Gulir",
@@ -66,16 +66,16 @@ export const id = {
   },
   home: {
     statement: {
-      label: "Pendirian",
+      label: "Pendekatan",
       title: "Cara saya bekerja",
       body:
-        "Saya peduli pada rasa sebuah antarmuka sebelum ia dijelaskan. Tipografi, ritme, dan gerak membawa pesannya; kode di baliknya menjaga semuanya tetap cepat, aksesibel, dan mudah dirawat.",
+        "Saya peduli pada rasa antarmuka sebelum dijelaskan. Tipografi, ritme, dan gerak membawa pesan; kode di baliknya menjaga semuanya cepat, aksesibel, dan mudah dirawat.",
     },
     work: {
       label: "Karya pilihan",
-      title: "Proyek yang punya denyut.",
+      title: "Proyek yang sudah saya bangun.",
       intro:
-        "Enam situs yang sudah rilis: alat personal, kerja tim, dan satu entri hackathon. Screenshot asli, tautannya hidup.",
+        "Enam situs yang sudah rilis: alat personal, kerja tim, dan satu entri hackathon. Tangkapan layar asli, tautannya hidup.",
       viewAll: "Lihat semua karya",
       featured: "Unggulan",
       index: "Indeks lengkap",
@@ -83,10 +83,10 @@ export const id = {
     },
     about: {
       label: "Tentang",
-      title: "Terlatih desain. Berlatih jadi developer.",
+      title: "Berlatar desain, berlatih jadi developer.",
       body: [
-        "Saya Raditya, tinggal di Jakarta. Saya bangun antarmuka web dengan Next.js dan React, sekaligus mendesainnya. Jalan saya mulai dari multimedia: desain grafis, editing video, dan produksi konten.",
-        "Sekarang saya kuliah Sistem Informasi di Universitas Bina Sarana Informatika sambil terus merilis proyek personal dan tim, dari alat belajar berbasis AI sampai tiket acara dan aplikasi bisnis.",
+        "Saya Raditya, tinggal di Jakarta. Saya membangun antarmuka web dengan Next.js dan React, dan mendesainnya juga. Saya mulai dari multimedia: desain grafis, editing video, dan produksi konten.",
+        "Sekarang saya kuliah Sistem Informasi di Universitas Bina Sarana Informatika sambil merilis proyek personal dan tim, dari alat belajar berbasis AI sampai tiket acara dan aplikasi bisnis.",
       ],
       cta: "Kenalan lebih jauh",
       factsLabel: "Ringkasnya",
@@ -99,8 +99,8 @@ export const id = {
     },
     process: {
       label: "Proses",
-      title: "Cara sebuah build bergerak.",
-      intro: "Empat langkah yang benar-benar saya ulang. Tanpa teater discovery.",
+      title: "Cara saya membangun.",
+      intro: "Empat langkah yang saya pakai di tiap proyek.",
       steps: [
         { title: "Desain", body: "Petakan konten dan urutan layar dulu, lalu tentukan tipografi, grid, dan gerak di Figma dan browser." },
         { title: "Bangun", body: "Komponen Next.js dan React, gaya berbasis token, dan konten bertipe di satu tempat. Screenshot asli sejak awal." },
@@ -110,20 +110,21 @@ export const id = {
     },
     aboutTeaser: {
       label: "Tentang",
-      title: "Multimedia dulu. Kode setelahnya.",
+      title: "Dari multimedia ke kode.",
       body: "Desain grafis, video, dan produksi konten mengajari saya ritme dan detail. Next.js dan React membuatnya interaktif.",
       cta: "Kenalan lebih jauh",
       currentlyLabel: "Sekarang",
       currently: [
         "Kuliah Sistem Informasi di UBSI.",
-        "Membangun proyek personal dan tim dengan Next.js.",
-        "Belajar Laravel dan dasar backend.",
+        "Merilis proyek personal dan tim dengan Next.js.",
+        "Memimpin tim Scaffdev sebagai project manager dan full-stack developer.",
+        "Mengeksplorasi integrasi AI di produk web.",
       ],
     },
     capabilities: {
       label: "Kemampuan",
-      title: "Satu alur: desain, bangun, rilis.",
-      intro: "Tiga hal yang benar-benar saya kerjakan, sesuai urutannya.",
+      title: "Cara saya bekerja: desain, bangun, rilis.",
+      intro: "Tiga hal yang saya kerjakan di tiap proyek, sesuai urutannya.",
       items: [
         {
           title: "Desain",
@@ -139,18 +140,18 @@ export const id = {
         },
       ],
     },
-    marquee: ["Web developer", "Desainer antarmuka", "Latar multimedia", "Next.js", "React"],
+    marquee: ["Web developer", "Desainer antarmuka", "Latar multimedia", "Next.js", "React", "Laravel", "AI"],
     closing: {
       label: "Berikutnya",
-      title: "Butuh situs yang terasa dipikirkan?",
-      body: "Email adalah jalur tercepat. Jakarta, GMT+7.",
+      title: "Punya proyek yang ingin dibangun?",
+      body: "Email cara tercepat. Jakarta, GMT+7.",
       cta: "Mulai percakapan",
     },
     toolbox: {
       label: "Perangkat",
-      title: "Perangkat kerja.",
+      title: "Alat yang saya pakai.",
       intro:
-        "Dikelompokkan sesuai cara saya benar-benar memakainya. Yang familiar dulu, yang masih dasar jujur diakui.",
+        "Dikelompokkan sesuai cara saya memakainya. Yang familiar dulu, yang masih dasar saya akui.",
     },
     experience: {
       label: "Pengalaman",
@@ -158,9 +159,9 @@ export const id = {
       intro: "Kerja produksi, organisasi mahasiswa, dan fondasi multimedia.",
     },
     highlights: {
-      label: "Sorotan",
-      title: "Fakta, bukan angka pajangan.",
-      intro: "Angka yang memang ada di situs ini dan di CV saya.",
+      label: "Rekap",
+      title: "Angka yang bisa dicek.",
+      intro: "Hitungan dari situs ini dan CV saya.",
       counters: [
         { value: 6, label: "Proyek rilis" },
         { value: 3, label: "Entri pengalaman" },
@@ -183,12 +184,12 @@ export const id = {
       description: "Latar belakang, pendidikan, keahlian, dan pengalaman Raditya Ananda Satria.",
     },
     label: "Tentang",
-    title: "Terlatih desain. Berlatih jadi developer.",
+    title: "Berlatar desain, berlatih jadi developer.",
     intro:
       "Saya Raditya Ananda Satria, web developer di Jakarta. Saya membangun dengan Next.js dan React, dan membawa latar belakang multimedia ke tiap detail.",
     profileLabel: "Profil",
     profile: [
-      "Saya Raditya Ananda Satria, tinggal di Jakarta. Saya bangun antarmuka web dengan Next.js dan React, sekaligus mendesainnya. Jalan saya mulai dari multimedia: desain grafis, editing video, dan produksi konten. Sampai sekarang itu masih memengaruhi cara saya melihat layout, ritme, dan detail.",
+      "Saya Raditya Ananda Satria, tinggal di Jakarta. Saya membangun antarmuka web dengan Next.js dan React, dan mendesainnya juga. Saya mulai dari multimedia: desain grafis, editing video, dan produksi konten. Sampai sekarang itu masih memengaruhi cara saya melihat layout, ritme, dan detail.",
       "Sekarang saya kuliah Sistem Informasi di Universitas Bina Sarana Informatika sambil terus merilis proyek personal dan tim, dari alat belajar berbasis AI sampai tiket acara dan aplikasi bisnis.",
     ],
     experienceLabel: "Pengalaman",
@@ -215,7 +216,7 @@ export const id = {
     label: "Indeks / Karya",
     title: "Proyek pilihan",
     intro:
-      "Proyek personal dan tim yang sudah rilis di web. Tiap entri punya halaman detail dan tautan hidup.",
+      "Proyek personal dan tim yang sudah rilis di web. Setiap entri punya halaman detail dan tautan ke situs aslinya.",
     filterLabel: "Saring proyek",
     featuredLabel: "Proyek unggulan",
     detail: {
@@ -226,7 +227,7 @@ export const id = {
       stackLabel: "Stack",
       roleLabel: "Peran",
       yearLabel: "Tahun",
-      liveLabel: "Situs hidup",
+      liveLabel: "Situs live",
       screensLabel: "Tangkapan layar",
       nextLabel: "Proyek berikutnya",
     },
@@ -239,28 +240,28 @@ export const id = {
     label: "Kontak",
     title: "Mari bikin sesuatu.",
     intro:
-      "Ceritakan yang sedang kamu bangun. Email paling cepat; formulir akan membuka mail client kalau kanal pengiriman belum disetel.",
+      "Ceritakan yang sedang kamu bangun. Email paling cepat; formulir akan membuka aplikasi email kalau kanal pengiriman belum tersambung.",
     emailLabel: "Email",
     write: "Tulis langsung",
     baseLabel: "Basis",
     baseTitle: "Jakarta, Indonesia",
-    baseBody: "Tinggal di Jakarta, GMT+7. Email adalah cara tercepat untuk menghubungi saya.",
+    baseBody: "Tinggal di Jakarta, GMT+7. Email cara tercepat untuk menghubungi saya.",
     form: {
       label: "Pesan",
       title: "Kirim pesan",
       name: "Nama",
       email: "Email",
       message: "Pesan",
-      namePlaceholder: "Nama kamu",
+      namePlaceholder: "Nama lengkap",
       emailPlaceholder: "kamu@contoh.com",
-      messagePlaceholder: "Sedang membangun apa?",
+      messagePlaceholder: "Apa yang sedang kamu bangun?",
       send: "Kirim pesan",
       sending: "Mengirim",
       successTitle: "Pesan siap.",
       successBody:
-        "Mail client kamu akan terbuka dengan isi pesan. Kalau tidak, salin alamat email di atas.",
+        "Aplikasi email kamu akan terbuka dengan isi pesan. Kalau tidak, salin alamat email di atas.",
       error: "Ada yang gagal. Kirim email langsung saja.",
-      fallback: "Formulir ini memakai mail client karena layanan pengiriman belum disetel.",
+      fallback: "Formulir ini membuka aplikasi email karena layanan pengiriman belum tersambung.",
       required: "Wajib diisi.",
       invalidEmail: "Masukkan alamat email yang valid.",
     },
@@ -274,7 +275,7 @@ export const id = {
   notFound: {
     label: "404",
     title: "Halaman ini keluar jalur.",
-    body: "Tautannya mungkin lama, atau halamannya sudah pindah. Indeks karya tempat paling gampang untuk mulai lagi.",
+    body: "Tautannya mungkin sudah lama, atau halamannya sudah pindah. Indeks karya bisa jadi titik mulai.",
     back: "Kembali ke beranda",
     work: "Lihat karya",
   },
@@ -298,8 +299,8 @@ export const id = {
       summary:
         "Platform belajar adaptif berbasis AI dengan kursus interaktif, tutor AI, gamifikasi, dan AI course builder.",
       description: [
-        "Clarise adalah platform belajar adaptif berbasis AI. Di dalamnya ada kursus interaktif, tutor AI, gamifikasi lewat XP, badge, dan streak, plus AI Course Builder.",
-        "Dibangun dengan Next.js di domain sendiri. Antarmukanya harus tetap jernih meski produknya menyimpan banyak status belajar.",
+        "Clarise adalah platform belajar adaptif berbasis AI. Ada kursus interaktif, tutor AI, gamifikasi lewat XP, badge, dan streak, plus AI Course Builder.",
+        "Dibangun dengan Next.js di domain sendiri. Antarmukanya harus tetap jelas meski banyak status belajar di dalamnya.",
       ],
       imageAlt: "Halaman utama Clarise dengan antarmuka gelap dan kartu kursus",
     },
@@ -321,7 +322,7 @@ export const id = {
         "Company profile untuk agensi kreatif dan production house yang menangani web, video, fotografi, dan desain grafis.",
       description: [
         "VasCode Creative adalah company profile untuk agensi kreatif dan production house. Cakupannya web development, video, fotografi, dan desain grafis.",
-        "Situsnya harus menampilkan beberapa disiplin produksi tanpa kehilangan satu identitas yang jelas.",
+        "Situsnya perlu menampilkan beberapa disiplin produksi tanpa kehilangan satu identitas yang jelas.",
       ],
       imageAlt: "Halaman company profile VasCode Creative",
     },
@@ -343,7 +344,7 @@ export const id = {
         "Landing page dan sistem pre-order untuk bisnis camilan, terhubung dengan pemesanan lewat WhatsApp.",
       description: [
         "Nana Bites adalah landing page dan sistem pre-order untuk bisnis camilan.",
-        "Pesanan diarahkan ke WhatsApp, tetap dekat dengan cara bisnisnya memang melayani pelanggan.",
+        "Pesanan diarahkan ke WhatsApp, mengikuti cara bisnisnya memang melayani pelanggan.",
       ],
       imageAlt: "Landing page Nana Bites dengan bagian pre-order",
     },

@@ -50,7 +50,7 @@ export const en = {
       "Setting the type",
       "Ready when you are",
     ],
-    sign: "Cut with care.",
+    sign: "Built with care.",
   },
   hero: {
     kicker: "Web Developer / Tech Enthusiast - AI Enthusiast",
@@ -73,9 +73,9 @@ export const en = {
     },
     work: {
       label: "Selected work",
-      title: "Projects with a pulse.",
+      title: "Projects I have shipped.",
       intro:
-        "Shipped sites: personal tools, team builds, and a hackathon entry. Screenshots are real, links are live.",
+        "Six live sites: personal tools, team builds, and a hackathon entry. Screenshots come from the real sites.",
       viewAll: "View all work",
       featured: "Featured",
       index: "Full index",
@@ -99,8 +99,8 @@ export const en = {
     },
     process: {
       label: "Process",
-      title: "How a build moves.",
-      intro: "Four steps I actually repeat. No discovery theatre.",
+      title: "How I build.",
+      intro: "Four steps I repeat on every project.",
       steps: [
         { title: "Design", body: "Map the content and the screen order first, then decide type, grid, and motion in Figma and the browser." },
         { title: "Build", body: "Next.js and React components, token-driven styles, and content typed in one place. Real screenshots early." },
@@ -110,20 +110,21 @@ export const en = {
     },
     aboutTeaser: {
       label: "About",
-      title: "Multimedia first. Code after.",
+      title: "From multimedia to code.",
       body: "Graphic design, video, and content production taught me rhythm and detail. Next.js and React made it interactive.",
       cta: "More about me",
       currentlyLabel: "Currently",
       currently: [
         "Studying Sistem Informasi at UBSI.",
-        "Building personal and team projects in Next.js.",
-        "Learning Laravel and backend basics.",
+        "Shipping personal and team projects in Next.js.",
+        "Leading Scaffdev as project manager and full-stack developer.",
+        "Exploring AI integration in web products.",
       ],
     },
     capabilities: {
       label: "Capabilities",
-      title: "One loop: design, build, ship.",
-      intro: "Three things I actually do on a project, in the order they happen.",
+      title: "How I work: design, build, ship.",
+      intro: "Three things I do on a project, in the order they happen.",
       items: [
         {
           title: "Design",
@@ -139,17 +140,17 @@ export const en = {
         },
       ],
     },
-    marquee: ["Web developer", "Interface designer", "Multimedia background", "Next.js", "React"],
+    marquee: ["Web developer", "Interface designer", "Multimedia background", "Next.js", "React", "Laravel", "AI"],
     closing: {
       label: "Next",
-      title: "Need a site that feels considered?",
-      body: "Email is the fastest route. Jakarta, GMT+7.",
+      title: "Tell me what you are building.",
+      body: "Email is the fastest way to reach me. Jakarta, GMT+7.",
       cta: "Start a conversation",
     },
     toolbox: {
       label: "Toolbox",
-      title: "The working set.",
-      intro: "Grouped by how I actually use them. Familiar first, basic where I am still learning.",
+      title: "Tools I actually use.",
+      intro: "Grouped by how I use them. Familiar tools first; basics where I am still learning.",
     },
     experience: {
       label: "Experience",
@@ -158,8 +159,8 @@ export const en = {
     },
     highlights: {
       label: "Highlights",
-      title: "Facts, not vanity metrics.",
-      intro: "Numbers taken from what is actually on this site and in my CV.",
+      title: "A quick count.",
+      intro: "Pulled from this site and my CV.",
       counters: [
         { value: 6, label: "Shipped projects" },
         { value: 3, label: "Experience entries" },
@@ -236,7 +237,7 @@ export const en = {
     },
     label: "Contact",
     title: "Let us build something.",
-    intro: "Tell me what you are making. Email is the fastest route; the form opens your mail client if no delivery channel is configured.",
+    intro: "Tell me what you are making. Email is the fastest route; the form opens your email app if no delivery service is connected.",
     emailLabel: "Email",
     write: "Write directly",
     baseLabel: "Base",
@@ -254,9 +255,9 @@ export const en = {
       send: "Send message",
       sending: "Sending",
       successTitle: "Message ready.",
-      successBody: "Your mail client should open with the message. If it does not, copy the email address above.",
+      successBody: "Your email app should open with the message. If it does not, copy the email address above.",
       error: "Something went wrong. Email me directly instead.",
-      fallback: "This form uses your mail client because no delivery service is configured yet.",
+      fallback: "This form opens your email app because no delivery service is connected yet.",
       required: "This field is required.",
       invalidEmail: "Enter a valid email address.",
     },
@@ -317,7 +318,7 @@ export const en = {
         "Company profile for a creative agency and production house covering web, video, photography, and graphic design.",
       description: [
         "VasCode Creative is a company profile for a creative agency and production house. The work spans web development, video, photography, and graphic design.",
-        "The site had to present several production disciplines without losing one clear identity.",
+        "The site needed to show several production disciplines without losing one clear identity.",
       ],
       imageAlt: "VasCode Creative company profile landing page",
     },
