@@ -14,7 +14,7 @@ import { LocaleProvider } from "@/components/providers/LocaleProvider";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { getDictionary, isLocale } from "@/content";
-import { site } from "@/content/site";
+import { navVariant, site } from "@/content/site";
 import { routing } from "@/i18n/routing";
 
 import "../globals.css";
@@ -138,6 +138,7 @@ export default async function LocaleLayout({
       lang={locale}
       dir="ltr"
       className={`${display.variable} ${body.variable} ${mono.variable}`}
+      data-nav={navVariant}
       suppressHydrationWarning
     >
       <head>
@@ -172,7 +173,7 @@ export default async function LocaleLayout({
                 <ScrollProgress />
                 <CursorHUD />
                 <Header />
-                <main id="main" className="pt-16">
+                <main id="main" className="site-main">
                   {children}
                 </main>
                 <Footer />

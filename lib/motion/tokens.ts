@@ -75,6 +75,13 @@ export const hud = {
   coordsEaseScale: 6,
 } as const;
 
+export const nav = {
+  hideDelayMs: 220,
+  topThreshold: 8,
+  hiddenScale: 0.98,
+  hiddenTravel: 140,
+} as const;
+
 export const cursor = {
   size: 8,
   ring: 28,

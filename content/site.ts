@@ -1,3 +1,7 @@
+export type NavVariant = "top" | "bottom" | "left" | "right";
+
+export const navVariant: NavVariant = "top";
+
 export const site = {
   name: "Raditya Ananda Satria",
   shortName: "Raditya",

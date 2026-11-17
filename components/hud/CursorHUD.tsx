@@ -104,7 +104,7 @@ export function CursorHUD() {
       <span ref={labelRef} className="text-accent pointer-events-none fixed top-0 left-0 z-cursor block font-mono text-meta uppercase tracking-[0.14em] opacity-0">
         VIEW
       </span>
-      <span ref={readoutRef} className="text-muted pointer-events-none fixed bottom-[var(--hud-inset)] left-[var(--gutter)] z-hud font-mono text-meta tabular-nums opacity-0 transition-opacity duration-ui">
+      <span ref={readoutRef} className="cursor-readout text-muted pointer-events-none fixed bottom-[var(--hud-inset)] left-[var(--gutter)] z-hud font-mono text-meta tabular-nums opacity-0 transition-opacity duration-ui">
         X 0000 / Y 0000
       </span>
     </div>

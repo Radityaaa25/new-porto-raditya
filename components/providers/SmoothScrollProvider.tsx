@@ -12,21 +12,37 @@ type ScrollApi = {
   start: () => void;
   scrollTo: (target: number) => void;
   scrollToTop: () => void;
+  subscribe: (listener: (scroll: number) => void) => () => void;
 };
 
 const ScrollContext = createContext<ScrollApi | null>(null);
 
 export function SmoothScrollProvider({ children }: { children: ReactNode }) {
   const lenisRef = useRef<Lenis | null>(null);
+  const listeners = useRef(new Set<(scroll: number) => void>());
   const pathname = usePathname();
 
   useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const emit = (scroll: number) => {
+      listeners.current.forEach((listener) => listener(scroll));
+    };
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      const onScroll = () => {
+        ScrollTrigger.update();
+        emit(window.scrollY);
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      return () => window.removeEventListener("scroll", onScroll);
+    }
 
     const lenis = new Lenis({ duration: 1.1, smoothWheel: true });
     lenisRef.current = lenis;
 
-    const onScroll = () => ScrollTrigger.update();
+    const onScroll = () => {
+      ScrollTrigger.update();
+      emit(lenis.scroll);
+    };
     lenis.on("scroll", onScroll);
 
     const onPageshow = (event: PageTransitionEvent) => {
@@ -84,9 +100,16 @@ export function SmoothScrollProvider({ children }: { children: ReactNode }) {
     window.scrollTo({ top: 0, behavior: reduced ? "auto" : "smooth" });
   }, []);
 
+  const subscribe = useCallback((listener: (scroll: number) => void) => {
+    listeners.current.add(listener);
+    return () => {
+      listeners.current.delete(listener);
+    };
+  }, []);
+
   const value = useMemo<ScrollApi>(
-    () => ({ stop, start, scrollTo, scrollToTop }),
-    [stop, start, scrollTo, scrollToTop],
+    () => ({ stop, start, scrollTo, scrollToTop, subscribe }),
+    [stop, start, scrollTo, scrollToTop, subscribe],
   );
 
   return <ScrollContext.Provider value={value}>{children}</ScrollContext.Provider>;

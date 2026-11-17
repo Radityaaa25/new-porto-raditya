@@ -15,7 +15,7 @@ export function Footer() {
   const { scrollToTop } = useSmoothScroll();
 
   return (
-    <footer className="border-line relative overflow-hidden border-t pt-10">
+    <footer className="site-footer border-line relative overflow-hidden border-t pt-10">
       <div className="gutter-x mx-auto flex w-full max-w-[var(--container-max)] flex-col gap-10 pb-8">
         <a
           href="#main"
