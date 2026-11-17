@@ -16,6 +16,7 @@ import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { getDictionary, isLocale } from "@/content";
 import { navVariant, site } from "@/content/site";
 import { routing } from "@/i18n/routing";
+import { siteUrl } from "@/lib/seo";
 
 import "../globals.css";
 
@@ -37,8 +38,6 @@ const mono = JetBrains_Mono({
   display: "swap",
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raditya.vercel.app";
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -53,7 +52,7 @@ export async function generateMetadata({
   const content = getDictionary(locale);
 
   return {
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(siteUrl),
     title: {
       default: content.meta.title,
       template: `%s - ${site.name}`,
@@ -68,11 +67,11 @@ export async function generateMetadata({
       apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
     },
     alternates: {
-      canonical: `/${locale}`,
+      canonical: `${siteUrl}/${locale}`,
       languages: {
-        en: "/en",
-        id: "/id",
-        "x-default": "/en",
+        en: `${siteUrl}/en`,
+        id: `${siteUrl}/id`,
+        "x-default": `${siteUrl}/en`,
       },
     },
     openGraph: {
@@ -80,7 +79,7 @@ export async function generateMetadata({
       description: content.meta.description,
       locale: locale === "id" ? "id_ID" : "en_US",
       type: "website",
-      url: `/${locale}`,
+      url: `${siteUrl}/${locale}`,
       images: [
         {
           url: "/og.png",
@@ -155,7 +154,7 @@ export default async function LocaleLayout({
               jobTitle: site.role,
               description: site.heroKicker,
               email: site.email,
-              url: baseUrl,
+              url: siteUrl,
               address: { "@type": "PostalAddress", addressLocality: "Jakarta", addressCountry: "ID" },
               sameAs: [site.githubUrl, site.instagramUrl],
             }),

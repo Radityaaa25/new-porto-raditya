@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import type { Locale } from "@/content";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raditya.vercel.app";
+export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://raditya-as.vercel.app").replace(/\/+$/, "");
 
 export function pageMetadata(
   locale: Locale,
@@ -16,17 +16,17 @@ export function pageMetadata(
     title,
     description,
     alternates: {
-      canonical: `/${locale}${clean}`,
+      canonical: `${siteUrl}/${locale}${clean}`,
       languages: {
-        en: `/en${clean}`,
-        id: `/id${clean}`,
-        "x-default": `/en${clean}`,
+        en: `${siteUrl}/en${clean}`,
+        id: `${siteUrl}/id${clean}`,
+        "x-default": `${siteUrl}/en${clean}`,
       },
     },
     openGraph: {
       title,
       description,
-      url: `/${locale}${clean}`,
+      url: `${siteUrl}/${locale}${clean}`,
       locale: locale === "id" ? "id_ID" : "en_US",
       type: "website",
       images: [
@@ -47,4 +47,3 @@ export function pageMetadata(
   };
 }
 
-export const siteUrl = baseUrl;
