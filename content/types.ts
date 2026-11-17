@@ -9,6 +9,7 @@ export type ProjectBase = {
   year: string;
   stack: ReadonlyArray<string>;
   details: boolean;
+  flagship?: boolean;
 };
 
 export type ProjectCopy = {
@@ -93,6 +94,7 @@ export type Dictionary = {
     index: string;
     loading: string;
     skipToContent: string;
+    flagship: string;
   };
   preloader: {
     statuses: ReadonlyArray<string>;

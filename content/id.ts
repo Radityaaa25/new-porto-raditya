@@ -41,6 +41,7 @@ export const id = {
     stack: "Stack",
     index: "Indeks",
     loading: "Memuat",
+    flagship: "Flagship",
     skipToContent: "Lewati ke konten",
   },
   preloader: {

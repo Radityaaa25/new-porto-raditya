@@ -41,6 +41,7 @@ export const en = {
     stack: "Stack",
     index: "Index",
     loading: "Loading",
+    flagship: "Flagship",
     skipToContent: "Skip to content",
   },
   preloader: {

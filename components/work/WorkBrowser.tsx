@@ -12,6 +12,7 @@ type Item = {
   roleKey: "Personal" | "Team";
   stack: ReadonlyArray<string>;
   index: string;
+  flagship?: boolean;
 };
 
 export function WorkBrowser({
@@ -19,11 +20,13 @@ export function WorkBrowser({
   filters,
   hint,
   stackLabel,
+  flagship,
 }: {
   projects: ReadonlyArray<Item>;
   filters: { label: string; all: string; personal: string; team: string };
   hint: string;
   stackLabel: string;
+  flagship: string;
 }) {
   const [active, setActive] = useState<"all" | "Personal" | "Team">("all");
   const visible = projects.filter((project) => active === "all" || project.roleKey === active);
@@ -71,9 +74,11 @@ export function WorkBrowser({
             role: project.role,
             stack: project.stack,
             index: project.index,
+            flagship: project.flagship,
           }))}
           hint={hint}
           stackLabel={stackLabel}
+          flagship={flagship}
         />
       </div>
     </div>

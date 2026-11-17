@@ -119,7 +119,14 @@ export function WorkRail() {
                   <span className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
                     {String(index + 1).padStart(2, "0")} / {project.category}
                   </span>
-                  <h3 className="font-display text-h2 tracking-[-0.02em]">{project.title}</h3>
+                  <span className="flex flex-wrap items-baseline gap-3">
+                    <h3 className="font-display text-h2 tracking-[-0.02em]">{project.title}</h3>
+                    {project.flagship ? (
+                      <span className="text-accent border-accent/40 rounded-pill border px-2 py-0.5 font-mono text-meta uppercase tracking-[0.12em]">
+                        {content.ui.flagship}
+                      </span>
+                    ) : null}
+                  </span>
                 </div>
                 <div className="flex items-center gap-4">
                   <StackIcons items={project.stack} label={content.ui.stack} className="pointer-events-auto" />

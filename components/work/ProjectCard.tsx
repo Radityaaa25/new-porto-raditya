@@ -13,6 +13,8 @@ export type ProjectCardItem = {
   role: string;
   stack: ReadonlyArray<string>;
   imageAlt: string;
+  flagship?: boolean;
+  flagshipLabel?: string;
 };
 
 export function ProjectCard({
@@ -41,8 +43,13 @@ export function ProjectCard({
       <div className="pointer-events-none relative z-content flex flex-1 flex-col gap-4 p-5">
         <div className="flex items-start justify-between gap-4">
           <div className="flex flex-col gap-1">
-            <span className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
+            <span className="text-subtle flex flex-wrap items-center gap-2 font-mono text-meta uppercase tracking-[0.14em]">
               {project.category}
+              {project.flagship && project.flagshipLabel ? (
+                <span className="text-accent border-accent/40 rounded-pill border px-1.5 py-0.5 tracking-[0.12em]">
+                  {project.flagshipLabel}
+                </span>
+              ) : null}
             </span>
             <h3 className="font-display text-h3 tracking-[-0.02em]">{project.title}</h3>
           </div>

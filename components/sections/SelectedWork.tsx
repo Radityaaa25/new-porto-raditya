@@ -55,6 +55,8 @@ export function SelectedWork() {
                   role: project.role === "Personal" ? content.ui.personal : content.ui.team,
                   stack: project.stack,
                   imageAlt: project.imageAlt,
+                  flagship: project.flagship,
+                  flagshipLabel: content.ui.flagship,
                 }}
                 stackLabel={content.ui.stack}
                 viewLabel={content.ui.view}

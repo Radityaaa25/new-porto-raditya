@@ -59,6 +59,7 @@ export default async function WorkPage({ params }: { params: Promise<{ locale: s
               roleKey: project.role,
               stack: project.stack,
               index: String(index + 1).padStart(2, "0"),
+              flagship: project.flagship,
             }))}
             filters={{
               label: content.work.filterLabel,
@@ -68,6 +69,7 @@ export default async function WorkPage({ params }: { params: Promise<{ locale: s
             }}
             hint={content.home.work.previewHint}
             stackLabel={content.ui.stack}
+            flagship={content.ui.flagship}
           />
         </div>
       </section>

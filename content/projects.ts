@@ -5,12 +5,22 @@ import type { Locale, Project, ProjectBase, ProjectCopy } from "./types";
 // TODO(Raditya): confirm each project year. 2026 is the year printed on every live site.
 const bases: ReadonlyArray<ProjectBase> = [
   {
+    slug: "scaffdev",
+    url: "https://scaffdev.my.id",
+    role: "Personal",
+    year: "2026",
+    stack: ["Next.js", "Laravel", "Supabase", "Xendit", "Cloudinary", "Resend"],
+    details: true,
+    flagship: true,
+  },
+  {
     slug: "clarise",
     url: "https://clarise.my.id",
     role: "Personal",
     year: "2026",
     stack: ["Next.js", "React", "AI"],
     details: true,
+    flagship: true,
   },
   {
     slug: "safetrack-depin",
@@ -44,14 +54,6 @@ const bases: ReadonlyArray<ProjectBase> = [
     stack: ["Next.js", "WhatsApp"],
     details: true,
   },
-  {
-    slug: "scaffdev",
-    url: "https://scaffdev.my.id",
-    role: "Personal",
-    year: "2026",
-    stack: ["Next.js", "Laravel", "Supabase", "Xendit", "Cloudinary", "Resend"],
-    details: true,
-  },
 ];
 
 const dictionaries = { en, id } as const;
@@ -77,4 +79,4 @@ export function getNextProject(locale: Locale, slug: string): Project {
   return list[(index + 1) % list.length];
 }
 
-export const featuredSlugs = ["clarise", "safetrack-depin", "vascode", "nana-bites"] as const;
+export const featuredSlugs = ["scaffdev", "clarise", "safetrack-depin", "vascode"] as const;

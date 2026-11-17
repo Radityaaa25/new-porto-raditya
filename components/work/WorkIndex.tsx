@@ -16,16 +16,19 @@ type WorkItem = {
   role: string;
   stack: ReadonlyArray<string>;
   index: string;
+  flagship?: boolean;
 };
 
 export function WorkIndex({
   projects,
   hint,
   stackLabel,
+  flagship,
 }: {
   projects: ReadonlyArray<WorkItem>;
   hint: string;
   stackLabel: string;
+  flagship: string;
 }) {
   const [active, setActive] = useState<string | null>(null);
   const [canPreview, setCanPreview] = useState(false);
@@ -126,8 +129,15 @@ export function WorkIndex({
             />
             <div className="pointer-events-none relative z-content grid gap-4 py-8 md:grid-cols-12 md:items-baseline">
               <span className="text-subtle font-mono text-meta md:col-span-1">{project.index}</span>
-              <span className="font-display text-h3 group-hover:text-accent tracking-[-0.02em] transition-colors md:col-span-4">
-                {project.title}
+              <span className="flex flex-wrap items-baseline gap-3 md:col-span-4">
+                <span className="font-display text-h3 group-hover:text-accent tracking-[-0.02em] transition-colors">
+                  {project.title}
+                </span>
+                {project.flagship ? (
+                  <span className="text-accent border-accent/40 rounded-pill border px-2 py-0.5 font-mono text-meta uppercase tracking-[0.12em]">
+                    {flagship}
+                  </span>
+                ) : null}
               </span>
               <span className="text-muted md:col-span-4">{project.summary}</span>
               <span className="text-subtle flex items-center justify-between gap-4 font-mono text-meta uppercase tracking-[0.14em] md:col-span-3 md:justify-end">
