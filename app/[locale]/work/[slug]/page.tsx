@@ -130,6 +130,24 @@ export default async function ProjectPage({
           </dl>
         </section>
 
+        {project.roles && project.roles.length > 0 ? (
+          <section className="grid gap-10 md:grid-cols-12" aria-label={content.work.detail.myRole}>
+            <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em] md:col-span-3">
+              {content.work.detail.myRole}
+            </h2>
+            <ul className="flex flex-wrap gap-2 md:col-span-7">
+              {project.roles.map((item) => (
+                <li
+                  key={item}
+                  className="border-line bg-surface rounded-pill border px-4 py-2 font-mono text-meta uppercase tracking-[0.14em]"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
         <section className="grid gap-10 md:grid-cols-12" aria-label={content.work.detail.approach}>
           <div className="md:col-span-7">
             <h2 className="text-muted font-mono text-meta uppercase tracking-[0.18em]">

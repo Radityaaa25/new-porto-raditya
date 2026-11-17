@@ -17,6 +17,7 @@ export type ProjectCopy = {
   category: string;
   summary: string;
   description: ReadonlyArray<string>;
+  roles?: ReadonlyArray<string>;
   imageAlt: string;
 };
 
@@ -202,6 +203,7 @@ export type Dictionary = {
       liveLabel: string;
       screensLabel: string;
       nextLabel: string;
+      myRole: string;
     };
   };
   contact: {

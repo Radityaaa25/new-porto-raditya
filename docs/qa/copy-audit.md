@@ -38,6 +38,8 @@ prompts and form feedback, where it reads naturally.
 | `about.facts[3]` | Focus: React, Next.js, interface design, motion. | Focus: Next.js / React and multimedia. | The requested facts grid names the multimedia background explicitly. |
 | `about.ctaContact`, `about.ctaWork` | Missing. | Contact me / View work. | Adds the two requested actions with plain labels. |
 | `home.marquee` | Web developer, Interface designer, Multimedia background, Next.js, React | Adds Laravel, AI | Reflects Scaffdev and the current backend and AI work. |
+| `projectCopy.scaffdev` | Personal project wording; no exhibition context. | Team project, built for HIMEXPO, with a role list. | Matches the actual team role and the brief. |
+| `work.detail.myRole` | Missing. | My role. | Labels the requested Scaffdev responsibilities block. |
 
 ## Indonesian
 
@@ -78,6 +80,8 @@ prompts and form feedback, where it reads naturally.
 | `projectCopy.clarise.description` | Di dalamnya ada ... produknya menyimpan banyak status belajar. | Ada ... banyak status belajar di dalamnya. | Removes stiff pronoun and literal translation. |
 | `projectCopy.vascode.description` | Situsnya harus menampilkan... | Situsnya perlu menampilkan... | Softer, natural obligation. |
 | `projectCopy.nana-bites.description` | ... tetap dekat dengan cara bisnisnya memang melayani pelanggan. | ... mengikuti cara bisnisnya memang melayani pelanggan. | Clearer relationship between ordering and the business. |
+| `projectCopy.scaffdev` | Proyek personal tanpa konteks pameran. | Proyek tim, dibuat untuk HIMEXPO, dengan daftar peran. | Sesuai peran tim dan brief. |
+| `work.detail.myRole` | Belum ada. | Peran saya. | Label untuk blok tanggung jawab Scaffdev. |
 | `about.intro` | Satu kalimat tentang web developer di Jakarta. | Tiga kalimat: peran, praktik desain, latar multimedia. | Mengisi kolom kiri dengan konteks yang berguna dan sesuai CV. |
 | `about.facts[3]` | Fokus: React, Next.js, desain antarmuka, motion. | Fokus: Next.js / React dan multimedia. | Fakta yang diminta menyebut latar multimedia secara eksplisit. |
 | `about.ctaContact`, `about.ctaWork` | Belum ada. | Hubungi saya / Lihat karya. | Menambahkan dua aksi yang diminta dengan label lugas. |

@@ -233,6 +233,7 @@ export const id = {
       liveLabel: "Situs live",
       screensLabel: "Tangkapan layar",
       nextLabel: "Proyek berikutnya",
+      myRole: "Peran saya",
     },
   },
   contact: {
@@ -355,11 +356,13 @@ export const id = {
       title: "Scaffdev",
       category: "Tooling / Dev",
       summary:
-        "Generator scaffolding untuk developer Indonesia: starter Next.js dan Laravel siap jalan dengan UI jadi, struktur folder best-practice, dan integrasi lokal pilihan.",
+        "Generator scaffolding untuk developer Indonesia, dibuat untuk HIMEXPO: starter Next.js dan Laravel siap jalan dengan UI jadi, struktur folder best-practice, dan integrasi lokal pilihan.",
       description: [
         "Scaffdev membuat project baru dari satu command npx: UI jadi, struktur folder best-practice, file .env.example, dan panduan SETUP.md. Saat ini tersedia template Next.js dan Laravel.",
+        "Dibuat untuk HIMEXPO, pameran teknologi. Saya bekerja dalam tim dan memimpin sebagian besar pekerjaan di project management, frontend, backend, dan integrasi AI.",
         "Situsnya menampilkan enam template siap generate, Builder untuk kombinasi integrasi custom, dan integrasi pilihan: Supabase, Xendit, Cloudinary, serta Resend. Sumbernya tersedia dengan lisensi Shield.",
       ],
+      roles: ["Project Manager", "Frontend", "Backend", "Integrasi AI"],
       imageAlt: "Halaman utama Scaffdev, generator starter kit Next.js dan Laravel",
     },
   },

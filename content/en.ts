@@ -231,6 +231,7 @@ export const en = {
       liveLabel: "Live site",
       screensLabel: "Screens",
       nextLabel: "Next project",
+      myRole: "My role",
     },
   },
   contact: {
@@ -351,11 +352,13 @@ export const en = {
       title: "Scaffdev",
       category: "Tooling / Dev",
       summary:
-        "Scaffolding generator for Indonesian developers: ready-to-run Next.js and Laravel starters with prebuilt UI, best-practice folder structure, and curated local integrations.",
+        "Scaffolding generator for Indonesian developers, built for HIMEXPO: ready-to-run Next.js and Laravel starters with prebuilt UI, best-practice folder structure, and curated local integrations.",
       description: [
         "Scaffdev generates a new project from one npx command: prebuilt UI, best-practice folder structure, an .env.example, and a SETUP.md guide. It currently ships Next.js and Laravel templates.",
+        "Built for HIMEXPO, a technology exhibition. I worked in a team and led most of the work across project management, frontend, backend, and AI integration.",
         "The site lists six ready-to-generate templates, a Builder for custom integration combinations, and curated integrations: Supabase, Xendit, Cloudinary, and Resend. The source is available under the Shield licence.",
       ],
+      roles: ["Project Manager", "Frontend", "Backend", "AI integration"],
       imageAlt: "Scaffdev landing page for the Next.js and Laravel starter kit generator",
     },
   },

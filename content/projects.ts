@@ -7,9 +7,9 @@ const bases: ReadonlyArray<ProjectBase> = [
   {
     slug: "scaffdev",
     url: "https://scaffdev.my.id",
-    role: "Personal",
+    role: "Team",
     year: "2026",
-    stack: ["Next.js", "Laravel", "Supabase", "Xendit", "Cloudinary", "Resend"],
+    stack: ["Next.js", "Laravel", "AI", "Supabase", "Xendit", "Cloudinary", "Resend"],
     details: true,
     flagship: true,
   },
