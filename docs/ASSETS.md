@@ -29,7 +29,6 @@ Phase 4 additions logged below with the generating script and the capture date.
 | public/media/projects/scaffdev/* | screenshot | own project, own capture 2026-11-16 | Raditya Ananda Satria | project-owned | cover, cover-800, mobile, two detail frames |
 | public/media/projects/pentas-seni/* | screenshot | own project, own capture 2026-11-16 | Raditya Ananda Satria | project-owned | cover + mobile only; page is a single viewport, no detail frames |
 | public/media/projects/nana-bites/* | screenshot | own project, own capture 2026-11-16 | Raditya Ananda Satria | project-owned | cover, detail-01/02, mobile; same variants |
-| public/media/projects/manifest.json | metadata | capture script output | Raditya Ananda Satria | project-owned | per-slug status, capturedAt, viewport sizes, page height |
 | scripts/capture-projects.mjs | tooling | original script | Raditya Ananda Satria | project-owned | Playwright capture + ImageMagick transcode; ONLY env filters slugs, retries navigation |
 | components/dev/AssetGallery.tsx + app/dev/assets/page.tsx | dev tooling | original | Raditya Ananda Satria | project-owned | review route, noindex, not linked publicly |
 
@@ -48,6 +47,6 @@ Phase 4 additions logged below with the generating script and the capture date.
 - Screenshots are of Raditya's own live projects and are used only as thumbnails on this site.
 - `pentas-seni` exposes no second viewport; the capture script omits detail frames when the page height is under 1200px.
 - OG images are static PNGs generated at authoring time, not runtime next/og routes. Re-run `node scripts/generate-assets.mjs` after changing the monogram or headline copy.
-- Project captures are dated in `manifest.json`. Re-run `node scripts/capture-projects.mjs` quarterly or when a project changes.
+- Project captures are produced by `scripts/capture-projects.mjs`. Re-run it quarterly or when a project changes.
 - Both scripts need `playwright-core` on NODE_PATH; it is a local tool dependency, not a site dependency.
-| public/media/portrait/portrait-1200.webp, portrait-640.webp | portrait | cropped and re-encoded from Raditya's supplied photo | Raditya Ananda Satria | project-owned | WebP q80-82, original 767x1259 |
+| public/media/portrait/portrait-1200.webp | portrait | cropped and re-encoded from Raditya's supplied photo | Raditya Ananda Satria | project-owned | WebP q80-82, original 767x1259 |

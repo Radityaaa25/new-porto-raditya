@@ -4,16 +4,33 @@ node_modules/
 out/
 build/
 dist/
-.env
-.env.local
-.env*.local
+.env*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
 .vercel
 
-# Reference captures stay local; they are analysis inputs, not project assets.
-docs/qa/wow/ref-*
+# Local QA and Playwright output
+docs/qa/before/
+docs/qa/after/
+docs/qa/wow/
+docs/qa/**/*.png
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Third-party reference captures stay outside the repository
+docs/analysis/assets/
+docs/analysis/raw/
+docs/analysis/screenshots/
+
+# Raw source media stays outside public
+public/assets/source/
+
+# Generated capture metadata
+public/media/projects/manifest.json
