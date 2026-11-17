@@ -5,6 +5,7 @@ export const duration = {
   reveal: 0.6,
   cinematic: 1.2,
   draw: 0.66,
+  theme: 0.82,
 } as const;
 
 export const ease = {

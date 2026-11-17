@@ -20,6 +20,11 @@
 
   --paper: #f7f6f0;
   --paper-fg: #16181b;
+  --theme-bg-dark: #0d0e10;
+  --theme-bg-light: #f7f6f0;
+  --theme-x: 50%;
+  --theme-y: 50%;
+  --theme-r: 150vmax;
   --paper-muted: #5a6068;
   --paper-line: rgba(22, 24, 27, 0.12);
 
@@ -136,6 +141,7 @@
   --dur-reveal: 600ms;
   --dur-cinematic: 1200ms;
   --dur-draw: 660ms;
+  --dur-theme: 820ms;
   --dur-marquee: 40s;
 
   --curve-ui: cubic-bezier(0, 0, 0.2, 1);

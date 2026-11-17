@@ -52,6 +52,20 @@ export default function OrbitScene() {
         uOpacity: { value: 0.5 },
       },
     });
+    const applyThemeColor = () => {
+      const raw = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim();
+      const match = raw.match(/^#?([0-9a-f]{6})$/i);
+      if (!match) return;
+      const value = Number.parseInt(match[1], 16);
+      program.uniforms.uColor.value = new Vec3(
+        ((value >> 16) & 255) / 255,
+        ((value >> 8) & 255) / 255,
+        (value & 255) / 255,
+      );
+    };
+    applyThemeColor();
+    window.addEventListener("portfolio:theme", applyThemeColor);
+
     const mesh = new Mesh(gl, { geometry, program, mode: gl.LINES });
     const index = geometry.attributes.index?.data as Uint16Array | undefined;
     if (index) {
@@ -121,6 +135,7 @@ export default function OrbitScene() {
       observer.disconnect();
       io.disconnect();
       window.removeEventListener("pointermove", onPointer);
+      window.removeEventListener("portfolio:theme", applyThemeColor);
       renderer.gl.getExtension("WEBGL_lose_context")?.loseContext();
       gl.canvas.remove();
     };
