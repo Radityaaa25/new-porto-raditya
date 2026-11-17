@@ -34,6 +34,9 @@ prompts and form feedback, where it reads naturally.
 | `contact.form.successBody` | Your mail client should open with the message. | Your email app should open with the message. | Consistent with the contact intro. |
 | `contact.form.fallback` | This form uses your mail client because no delivery service is configured yet. | This form opens your email app because no delivery service is connected yet. | Describes the result, not the implementation. |
 | `projectCopy.vascode.description` | The site had to present several production disciplines without losing one clear identity. | The site needed to show several production disciplines without losing one clear identity. | Natural verb and tense. |
+| `about.intro` | One sentence about being a web developer in Jakarta. | Three sentences: role, design practice, multimedia background. | Fills the left column with useful context and matches the CV. |
+| `about.facts[3]` | Focus: React, Next.js, interface design, motion. | Focus: Next.js / React and multimedia. | The requested facts grid names the multimedia background explicitly. |
+| `about.ctaContact`, `about.ctaWork` | Missing. | Contact me / View work. | Adds the two requested actions with plain labels. |
 | `home.marquee` | Web developer, Interface designer, Multimedia background, Next.js, React | Adds Laravel, AI | Reflects Scaffdev and the current backend and AI work. |
 
 ## Indonesian
@@ -75,6 +78,9 @@ prompts and form feedback, where it reads naturally.
 | `projectCopy.clarise.description` | Di dalamnya ada ... produknya menyimpan banyak status belajar. | Ada ... banyak status belajar di dalamnya. | Removes stiff pronoun and literal translation. |
 | `projectCopy.vascode.description` | Situsnya harus menampilkan... | Situsnya perlu menampilkan... | Softer, natural obligation. |
 | `projectCopy.nana-bites.description` | ... tetap dekat dengan cara bisnisnya memang melayani pelanggan. | ... mengikuti cara bisnisnya memang melayani pelanggan. | Clearer relationship between ordering and the business. |
+| `about.intro` | Satu kalimat tentang web developer di Jakarta. | Tiga kalimat: peran, praktik desain, latar multimedia. | Mengisi kolom kiri dengan konteks yang berguna dan sesuai CV. |
+| `about.facts[3]` | Fokus: React, Next.js, desain antarmuka, motion. | Fokus: Next.js / React dan multimedia. | Fakta yang diminta menyebut latar multimedia secara eksplisit. |
+| `about.ctaContact`, `about.ctaWork` | Belum ada. | Hubungi saya / Lihat karya. | Menambahkan dua aksi yang diminta dengan label lugas. |
 
 ## Notes
 

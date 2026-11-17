@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 
+import { ArrowRightIcon, ArrowUpRightIcon } from "@/components/icons";
 import { ExperienceTimeline } from "@/components/sections/ExperienceTimeline";
 import { HomeClosing } from "@/components/sections/HomeClosing";
 import { Parallax } from "@/components/motion/Parallax";
@@ -12,6 +13,7 @@ import { Toolbox } from "@/components/work/Toolbox";
 import { getDictionary, isLocale, type Locale } from "@/content";
 import { getEducation, getExperience, getLanguages, getSkillGroups } from "@/content/experience";
 import { site } from "@/content/site";
+import { Link } from "@/i18n/navigation";
 import { pageMetadata } from "@/lib/seo";
 
 async function readLocale(params: Promise<{ locale: string }>): Promise<Locale> {
@@ -41,8 +43,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   return (
     <article>
       <section className="gutter-x section-y" aria-label={content.about.label}>
-        <div className="mx-auto grid w-full max-w-[var(--container-max)] gap-10 md:grid-cols-12 md:items-end">
-          <div className="flex flex-col gap-6 md:col-span-7">
+        <div className="mx-auto grid w-full max-w-[var(--container-max)] gap-8 md:grid-cols-12 md:items-center md:gap-10">
+          <div className="order-2 flex flex-col gap-6 md:order-1 md:col-span-7">
             <span className="text-muted font-mono text-meta uppercase tracking-[0.18em]">
               {content.about.label}
             </span>
@@ -54,8 +56,36 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               className="font-display text-h1 max-w-[18ch] tracking-[-0.03em]"
             />
             <ScrollScrubText text={content.about.intro} className="text-muted max-w-[var(--measure-wide)]" />
+            <dl className="border-line grid grid-cols-1 gap-x-6 gap-y-5 border-t pt-6 sm:grid-cols-2">
+              {content.about.facts.map((fact, index) => (
+                <Reveal key={fact.label} delay={index * 0.05}>
+                  <div className="flex flex-col gap-1">
+                    <dt className="text-subtle font-mono text-meta uppercase tracking-[0.14em]">
+                      {fact.label}
+                    </dt>
+                    <dd className="text-body-sm text-muted">{fact.value}</dd>
+                  </div>
+                </Reveal>
+              ))}
+            </dl>
+            <div className="flex flex-wrap items-center gap-3">
+              <Link
+                href="/contact"
+                className="bg-accent text-accent-ink group inline-flex items-center gap-2 rounded-pill px-5 py-3 font-mono text-meta uppercase tracking-[0.14em] transition-opacity hover:opacity-90"
+              >
+                {content.about.ctaContact}
+                <ArrowUpRightIcon size={14} />
+              </Link>
+              <Link
+                href="/work"
+                className="border-line hover:border-accent group inline-flex items-center gap-2 rounded-pill border px-5 py-3 font-mono text-meta uppercase tracking-[0.14em] transition-colors"
+              >
+                {content.about.ctaWork}
+                <ArrowRightIcon size={14} className="duration-ui ease-expo transition-transform group-hover:translate-x-1" />
+              </Link>
+            </div>
           </div>
-          <Parallax className="relative aspect-[4/5] overflow-hidden rounded-sm border border-line md:col-span-5" amount={5} reveal>
+          <Parallax className="relative order-1 aspect-[4/5] overflow-hidden rounded-sm border border-line md:order-2 md:col-span-5" amount={5} reveal>
             <Image
               src="/media/portrait/portrait-1200.webp"
               alt={content.about.photoAlt}

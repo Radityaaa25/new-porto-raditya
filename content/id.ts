@@ -94,7 +94,7 @@ export const id = {
         { label: "Basis", value: "Jakarta, Indonesia / GMT+7" },
         { label: "Pendidikan", value: "Sistem Informasi, UBSI (2025 - sekarang)" },
         { label: "Bahasa", value: "Indonesia aktif, Inggris dan Korea pasif" },
-        { label: "Fokus", value: "React, Next.js, desain antarmuka, motion" },
+        { label: "Fokus", value: "Next.js / React dan multimedia" },
       ],
     },
     process: {
@@ -186,7 +186,9 @@ export const id = {
     label: "Tentang",
     title: "Berlatar desain, berlatih jadi developer.",
     intro:
-      "Saya Raditya Ananda Satria, web developer di Jakarta. Saya membangun dengan Next.js dan React, dan membawa latar belakang multimedia ke tiap detail.",
+      "Saya Raditya Ananda Satria, web developer di Jakarta. Saya membangun antarmuka web dengan Next.js dan React, dan mendesainnya juga. Latar multimedia di desain grafis, video, dan produksi konten masih memengaruhi cara saya melihat layout dan detail.",
+    ctaContact: "Hubungi saya",
+    ctaWork: "Lihat karya",
     profileLabel: "Profil",
     profile: [
       "Saya Raditya Ananda Satria, tinggal di Jakarta. Saya membangun antarmuka web dengan Next.js dan React, dan mendesainnya juga. Saya mulai dari multimedia: desain grafis, editing video, dan produksi konten. Sampai sekarang itu masih memengaruhi cara saya melihat layout, ritme, dan detail.",
@@ -204,7 +206,7 @@ export const id = {
       { label: "Lokasi", value: "Jakarta, Indonesia" },
       { label: "Pendidikan", value: "Sistem Informasi, UBSI (2025 - sekarang)" },
       { label: "Bahasa", value: "Indonesia aktif, Inggris dan Korea pasif" },
-      { label: "Fokus", value: "React, Next.js, desain antarmuka, motion" },
+      { label: "Fokus", value: "Next.js / React dan multimedia" },
     ],
     cvNote: "CV lengkap tersedia atas permintaan.",
   },

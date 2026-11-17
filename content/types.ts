@@ -167,6 +167,8 @@ export type Dictionary = {
     label: string;
     title: string;
     intro: string;
+    ctaContact: string;
+    ctaWork: string;
     profileLabel: string;
     profile: ReadonlyArray<string>;
     experienceLabel: string;
