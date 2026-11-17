@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { Fragment, useRef } from "react";
 
 import { gsap, ScrollTrigger, useGSAP } from "@/lib/motion/gsap";
 import { ease } from "@/lib/motion/tokens";
@@ -71,10 +71,13 @@ export function ScrollScrubText({
 
   return (
     <p ref={ref} className={cn("flex flex-wrap gap-x-[0.28em] gap-y-1", className)}>
-      {text.split(" ").map((word, index) => (
-        <span key={`${word}-${index}`} data-word className="inline-block will-change-[opacity]">
-          {word}
-        </span>
+      {text.split(" ").map((word, index, words) => (
+        <Fragment key={`${word}-${index}`}>
+          <span data-word className="inline-block will-change-[opacity]">
+            {word}
+          </span>
+          {index < words.length - 1 ? " " : null}
+        </Fragment>
       ))}
     </p>
   );
